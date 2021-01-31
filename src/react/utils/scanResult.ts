@@ -1,5 +1,6 @@
 import { HighlightProps } from '../components/common/pkAuszug/pkAuszug.interfaces';
-import { IkScanResultItem, IkScanResultItemValue } from '../app_modules/pensionState/modulePensionState';
+import { IkScanResultItem } from "../app_modules/pensionState/IkScanResultItem";
+import { IkScanResultItemValue } from "../app_modules/pensionState/IkScanResultItemValue";
 
 export const getBoundaries = (res: IkScanResultItem, key: string = '') => {
   if (!res || !res.combinedBoundingPoly || !res.combinedBoundingPoly.vertices) return undefined;

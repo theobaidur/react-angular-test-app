@@ -1,13 +1,11 @@
 import { ModuleProviderBase_Props } from '../app_modules/module.interfaces';
-import { pensionPlaningFilter } from '../app_core/pensionPlanning/pensionPlanning';
-import { leftBehindPlaningFilter } from '../app_core/leftBehindPlanning/leftBehindPlanning';
-import { disabilityPlaningFilter } from '../app_core/disabiltyPlanning/disabilityPlanning';
-import { profileFilter } from '../app_core/profile/profile';
+import { pensionPlaningFilter } from '../app_core/pensionPlanning/pensionPlaningFilter';
+import { leftBehindPlaningFilter } from '../app_core/leftBehindPlanning/leftBehindPlaningFilter';
+import { disabilityPlaningFilter } from '../app_core/disabiltyPlanning/disabilityPlaningFilter';
+import { profileFilter } from '../app_core/profile/profileFilter';
 import { ModuleFinancesCore_Props, ModuleFinancesResult_Props } from '../app_modules/finances/moduleFinances';
-import {
-  ModulePensionStateCore_Props,
-  ModulePensionStateResult_Props
-} from '../app_modules/pensionState/modulePensionState';
+import { ModulePensionStateResult_Props } from "../app_modules/pensionState/ModulePensionStateResult_Props";
+import { ModulePensionStateCore_Props } from "../app_modules/pensionState/ModulePensionStateCore_Props";
 import { ModuleNeedCore_Props, ModuleNeedResult_Props } from '../app_modules/need/moduleNeed';
 import createGUID from '../utils/guidGenerator';
 import { getAge } from '../utils/calculators';

@@ -1,4 +1,4 @@
-import { ModuleBase } from '../module.helpers';
+import { ModuleBase } from '../../inc/module-base.class';
 import { Dossier } from '../../redux/initialState';
 import { CardChildrenBase, CardChildrenEx } from './cards';
 import { CardData_Props, FreeObject } from '../module.interfaces';

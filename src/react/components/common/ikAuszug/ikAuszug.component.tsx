@@ -6,12 +6,10 @@ import { ikStaticTable, ikSystemNames } from '../../../constants/enums';
 import { HighlightProps } from '../../../components/common/pkAuszug/pkAuszug.interfaces';
 import { getBoundaries } from '../../../utils/scanResult';
 import { PortalScanVerification } from '../../../components/common/portalScanVerification';
-import {
-  IkScanResultItem,
-  IkScanResultItemValue,
-  IkSummaryItem
-} from '../../../app_modules/pensionState/modulePensionState';
-import { IkSummaryRow } from '../../../app_modules/pensionState/cards/cardPensionState';
+import { IkScanResultItem } from "../../../app_modules/pensionState/IkScanResultItem";
+import { IkScanResultItemValue } from "../../../app_modules/pensionState/IkScanResultItemValue";
+import { IkSummaryItem } from "../../../app_modules/pensionState/IkSummaryItem";
+import { IkSummaryRow } from '../../../app_modules/pensionState/cards/ikSummaryRow';
 import { useTranslation } from 'react-i18next';
 import Validator from '../../../utils/validator';
 import { default as deepDiff } from 'deep-diff';
@@ -21,16 +19,7 @@ import { useMemoizedCallback } from '../../../utils/customCallbackHook';
 import { DetectionSummary } from './components/ocrDetectionSummary.component';
 import { KFormRow, KFormCol } from '../../KForm/KForm_styles';
 import { KNumber } from '../../KForm';
-
-interface IKAuszugComponent_Props {
-  response: any;
-  getData?: any;
-  onCancel?: (x: any) => void | undefined;
-  onBackToScan?: (x: any) => void | undefined;
-  cardName?: string | undefined;
-  acceptData: (x: Array<IkSummaryItem>) => void;
-  onSave?: (res: any) => void;
-}
+import { IKAuszugComponent_Props } from './IKAuszugComponent_Props';
 
 const useInitialDocScansData = (getData: Function) => {
   const initialResultsData = { data: '', images: [], code: '' };

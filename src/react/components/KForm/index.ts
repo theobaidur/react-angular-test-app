@@ -10,13 +10,13 @@ import KText from './KText';
 import KFormCreateElement from './KForm';
 import KTimePicker from './KTimePicker';
 import KSlider from './KSlider';
-import KAutosuggestText from './KAutosuggestText'; 
+import KAutosuggestText from './KAutosuggestText';
 import KForm from './KFormElement';
 import KFieldArray from './KFieldArray';
 import KFormListArray from './KFormListArray';
-import KFormCardArray from './KFormCardArray';
-import KFormModal from './KFormModal'; 
-import KFormOptional from './KFormOptional'; 
+import KFormCardArray from './KFormCardArray/kFormCardArray';
+import KFormModal from './KFormModal';
+import KFormOptional from './KFormOptional';
 
 export {
   KButton,

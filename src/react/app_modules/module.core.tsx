@@ -11,7 +11,7 @@ import {
   Card_Props,
   FieldValuePair,
   ValidCard_Props
-} from './module.interfaces';
+} from '../inc/module.interfaces';
 import { StyledModuleCol, ModuleHolder } from './module.styled';
 import PortalComponent from '../components/common/portal';
 import DrawerComponent from '../components/common/drawer';
@@ -151,9 +151,9 @@ const ModuleProvider: React.FC<ModuleProvider_Props> = ({
           >
             {conCardFilter.content.map((card: CardData_Props, i: number) => {
               const chosenCardData = moduleCore && moduleCore.cards.find((x: CardData_Props) => x.name === card.name);
-          
-              if (chosenCardData && chosenCardData.classed) {   
-                const ChosenCard: React.FunctionComponent<Card_Props> = chosenCardData.classed.card; 
+
+              if (chosenCardData && chosenCardData.classed) {
+                const ChosenCard: React.FunctionComponent<Card_Props> = chosenCardData.classed.card;
                 const cardId: string = conCardFilter.person + '_' + card.name;
                 cardCounter++;
                 if( moduleCore && moduleCore.layout === 'array' ){
@@ -249,14 +249,14 @@ const ModuleProvider: React.FC<ModuleProvider_Props> = ({
                           key={i}
                           CardSample={ChosenCard}
                           validCards={validCards}
-  
+
                           id={cardId}
                           cardName={card.name}
                           mode={mode}
                           legalData={useData}
                           setFieldValue={(name: string, value: any) => setFieldValue(chosenCardData.connection ? 2 : n, name, value)}
                           setFieldValues={(fieldValues: FieldValuePair[]) => setFieldValues(chosenCardData.connection ? 2 : n, fieldValues)}
-  
+
                           t={t}
                           target={filter.person}
                           cardNumber={cardCounter}

@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useCallback } from 'react';
 
 import { pkStaticName, pkStaticValueKeys } from '../../../constants/enums';
-import { IkScanResultItem, IkScanResultItemValue } from '../../../app_modules/pensionState/modulePensionState';
+import { IkScanResultItem } from "../../../app_modules/pensionState/IkScanResultItem";
+import { IkScanResultItemValue } from "../../../app_modules/pensionState/IkScanResultItemValue";
 import {
   PkScanResult,
   DeathBenefitArrayItem,

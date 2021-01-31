@@ -1,6 +1,4 @@
-import httpService from '../services/httpService';
-import authService, { LoginResponse } from '../services/authService';
-import { httpActions } from '../constants/enums';
+import { LoginResponse } from '../services/authService';
 
 interface AuthProvider {
   login: (
@@ -45,131 +43,109 @@ interface AuthProvider {
 
 const authProvider: AuthProvider = {
   login(
-    login: string,
-    password: string,
-    callback: (x: LoginResponse) => void,
-    error: (err: any) => void,
-    action: string = httpActions.LOGIN
-  ) {
-    httpService.get(
-      '',
-      {
-        action,
-        login_name: login,
-        login_pass: password
-      },
-      callback,
-      error
-    );
+      ) {
+    // httpService.get(
+    //   '',
+    //   {
+    //     action,
+    //     login_name: login,
+    //     login_pass: password
+    //   },
+    //   callback,
+    //   error
+    // );
   },
-  loginSecondFactor(session: string, code: string, callback: (x: LoginResponse) => void, error: (err: any) => void) {
-    httpService.get(
-      '',
-      {
-        action: 'login_2fa',
-        session: authService.isCookiePresented() ? undefined : session,
-        login_code: code
-      },
-      callback,
-      error
-    );
+  loginSecondFactor() {
+    // httpService.get(
+    //   '',
+    //   {
+    //     action: 'login_2fa',
+    //     session: authService.isCookiePresented() ? undefined : session,
+    //     login_code: code
+    //   },
+    //   callback,
+    //   error
+    // );
   },
-  resetPassword(mail: string, callback: (x: string) => void, error: (x: string) => void) {
-    httpService.get(
-      '',
-      {
-        action: httpActions.RESET_PASSWORD,
-        mail: mail,
-        domain: window.location.host
-      },
-      (res: any) => {
-        if (res.status === 'ok') {
-          callback(res.status);
-        } else if (res.error) {
-          error(res.error);
-        }
-      },
-      () => error('ServerError')
-    );
+  resetPassword() {
+    // httpService.get(
+    //   '',
+    //   {
+    //     action: httpActions.RESET_PASSWORD,
+    //     mail: mail,
+    //     domain: window.location.host
+    //   },
+    //   (res: any) => {
+    //     if (res.status === 'ok') {
+    //       callback(res.status);
+    //     } else if (res.error) {
+    //       error(res.error);
+    //     }
+    //   },
+    //   () => error('ServerError')
+    // );
   },
   setNewPassword(
-    unlocker: string,
-    code: string,
-    pass: string,
-    callback: (x: string) => void,
-    error: (x: string) => void
-  ) {
-    httpService.get(
-      '',
-      { action: httpActions.SET_NEW_PASSWORD, unlocker, code, pass },
-      (res: any) => {
-        if (res.error) error(res.error);
-        else if (res.status === 'ok') {
-          callback(res.username);
-        } else error('ServerError');
-      },
-      () => error('ServerError')
-    );
+      ) {
+    // httpService.get(
+    //   '',
+    //   { action: httpActions.SET_NEW_PASSWORD, unlocker, code, pass },
+    //   (res: any) => {
+    //     if (res.error) error(res.error);
+    //     else if (res.status === 'ok') {
+    //       callback(res.username);
+    //     } else error('ServerError');
+    //   },
+    //   () => error('ServerError')
+    // );
   },
   sendEmailForRegistration(
-    email: string,
-    refer: string | undefined,
-    optout: boolean,
-    promotion: string | undefined,
-    callback: (res: any) => void,
-    err: (err: any) => void
-  ) {
-    httpService.get(
-      '',
-      {
-        action: httpActions.CREATE_ACCOUNT,
-        mail: email,
-        domain: window.location.origin,
-        userName: email,
-        refer: refer,
-        promotion: promotion,
-        optout: optout
-      },
-      (res: any) => {
-        if (res && res.error) err(res.error);
-        else callback(res);
-      },
-      err
-    );
+      ) {
+    // httpService.get(
+    //   '',
+    //   {
+    //     action: httpActions.CREATE_ACCOUNT,
+    //     mail: email,
+    //     domain: window.location.origin,
+    //     userName: email,
+    //     refer: refer,
+    //     promotion: promotion,
+    //     optout: optout
+    //   },
+    //   (res: any) => {
+    //     if (res && res.error) err(res.error);
+    //     else callback(res);
+    //   },
+    //   err
+    // );
   },
   logout() {
-    httpService.get(
-      '',
-      {
-        action: httpActions.LOGOUT
-      },
-      () => {},
-      () => {}
-    );
+    // httpService.get(
+    //   '',
+    //   {
+    //     action: httpActions.LOGOUT
+    //   },
+    //   () => {},
+    //   () => {}
+    // );
   },
   finishRegistration(
-    password: string,
-    mobile: string,
-    code: string,
-    unlocker: string,
-    callback: (x: any) => void,
-    error: (x: any) => void
-  ) {
-    httpService.get(
-      '',
-      {
-        action: httpActions.ACTIVE_ACCOUNT,
-        pass: password,
-        mobile,
-        code,
-        unlocker
-      },
-      (res: any) => {
-        if (res.error) error(res.error);
-        else callback(res);
-      },
-      error
-    );
+      ) {
+    // httpService.get(
+    //   '',
+    //   {
+    //     action: httpActions.ACTIVE_ACCOUNT,
+    //     pass: password,
+    //     mobile,
+    //     code,
+    //     unlocker
+    //   },
+    //   (res: any) => {
+    //     if (res.error) error(res.error);
+    //     else callback(res);
+    //   },
+    //   error
+    // );
   }
 };
 

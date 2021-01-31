@@ -1,4 +1,4 @@
-import CardPensionState from './cardPensionState';
+import CardPensionState from "./CardPensionState.class";
 
 export {
     CardPensionState

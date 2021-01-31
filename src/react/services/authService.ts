@@ -2,7 +2,6 @@ import { getEncrypted } from '../pages/login/page/loginEncrypt';
 import { Account } from '../redux/types';
 import authProvider from '../providers/authProvider';
 import { config } from '../config';
-import accountProvider from '../providers/accountProvider';
 import { AngularBridge } from './angularBridge';
 
 export interface LoginResponse {
@@ -97,7 +96,7 @@ const authService: AuthService = {
     document.cookie =
       window.location.hostname.replace(/\./g, '_') + '=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
     this.removeSessionFromStorage();
-    accountProvider.logout(callback);
+    callback();
   },
   isCookiePresented() {
     const cookieName: string = window.location.hostname.replace(/\./g, '_');

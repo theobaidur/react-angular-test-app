@@ -2,15 +2,14 @@ import React, { useEffect, useState, useRef, useCallback } from 'react';
 
 import { KFormCard, KRadio, KNumber, KDatePicker } from '../../../components/KForm';
 import { KFormRow, KFormCol, KFormSection } from '../../../components/KForm/KForm_styles';
-import { Card_Props, ProgressResult_Props } from './../../module.interfaces';
+import { Card_Props } from './../../module.interfaces';
 import { constantNumbers } from '../../../utils/calculators';
 import { Icon, IconButtonWithText, CounterLabel, CardHeading, CardQuestion } from '../../../components/common/styled';
 import { httpActions, documentTypes } from '../../../constants/enums';
-import { IkSummaryItem } from '../modulePensionState';
+import { IkSummaryItem } from "../IkSummaryItem";
 import showNum from '../../../utils/showNum';
 import { OCRProcess } from '../../../components/common/ocrProcess';
 import { IKAuszugComponent } from '../../../components/common/ikAuszug';
-import Validator from '../../../utils/validator';
 import { config } from '../../../config';
 import authService from '../../../services/authService';
 import SimpleValidator from '../../../utils/validator';
@@ -21,81 +20,10 @@ import useEffectOnlyOnce from '../../../utils/useEffectOnlyOnce';
 
 // @ts-ignore
 import { NativeEventSource, EventSourcePolyfill } from 'event-source-polyfill';
+import { IkSummaryRow_Props } from './IkSummaryRow_Props';
+import { IkSummaryRow } from './ikSummaryRow';
 
-class CardPensionState {
-  constructor() {
-    this.name = '';
-    this.card = CardComponent;
-    this.validate = (legalData: any) => {
-      let result: ProgressResult_Props = { done: false, invalid: 0, total: 0 };
-      if (!legalData) return result;
-      result.total = 1;
-      if (legalData.detailed) {
-        if (legalData.detailed.length < 1) result.invalid++;
-        if (legalData.detailed.indexOf(2) > -1) {
-          legalData.isScanReady = false;
-          legalData.mainType = '';
-          legalData.ikSummaryItems = [];
-          result.total += 1;
-          if (legalData.quick) {
-            if (legalData.quick.length < 1) result.invalid++;
-            if (legalData.quick.indexOf(1) > -1) {
-              result.total += 2;
-              if (!legalData.firstAge) result.invalid++;
-              if (legalData.missing) {
-                if (legalData.missing.length < 1) result.invalid++;
-                if (legalData.missing.indexOf(1) > -1) {
-                  result.total += 1;
-                  if (!legalData.missingYears) result.invalid++;
-                } else {
-                  legalData.missingYears = '';
-                }
-              } else {
-                result.invalid++;
-              }
-            }
-            if (legalData.quick.indexOf(2) > -1) {
-              legalData.missing = [];
-              legalData.firstAge = '';
-              legalData.missingYears = '';
-              result.total += 1;
-              if (!legalData.minMedMax || legalData.minMedMax.length < 1) result.invalid++;
-            }
-          } else {
-            result.invalid++;
-          }
-        }
-        if (legalData.detailed.indexOf(1) > -1) {
-          legalData.quick = [];
-          legalData.missing = [];
-          legalData.missingYears = '';
-          legalData.minMedMax = [];
-          result.total += 1;
-          if (legalData.ikSummaryItems && legalData.ikSummaryItems.length) {
-            legalData.ikSummaryItems.forEach((e: any) => {
-              result.total += 2;
-              if (!e.year) result.invalid++;
-              if (!e.income && e.income !== 0) result.invalid++;
-            });
-          } else {
-            result.invalid++;
-          }
-        }
-      } else {
-        result.invalid++;
-      }
-      result.done = result.invalid === 0;
-      return result;
-    };
-  }
-  name: string;
-  card: React.FC<Card_Props>;
-  validate: (legalData: any) => ProgressResult_Props;
-}
-
-export default CardPensionState;
-
-const CardComponent: React.FC<Card_Props> = (props: Card_Props) => {
+export const CardComponent: React.FC<Card_Props> = (props: Card_Props) => {
   const EventSourceWrapper = NativeEventSource ? NativeEventSource : EventSourcePolyfill;
 
   const { legalData, cardName, t, setFieldValue, setFieldValues } = props;
@@ -330,9 +258,9 @@ const CardComponent: React.FC<Card_Props> = (props: Card_Props) => {
                         <KFormRow>
                           <KFormCol width={1}>
                             <CardQuestion>{
-                            t(`${cardName}.missing`, 
-                            { missingFrom: 
-                              (legalData.firstAge ? 
+                            t(`${cardName}.missing`,
+                            { missingFrom:
+                              (legalData.firstAge ?
                               t(`${cardName}.missingFrom`, { age: legalData.firstAge }) :
                               '')  })}
                             </CardQuestion>
@@ -521,93 +449,4 @@ const CardComponent: React.FC<Card_Props> = (props: Card_Props) => {
   );
 };
 
-interface IkSummaryRow_Props {
-  item: IkSummaryItem;
-  index: number;
-  removeItemFromList: (name: string, index: number, pageIndex?: number) => void;
-  updateListItem: (name: string, value: any) => void;
-  t: any;
-  cardName?: string;
-  onClick?: (name: string) => void;
-  isIncomeCodeVisible?: boolean | undefined;
-  pageIndex?: number;
-  validator?: Validator;
-}
 
-export const IkSummaryRow: React.FC<IkSummaryRow_Props> = React.memo(
-  ({
-    item,
-    index,
-    removeItemFromList,
-    updateListItem,
-    t,
-    onClick,
-    cardName,
-    isIncomeCodeVisible,
-    pageIndex,
-    validator
-  }) => {
-    const removeItemFromListClick = () => {
-      removeItemFromList('ikSummaryItems', index, pageIndex);
-    };
-    return (
-      <KFormRow key={index}>
-        <KFormCol width={1 / 12} force alignItems="center">
-          <CounterLabel
-            valid={
-              isIncomeCodeVisible
-                ? item.incomeCode && item.year && (item.income || item.income === 0)
-                  ? 'valid'
-                  : ''
-                : item.year && (item.income || item.income === 0)
-                ? 'valid'
-                : ''
-            }
-          >
-            {index + 1}
-          </CounterLabel>
-        </KFormCol>
-        {isIncomeCodeVisible && (
-          <KFormCol width={3 / 12} force>
-            <KNumber
-              name={`ikSummaryItems.${index}.incomeCode`}
-              label={t(`${cardName}.incomeCode`)}
-              fieldValue={item.incomeCode}
-              needVerify={item.isCodeValid ? '' : t(`${cardName}.needVerifyIncomeCode`)}
-              setFieldValue={updateListItem}
-              onClick={onClick}
-              validator={validator}
-              validations={`required_or_zero`}
-            />
-          </KFormCol>
-        )}
-        <KFormCol width={isIncomeCodeVisible ? 1 / 4 : 5 / 12} force>
-          <KDatePicker
-            name={`ikSummaryItems.${index}.year`}
-            label={t(`${cardName}.incomeYear`)}
-            format={'YYYY'}
-            fieldValue={item.year}
-            setFieldValue={updateListItem}
-            onClick={onClick}
-            validator={validator}
-            validations={`required`}
-          />
-        </KFormCol>
-        <KFormCol width={isIncomeCodeVisible ? 1 / 3 : 5 / 12} force>
-          <KNumber
-            name={`ikSummaryItems.${index}.income`}
-            label={t(`${cardName}.incomeAmmount`)}
-            fieldValue={item.income}
-            setFieldValue={updateListItem}
-            onClick={onClick}
-            validator={validator}
-            validations={`required_or_zero|min:-999999,num`}
-          />
-        </KFormCol>
-        <KFormCol width={1 / 12} force alignItems="center">
-          <Icon style={{ padding: 0, margin: 0 }} size="32" content="close" onClick={removeItemFromListClick} />
-        </KFormCol>
-      </KFormRow>
-    );
-  }
-);
