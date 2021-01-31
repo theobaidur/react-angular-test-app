@@ -1,0 +1,36 @@
+{
+  "contactTabHeader": "CONTACT CONSEILLER",
+  "plzQuestion": "Quel est votre domicile ?",
+  "plzLabel": "CP",
+  "ortLabel": "LIEU",
+  "contactMethodQuestion": "Comment voulez-vous être contacté ?",
+  "contactMethodLabel": "",
+  "contactMethods": ["Téléphone", "E-Mail"],
+  "phoneQuestion": "Votre numéro de téléphone",
+  "phoneLabel": "N°",
+  "callTimeQuestion": "Quand êtes-vous accessible par téléphone ?",
+  "calltimeOptionLabel": "",
+  "calltimeoptions": ["à tout moment", "Rendez-vous"],
+  "calltimedateLabel": "Date",
+  "calltimehourLabel": "Heure",
+  "emailQuestion": "Votre adresse e-mail",
+
+  "textToS0": "J'ai lu et accepte les",
+  "textToSPrivacy": " conditions de confidentialité, ",
+  "textToSFirstLink": " conditions d'utilisation ",
+  "textToS1": "et les",
+  "textToSSecondLink": " CG ",
+  "textToS2": "concernant la transmission des données",
+
+  "contactButton": "Envoyer une demande de contact",
+  "validators": {
+    "required": "Le champ :attribute n'est pas valide"
+  },
+  "RequestAlreadyPresent": "Une demande a déjà été envoyée",
+  "SpecialistNotContacted": "Échec du contact conseiller",
+  "SpecialistContacted": "Le conseiller a été contacté",
+  "SuccessText": " Un conseiller de votre région sera recherché! Vous serez contacté par le conseiller en fonction de vos coordonnées.",
+  "BackButtonText": "Retour à la page d'accueil",
+  "OptInText": "J'aimerais contacter le conseiller/la conseillère lié/e au site et j'accepte de lui donner accès à mes données enregistrées.",
+  "OptInButtonText": "Contacter le conseiller/la conseillère"
+}

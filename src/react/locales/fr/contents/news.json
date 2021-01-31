@@ -1,0 +1,10 @@
+{
+  "title": "Communications",
+  "new": "nouveau",
+  "readed": "lu",
+  "buttonText": "OK",
+  "type1": "Message",
+  "type2": "Commentaires",
+  "type3": "Mise à jour",
+  "type4": "Erreur"
+}

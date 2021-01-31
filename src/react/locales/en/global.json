@@ -1,0 +1,20 @@
+{
+    "loading": "Loading",
+    "approve": "Confirm",
+    "consultPage": "Request consultant",
+    "moreText": "More",
+    "showResult": "Display result {{name}}",
+    "date": {
+      "year": "Year",
+      "month": "Month",
+      "day": "Day",
+      "monthsShort": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dec"]
+    },
+    "DossierDataExpired-question": "You have opened moneto in another window or browser. Do you want to use the current window? This will disconnect the connection to the other window.",
+    "DossierOpenedByAnotherUser-question": "This dossier is currently being processed by another user. Would you like to reconnect?",
+    "DossierOpenedByUser-question": "This dossier is currently being processed by a user. Would you like to reconnect?",
+    "DossierOpenedByConsultant-question": "This account is currently being processed by a consultant. Would you like to reconnect?",
+    "DossierOpenedByAnotherConsultant-question": "This account is currently being processed by another consultant. Would you like to reconnect?",
+    "IdleTimeout-question": "You have been inactive for a long time. Your connection to the moneto server has been terminated. Would you like to reconnect?"
+  }
+  

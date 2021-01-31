@@ -1,0 +1,45 @@
+{
+  "generalSummary": "Désolé, aucune documentation correspondant à vos documents numérisés n'a pu être trouvé.",
+  "summary": {
+    "SUCCESS": { "title": "", "message": "", "button": "", "link": "" },
+    "UNKNOWN_TEMPLATE": {
+      "title": "Données manquantes: Documentation inconnue?",
+      "message": "Nous travaillons toujours à soutenir les documentation actuelles des caisses de pension courantes. Malheureusement, il est possible, qu'une telle documentation nous est inconnue. Aidez-nous à nous améliorer et informez-nous en.",
+      "button": "Rapporter la documentation",
+      "link": "Autres causes possibles..."
+    },
+    "MISSING_PAGES": {
+      "title": "Données manquantes : Pages manquantes?",
+      "message": "L'attestation de la caisse de pension peut comporter plusieurs pages. Toutes les pages n'ont peut-être pas été numérisées. Vérifiez que toutes les pages soient présentes. Si des pages sont manquantes, effectuez une nouvelle numérisation.",
+      "button": "Numériser à nouveau",
+      "link": "Autres causes possibles..."
+    },
+    "BAD_IMAGE_QUALITY": {
+      "title": "Données manquantes : Qualité d'image insuffisante ?",
+      "message": "La qualité d'image ne permet malheureusement pas une détection satisfaisante des données. Vérifiez que les pages capturées ne soient ni trop sombres ni trop claires, qu'elles soient complètement dans le cadre de l'image et qu'elles ne soient pas obliques. Pour les améliorer, essayez de numériser à nouveau.",
+      "button": "Numériser à nouveau",
+      "link": "Autres causes possibles..."
+    }
+  },
+  "detailsDialog": {
+    "title": "Rapporter la documentation",
+    "subTitle": "",
+    "text": [
+      "Pour que nous puissions à l'avenir mieux lire votre attestation de caisse de pension, nous vous demandons de fournir vos documents numérisés.",
+      "Ils sont utilisés uniquement pour le développement et sont traités comme confidentiels. C'est la seule façon de garantir que vos données pourront être lues aussi facilement et complètement que possible à l'avenir.",
+      "Merci de votre soutien."
+    ],
+    "buttons": { "cancel": "Annuler", "ok": "Accepter" }
+  },
+  "linkDialog": {
+    "title": "Causes possibles en cas de données insuffisantes",
+    "subTitle": "",
+    "header": ["Documentation inconnue", "Pages manquantes", "Qualité d'image insuffisante"],
+    "text": [
+      "Nous travaillons toujours à soutenir les documentation actuelles des caisses de pension courantes. Malheureusement, il est possible, qu'une telle présentation nous est inconnue. Aidez-nous à nous améliorer et informez-nous en.",
+      "L'attestation de la caisse de pension peut comporter plusieurs pages. Toutes les pages n'ont peut-être pas été numérisées. Vérifiez que toutes les pages soient présentes. Si des pages sont manquantes, effectuez une nouvelle numérisation.",
+      "La qualité d'image ne permet malheureusement pas une détection satisfaisante des données. Vérifiez que les pages prises ne soient pas trop sombres ou trop claires, qu'elles soient complètement dans le cadre de l'image et qu'elles ne soient pas obliques. Pour les améliorer, essayez de numériser à nouveau."
+    ],
+    "buttons": { "report": "Rapport de numérisation", "retry": "Rapport de numérisation", "close": "Fermer" }
+  }
+}

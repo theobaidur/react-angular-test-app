@@ -1,0 +1,30 @@
+{
+  "listarray":{
+    "add":"Hinzufügen",
+    "accept":"Bestätigen",
+    "acceptNew": "Hinzufügen",
+    "cancel":"Abbrechen",
+    "remove":"Entfernen",
+    "warningTitle": "Element entfernen",
+    "warningContent": "Wollen Sie dieses Element unwiderruflich entfernen?",
+    "warningContentWithElement": "Wollen Sie {{element}} unwiderruflich entfernen?"
+  },
+
+  "modal":{
+    "accept" : "Bestätigen",
+    "cancel" : "Abbrechen"
+  },
+  
+  "timePicker": {
+    "H": "S",
+    "M": "m",
+    "S": "s",
+    "invalidTime": "Type or choose correct time"
+  },
+  "datePicker": {
+    "D": "T",
+    "M": "M",
+    "Y": "J",
+    "invalidDate": "Type or choose correct date"
+  }
+}

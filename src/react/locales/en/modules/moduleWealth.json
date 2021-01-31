@@ -1,0 +1,35 @@
+{
+  "title": "Assets",
+  
+   "card_wealth_person_1": {
+      "title" : "Assets {{name}}",
+      "hasWealthQuestion" : "Do you have assets?",
+      "hasWealthAnswers" : ["Yes", "No"],
+      "wealthBase" : "Lump sum",
+      "wealthUse": "of which already used:",
+      "wealthUseInfo": "{{value}} CHF in {{app}}",
+      "helpTitle": "Assets",    
+      "helpDropdownItems": [
+        {
+          "title": "Assets",
+          "text": "<strong>Please note: Residential property and real estate are not included here!</strong><br><br>Enter the amount of your <strong>personal assets</strong> as a lump sum here.<br>If you do not know the exact amount of your assets, an estimate is sufficient. Please use an amount that is too low rather than too high.<br><br>Explanation of terms: lump sum means 'not broken down'. Enter the sum total of your personal assets (cash, bank account, shares, etc.)."
+         }     
+      ]
+   },
+
+   "card_wealth_connection_1": {
+      "title" : "Assets {{name1}} & {{name2}}",
+      "hasWealthQuestion" : "Do you have joint assets?",
+      "hasWealthAnswers" : ["Yes", "No"],
+      "wealthBase" : "Lump sum",
+      "wealthUse": "of which already used:",
+      "wealthUseInfo": "{{value}} CHF in {{app}}",
+      "helpTitle": "Joint assets",    
+      "helpDropdownItems": [
+        {
+          "title": "Joint assets",
+          "text": "<strong>Please note: Residential property and real estate are not included here!</strong><br><br>Enter the amount of the assets which you <strong>own jointly with your partner</strong> as a lump sum here.</strong><br>If you do not know the exact amount of your assets, an estimate is sufficient. Please use an amount that is too low rather than too high.<br><br>Explanation of terms: lump sum means 'not broken down'. Enter the sum total of your Joint assets (cash, bank account, shares, etc.)."          
+         }     
+      ] 
+   }
+}

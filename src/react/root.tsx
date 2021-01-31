@@ -1,0 +1,29 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './containers/App';
+import * as serviceWorker from './serviceWorker';
+import * as lib from './lib';
+import 'react-splitter-layout/lib/index.css';
+import 'core-js/stable'
+import 'react-app-polyfill/ie11';
+
+const rootElement = document.getElementById('root');
+
+export const render = () => {
+  ReactDOM.render(<App />, document.getElementById('root'));
+};
+
+const vh: number = window.innerHeight * 0.01;
+document.documentElement.style.setProperty('--vh', `${vh}px`);
+
+if (rootElement) {
+  render();
+  serviceWorker.unregister();
+} else {
+  (window as any).monetoClient = lib;
+}
+
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();

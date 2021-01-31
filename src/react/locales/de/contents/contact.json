@@ -1,0 +1,13 @@
+{
+    "placeholderTitle": "Berater/In wird gesucht",
+    "placeholderText": "Es wird Ihnen ein Berater oder eine Beraterin aus Ihrer Region zugeteilt! Sie werden gemäss Ihren Kontaktangaben vom Berater oder Beraterin kontaktiert.",
+    "consultantMenuHeader": "Berater",
+    "contact": "Kontaktieren",
+    "recommend": "Weiterempfehlen",
+    "consultantInfo": "Informationen zum Berater",
+    "authorization": "Berechtigung",
+    "changeConsultant": "Berater wechseln",
+    "removeConsultant": "Berater entfernen",
+    "specialistDeleted": "Berater wurde entfernt",
+    "specialistDeleteFailed": "Berater entfernen fehlgeschlagen"
+}

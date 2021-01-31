@@ -1,0 +1,115 @@
+{
+  "diagramHeading": "Ergebnis",
+
+  "diagramTutorial": "Diagram erklären",
+  "editNeeds": "Ziele anpassen",
+  "editWealth": "Vermögen einsetzen",
+  "editPensionPrivate": "Private Vorsorge",
+  "cancel": "Abbrechen",
+  "approve": "Übernehmen",
+  "need": {
+    "title": "Ziele {{name}}",
+    "slider": "Beginn Pensionierung",
+    "month": "Einkommen pro Monat",
+    "currency": "CHF"
+  },
+  "wealth": {
+    "title": "Vermögen einsetzen {{name}}",
+    "person": "Eigene Vermögen {{name}}",
+    "personLabel": "Betrag",
+    "personUsed": "bereits eingesetzt",
+    "personAvailable": "maximal verfügbar: ",
+    "connection": "Gemeinsame Vermögen",
+    "connectionLabel": "Betrag",
+    "connectionUsed": "bereits eingesetzt",
+    "connectionAvailable": "maximal verfügbar: "
+  },
+  "pensionPrivate":{
+    "title": "Private Vorsorge {{name}}",
+    "left": "Todesfall-Kapital",
+    "cap": "Erlebensfall-Kapital",
+    "dis": "Erwerbsunfähigkeits-Kapital",
+    "use": "Betrag",
+    "available": "verfügbar: "
+  },
+  "facts": {
+    "title": "Fakten",
+    "saveTitle": "Lücke vorhanden",
+    "saveText": "Es ist eine Lücke (rot) vorhanden. Um diese Lücke zu schliessen, sollten Sie ab heute, jeden Monat ca. {{month}} sparen, damit Sie in Ihrer Pensionierung monatlich {{need}} zur Verfügung haben.",
+    "insureTitle": "Lücke vorhanden",
+    "insureText": "Damit Sie Ihre Ziele erreichen und monatlich {{need}} zur Verfügung haben, wir empfehlen Ihnen eine relevante Versicherung abzuschliessen",
+    "checkTitle": "Glückwunsch",
+    "checkText": "Gemäss Ihren Eingaben haben Sie Ihr Ziel von {{need}} pro Monat erreicht."
+  },
+
+  "suggestions": {
+    "title": "Lösungen",
+    "goalsTitle": "Meine Ziele anpassen",
+    "goalsText": "Möchten Sie den Zeitpunkt Ihrer Pensionierung anpassen? Oder möchten Sie auf Teile Ihres Einkommens verzichten? Dann klicken Sie hier.",
+    "goalsText1": "Möchten Sie den Zeitpunkt Ihrer Pensionierung anpassen? Oder möchten Sie auf Teile Ihres Einkommens verzichten? Dann klicken Sie hier.",
+    "goalsText2": "Möchten Sie Ihr Wunscheinkommen bei Erwerbsunfähigkeit anpassen. Welche Kosten könnten Sie reduzieren bzw. auf was könnten Sie verzichten?",
+    "goalsText3": "Möchten Sie die Leistungen für Ihre Hinterlassenen anpassen. Welche Kosten könnten Ihre Liebsten reduzieren?",
+    "consultTitle": "Berater hinzuziehen",
+    "consultText": "Ein professioneller Berater kann gegebenenfalls mit guten Anlagen den monatlichen Sparbetrag reduzieren und damit die Zielerreichung weiter absichern.",
+    "consultText1": "Ein professioneller Berater kann gegebenenfalls mit guten Anlagen den monatlichen Sparbetrag reduzieren und damit die Zielerreichung weiter absichern.",
+    "consultText2": "Ein professioneller Berater kann Ihnen die idealen Lösungen zum besten Preis-/Leistungsverhältnis vorschlagen. Möchten Sie einen Berater kontaktieren?",
+    "consultText3": "Ein professioneller Berater kann Ihnen die idealen Lösungen zum besten Preis-/Leistungsverhältnis vorschlagen. Möchten Sie einen Berater kontaktieren?",
+    "consultantToContact": "{{name}} kontaktieren",
+    "consultantPhone": "Tel: ",
+    "consultantMail": "E-mail: "
+  },
+
+  "warning": {
+    "title": "Achtung!",
+    "message": "Es fehlen noch einige Ihrer Angaben. Bitte gehen Sie zurück und vervollständigen Sie Ihre Angaben. Anschliessend wird hier Ihre komplette Auswertung angezeigt."
+  },
+
+  "labels": {
+    "type1a": "AHV",
+    "type1b": "IV",
+    "type2": "BVG",
+    "type3": "UVG",
+    "type4": "KTG",
+    "type5": "Private Vorsorge",
+    "type23": "Einkommen",
+    "type42": "Lücke",
+    "type50": "LV",
+    "type51": "LV",
+    "type88": "Vermögen",
+
+    "type1_pension_main": "AHV Alters-Rente",
+    "type1_pension_child": "AHV Kinder-Rente",
+    "type1_dis_main": "IV Invaliden-Rente",
+    "type1_dis_child": "IV Kinder-Invaliden-Rente",
+    "type1_left_main": "AHV Witwer/n-Rente",
+    "type1_left_child": "AHV Waisen-Rente",
+
+    "type2_pension_main": "BVG Alters-Rente",
+    "type2_pension_child": "BVG Kinder-Rente",
+    "type2_dis_main": "BVG Invaliden-Rente",
+    "type2_dis_child": "BVG Kinder-Invaliden-Rente",
+    "type2_left_main": "BVG Witwer/n-Rente",
+    "type2_left_child": "BVG Waisen-Rente",
+    "type2_left_cap": "BVG Todesfallkapital",
+
+    "type3_dis_main": "UVG Invaliden-Rente",
+    "type3_dis_child": "UVG Kinder-Invaliden-Rente",
+    "type3_dis_day": "UVG Lohnfortzahlung",
+    "type3_left_main": "UVG Witwer/n-Rente",
+    "type3_left_child": "UVG Waisen-Rente",
+    "type4_dis_day": "KTG Krankentaggeld",
+
+    "type50_cap": "LV Erlebensfall-Kapital",
+    "type50_dis" : "LV Erwerbsunfähigkeits-Kapital",
+    "type50_left" : "LV Todesfall-Kapital",
+    "type51_dis": "LV Erwerbsunfähigkeits-Rente",
+    "type51_left" : "LV Todesfall-Rente",
+
+    "type88_person": "Vermögen (eigenes)",
+    "type88_con": "Vermögen (gemeinsam)"
+  },
+
+  "labelMonth" : "monatlich",
+  "labelValue" : "Total",
+  "labelTime" : "Monate"
+}

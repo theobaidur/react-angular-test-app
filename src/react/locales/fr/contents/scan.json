@@ -1,0 +1,83 @@
+{
+  "stepper": {
+    "tipps": "Conseils:",
+    "photos": "Photos:",
+    "processing": "Traitement:",
+    "complete": "Complet:",
+    "invalid": "Code invalide:",
+    "previewStep": {
+      "default": [
+        "Placez la première page de votre attestation CP sur une surface libre.",
+        "Pour prendre des photos, approchez le plus près possible de l'attestation avec votre smartphone, assurez-vous que les bords de la photo soient dans l'image."
+      ],
+      "IK": [
+        "Placez la première page de votre certificat CI sur une surface libre.",
+        "Pour prendre des photos, approchez le plus près possible de l'attestation avec votre smartphone, assurez-vous que les bords de la photo soient dans l'image."
+      ]
+    },
+    "pageName": "Page",
+    "processingText": "Les photos sont maintenant traitées. Veuillez patienter, cela peut prendre quelques instants...",
+    "searchingText": "Moneto traite votre demande...",
+    "waitingText": "Veuillez ne pas fermer cette fenêtre. Moneto vous indiquera si le processus a réussi...",
+    "completeText": "Les données ont été numérisées avec succès !<br />Sur Moneto le processus se poursuit !. <br />Au revoir!",
+    "invalidText": "Pour des raisons de sécurité, le code est invalidé après une tentative. Pour une nouvelle tentative, cliquez sur 'demander un nouveau code'",
+    "understandBtn": "Tout compris, c'est parti !",
+    "oneMorePageBtn": "PAGE SUIVANTE",
+    "startPhotoBtn": "DÉBUT PHOTO",
+    "sendToServerBtn": "PAS D'AUTRES PAGES!",
+    "addImageFirst": "Ajoutez d'abord un fichier image ou un PDF"
+  },
+  "common": {
+    "stop": "Annuler",
+    "withoutASmartphone": "Sans smartphone",
+    "uploadingData": "Saisir les données",
+    "onSmartphoneDone": "Terminé sur le smartphone",
+    "soHoItsDone": "sMarche à suivre",
+    "dataIsCorrect": "Par la présente, je confirme l'exactitude des données",
+    "rescan": "Numériser à nouveau"
+  },
+  "header": {
+    "titleText": "Saisir le document",
+    "titleSubText": "Attestation de prévoyance",
+    "photoWithSmartphone": "Photo avec smartphone"
+  },
+  "dialog": {
+    "description": "Avez-vous un lecteur de code QR sur votre smartphone ?",
+    "descriptionEmailSuffix": " ou un accès par e-mail ?",
+    "help": "Aide",
+    "qrCode": "Code QR",
+    "scanQRCodeBelow": "Numérisez le code QR ci-dessous à l'aide de votre smartphone.",
+    "youWillBeRedirected": "Vous êtes dirigé vers le site Web correct.",
+    "takeAPhotoOfThePKBadge": "Photographiez l'extrait CI avec votre smartphone. Terminé !",
+    "email": "E-Mail",
+    "emailStep1": "Introduisez votre e-mail ci-dessous et appuyez sur 'demander un e-mail'.",
+    "emailStep2": "Vous recevrez un e-mail. Ouvrez le lien qui y est indiqué.",
+    "emailStep3": "Photographiez l'extrait CI avec votre smartphone. Terminé !",
+    "manual": "Manuellement",
+    "manualStep1": "Sur votre smartphone, ouvrez un navigateur.",
+    "manualStep2": "Saisissez le lien ci-dessous dans la ligne d'adresse.",
+    "manualStep3": "Photographiez l'extrait CI avec votre smartphone. Terminé !",
+    "manualUrlLabel": "Lien URL",
+    "openManual": "Ouvrir le site Web manuellement",
+    "installQRCode": "Installer un lecteur de code QR",
+    "helpAndTips": "Aide et conseils sur la capture et la qualité"
+  },
+  "content": {
+    "information": {
+      "takePhoto": "Veuillez prendre des photos de toutes les pages de l'attestation de prévoyance",
+      "isVisibleFrame": "Vérifiez que les bords soient complètement visibles dans le cadre.",
+      "isAllSidescaptured": "Toutes les pages photographiées ? Cliquez ici. -->",
+      "dataReadFromDocument": "Les données sont lues à partir du document.",
+      "pleaseWait": "Veuillez attendre un instant…",
+      "successfullyScanned": "Les données ont été numérisées avec succès !",
+      "onMonetoGoOn": "Sur Moneto le processus se poursuit !",
+      "goodBye": "Au revoir !"
+    }
+  },
+  "progress": {
+    "step1": "Télécharger les données",
+    "step2": "DAnalyser les données",
+    "step3": "Traiter les données",
+    "ready": "terminé !"
+  }
+}

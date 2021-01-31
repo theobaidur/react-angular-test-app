@@ -1,0 +1,100 @@
+{
+   "moduleTitles": {
+      "children": "Enfants / ex-relations"
+   },  
+   "general": {
+      "children": "Enregistrer les enfants",
+      "addChildren": "Ajouter un enfant",
+      "firstName": "Prénom",
+      "lastName": "Nom de famille",
+      "birthDate": "Date de naissance",
+      "gender": "genre",
+      "genderItems": ["masculin", "féminin", "autre"]
+   },
+   
+   "card_children_base_1": {
+      "title" : "Avez-vous des enfants communs ({{value}})?",
+      "question" : "",
+      "answers" : ["Oui", "Non"],
+
+      "children": "Enregistrer les enfants",
+      "addChildren": "Ajouter un enfant",
+      "firstName": "Prénom",
+      "lastName": "Nom de famille",
+      "birthDate": "Date de naissance",
+      "gender": "genre",
+      "genderItems": ["masculin", "féminin", "autre"],
+
+      "closedText" : "Enfants communs",
+
+      "helpTitle": "Enfants communs",
+      "helpText": "<p>Ici, enregistrez vos <strong> enfants</strong> communs et adoptés de votre relation actuelle.</p><p>Veuillez indiquer la <strong>date de naissance</strong> de votre enfant/enfant.</p><p><u>L'enfant est-il un enfant, ou bien?</u></p><p>Il s'agit essentiellement du  droit de garde. Enregistrez ici votre <strong>enfants</strong>où vous et votre partenaire/partenaire avez la garde.</p><p><u>Pourquoi l'âge est-il important?</u></p><p>Si vous avez des enfants, nous pouvons vous indiquer selon la situation, quelle est la prestation disponible. Avec la <strong>date de naissance</strong> de l'enfant, Moneto peut aussi vous indiquer pour quelle durée vous/l'enfant avez droit à ces prestations.</p>",
+      "helpDropdownItems": [
+         {
+           "title": "Enfants communs",
+           "text": "- ici, saisissez les données de vos propres enfants communs<br> - les enfants pour qui vous avez l'autorité parentale conjointe<br> - enfants adoptifs communs<br><br><strong>Important :</strong><br>Les enfants dans lesquels un parent physique, ou l'autorité parentale, est exercée par un ex-partenaire, sont <strong>enregistrés au point 2 ou 3!</strong><br><br>La situation familiale explicitement représentée influence divers calculs."
+         },
+         {
+           "title": "Prénom",
+           "text": "Introduisez ici le prénom de l'enfant."
+         },
+         {
+           "title": "Date de naissance",
+           "text": "La date de naissance influence divers calculs."
+         },
+         {
+           "title": "genre",
+           "text": "Mentionnez ici le genre de votre enfant."
+         }
+       ]
+   },
+
+   "card_children_ex_1":{
+      "title": "Avez-vous déjà été divorcé? Avez-vous des enfants de relations antérieures?",
+      "question" : "",
+      "answers" : ["Oui", "Non"],
+
+      "exes": "Type de relation antérieure",
+      "exData": "Informations sur l'ex-partenaire",
+      "addExes": "Autres relations antérieures",
+
+      "modeStart": "Relation à partir de",
+      "modeStart1": "État civil",
+      "modeStart2": "Enregistré/e depuis",
+      "modeStart3": "Résidence commune",
+      "modeStart4": "Relation à partir de",
+      "modeEnd": "Relation jusqu'au",
+      "modeEnd1": "Date du divorce",
+      "modeEnd2": "Date du divorce",
+      "modeEnd3": "Séparé/e depuis",
+      "modeEnd4": "Relation jusqu'au",
+      "mode": "Type de relation antécédente",
+      "modeItems": ["Marié/e", "Partenariat enregistré", "Concubinage", "autres"],
+
+      "closedText" : "Relations antécédentes",
+
+      "helpTitle": "Ex-partenaires / enfants ex-relations",      
+      "helpDropdownItems": [
+         {
+           "title": "Pourquoi ces informations?",
+           "text": "Parce que les ex-partenaires divorcé/es, ou les enfants de relations antécédentes, peuvent avoir un impact significatif sur les prestations de votre sécurité sociale (AVS, LPP)."
+         },
+         {
+           "title": "Divorcé ou enfant d’ex-relations?",
+           "text": "Répondez à la question avec <strong> OUI</strong> si l'un des points suivants s'applique à vous:<br><br> -Ils étaient déjà mariés auparavant<br> - Ils ont des enfants d'autres relations"
+         },
+         {
+           "title": "Type de relation antécédente",
+           "text": "<strong>Marié/e:</strong><br>Introduisez la date du mariage civil et la date du divorce.<br><br><strong>Concubinage</strong><br>Ici, aucune date influence les calculs.<br><br><strong>Partenariat enregistré :</strong><br>Entrez la date du 'mariage civil' et la date du divorce.<br><br><strong>Autres:</strong><br>Ici, aucune date influence les calculs."
+         },
+         {
+           "title": "Date de naissance",
+           "text": "La date de naissance influence divers calculs."
+         },
+         {
+           "title": "genre",
+           "text": "Mentionnez ici le genre de votre enfant."
+         }
+       ]
+   }
+}

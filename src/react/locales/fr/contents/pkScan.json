@@ -1,0 +1,55 @@
+{
+  "results": {
+    "addLine": "Entrée suivante",
+    "header": "Vérifier le résultat de la numérisation",
+    "helpInfo": "Une fois une vérification exacte effectuée, vous confirmez l'exactitude des données à la fin du formulaire!",
+    "confirmText": "Les données ne sont pas validées et ne sont plus disponibles en cas d'annulation. Voulez-vous quand même fermer la fenêtre?",
+    "dataTransferBtn": "Saisir les données",
+    "checkBoxText": "Par la présente, je confirme l'exactitude des données",
+
+    "dateNameBorderLabel": "Date et Fondation",
+    "date": "Date",
+    "companyName": "Fondation",
+
+    "deathCapital": "Capital",
+    "deathillness": "Maladie",
+    "deathaccident": "Accident",
+    "deathmarried": "marié/e",
+    "deathnotmarried": "célibataire",
+    "deathBenefitBorderLabel": "Capital en cas de décès",
+    "salaryDataBorderLabel": "Données relatives au salaire",
+    "incomeYear": "Salaire déclaré",
+    "incomeInsured": "Salaire assuré",
+    "workload": "Taux d'occupation",
+    "pensionActivesDataBorderLabel": "Avoir de vieillesse actuel",
+    "creditTotal": "Total",
+    "creditBvg": "selon LPP",
+    "maxPayIn": "Possibilité de rachat",
+    "ownershipWithdrawDataBorderLabel": "Retrait pour la propriété résidentielle",
+    "gotWef": "présent / obtenu",
+    "retirementBenefitsBorderLabel": "Prestations de vieillesse",
+    "pensionAge": "Âge",
+    "pensionCapital": "Capital avec intérêts",
+    "pensionYear": "Rente / année",
+
+    "disabilityPensionBorderLabel": "Rente d'incapacité de travail",
+    "isChildAvailable": "Inscrire individuellement la rente d'incapacité de travail pour enfants",
+    "dischild": "Rente d'incapacité de travail pour enfants",
+    "dischildCheck": "Accident",
+    "maxWef": "maximum",
+    "disValue": "Pension",
+    "disWait": "Délai d'attente (mois)",
+    "disAccident": "Accident",
+    "survivorsProtectionBorderLabel": "Protection pour les survivants",
+    "widowValue": "Rente de veuf/veuve",
+    "widowAccident": "Accident",
+    "orphanValue": "Rente d'orphelins",
+    "orphanAccident": "Accident"
+  },
+  "feedback": {
+    "title": "Commentaires CP",
+    "descriptionPlaceholder": "Description (optional)",
+    "cancel": "Skip",
+    "approve": " Envoyer des commentaires"
+  }
+}

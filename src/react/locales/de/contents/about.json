@@ -1,0 +1,102 @@
+{
+  "title": "einfacher geht‘s nicht!",
+  "subTitle": "finanzielle Themen einfach erledigen",
+  "registerAccount": "account erstellen",
+  "iconWithText": [
+    {
+      "iconName": "cup",
+      "title": "VORTEILE ",
+      "subTitle": "moneto ist unabhängig, kostenlos und einfach in der Bedienung. Prüfen Sie weitere Vorteile..."
+    },
+    {
+      "iconName": "starFilled",
+      "title": "MEIN MONETO",
+      "subTitle": "Sie haben jederzeit Zugriff auf Ihre Daten. moneto gibt Ihre Daten, ohne Ihre Einwilligung, nicht weiter!"
+    },
+    {
+      "iconName": "mount",
+      "title": "ÜBER MONETO",
+      "subTitle": "moneto finanziert sich über Werbeeinnahmen und kann so den Service für Sie kostenfrei zur Verfügung stellen."
+    }
+  ],
+  "advantagesTitle": "Vorteile von moneto",
+  "advantages": [
+    {
+      "imgSrc": "1",
+      "title": "Berechnungen von Ihrer AHV-Rente, Pensionskassen-Rente, IV-Rente etc.",
+      "text": "Wie viele Franken können Sie von der AHV erwarten und was wird Ihre Pensionskasse leisten? Wie hoch ist die IV-Rente bei Erwerbsunfähigkeit? <br/> <br/>Mit moneto gelingt es Ihnen, Ihre komplette Vorsorgesituation spielend zu überprüfen und (wichtig!) moneto gibt Ihnen wertvolle Handlungsempfehlungen, wie Sie Ihre Situation weiter optimieren."
+    },
+
+    {
+      "imgSrc": "2",
+      "title": "Zahlreiche Videos und Hilfetexte",
+      "text": "Es stehen Videos und Hilfetexte für Sie zur Verfügung. Komplexe Fachthemen werden so spielend einfach erklärt. Aufgrund der von Ihnen eingetragenen Angaben erhalten Sie Mitteilungen zu Ihrer persönlichen Situation. <br /> <br />Sie haben jederzeit die Möglichkeit, von der Leadership Akademie Schweiz AG zertifizierte, professionelle Berater beizuziehen."
+    },
+    {
+      "imgSrc": "3",
+      "title": "Kostenfrei & persönlich",
+      "text": "moneto ist für Sie kostenfrei nutzbar. Die Online-Plattform moneto bietet Ihnen Berechnungs-Tools, welche von Finanz-Experten täglich eingesetzt werden. <br/> <br/>      Individualisieren Sie Ihr Profil, auf Wunsch auch mit persönlichem Foto. Bei den Benutzereinstellungen können Sie moneto auf Ihre Bedürfnisse einstellen. "
+    },
+    {
+      "imgSrc": "4",
+      "title": "Technologie & know how ",
+      "text": "Dank dem OCR-Scanning können Sie Ihren Pensionskassenausweis und Ihren IK-Auszug (AHV) per Foto ins System laden. Die relevanten Daten werden automatisch für Sie übermittelt. <br /> <br />Die intelligente Programmierung von moneto reagiert auf Ihre individuellen Bedürfnisse und weist Sie auf relevante Inhalte hin. "
+    }
+  ],
+  "myMonetoTitle": "Mein moneto",
+  "myMoneto": [
+    {
+      "imgSrc": "5",
+      "title": "Ihre Daten - Ihre Entscheidung",
+      "text": "moneto ist eine Plattform für alle, die Ihre finanzielle Lebenssituation weiter verbessern wollen. Sie entscheiden, ob Sie Ihre Daten oder Teile davon den Experten wie Notare, Finanzplaner, Steuerexperte, etc. zur Verfügung stellen wollen."
+    },
+    {
+      "imgSrc": "6",
+      "title": "Verwendung Ihrer Daten",
+      "text": "moneto verwendet Ihre Daten ausschliesslich für die Analyse Ihrer persönlichen finanziellen Lebenssituation. moneto garantiert, dass Sie die Hoheit über die Daten haben und Sie jederzeit die Daten löschen können."
+    },
+    {
+      "imgSrc": "7",
+      "title": "Datensicherheit ",
+      "text": "moneto ist eine Web-Applikation. Wir sind uns der Vertraulichkeit sehr bewusst, da nebst allgemeinen Angaben auch Finanzdaten und möglicherweise Gesundheitsdaten eingegeben sind. Die Daten sind auf einem Server in der Schweiz gesichert. Die Empfehlungen der FINMA (Finanzmarktaufsicht) zu Cloud-Servern sind für moneto verbindlich und weitergehende Sicherheiten sind eingebaut. Wir lassen regelmässig Tests durch professionelle, sogenannte „White-Hat“ Hacker, durchführen.<br /> <br /> Zusätzlich ist moneto mit einer Zwei-Faktor-Authentifizierung (2FA) geschützt. "
+    },
+    {
+      "imgSrc": "8",
+      "title": "Ihr zentrales Archiv",
+      "text": "moneto dient Ihnen zukünftig als zentrale Datenablage. Sie können damit auf Wunsch Ihren digitalen Versicherungs- und Finanzordner einrichten sowie weitere Dokumente sicher ablegen. Sämtliche Dokumente werden gesichert und können auch Jahre später eingesehen werden."
+    },
+    {
+      "imgSrc": "9",
+      "title": "Vielzahl an Services",
+      "text": "moneto erinnert Sie an wichtige Termine und Fakten. Beispiele dazu sind:<br /><br />- Mit der Eingabe Ihres Stammbaums prüft moneto, ob Sie alle Familienzulagen beziehen oder eine weitere Möglichkeit für den Bezug besteht. <br /><br />- Zwei Monate vor dem 16. Geburtstag des Kindes erhalten Sie von moneto den Hinweis, dass Sie möglicherweise Ausbildungszulagen anfordern können. <br/><br />- 30 Monate vor dem ordentlichen Rentenalter informiert Sie moneto über die Möglichkeit des frühzeitigen Bezugs der AHV-Rente."
+    }
+  ],
+  "aboutMonetoTitle": "Über moneto",
+  "aboutMoneto": [
+    {
+      "imgSrc": "10",
+      "title": "Philosophie ",
+      "text": "Wir bieten allen in der Schweiz lebenden Personen die Möglichkeit zur Steigerung der finanziellen Selbstkompetenz. "
+    },
+    {
+      "imgSrc": "11",
+      "title": "Transparenz ",
+      "text": "Auf der neutralen Plattform von moneto haben Sie jederzeit den gleichen Einblick in die Daten wie die möglichen, von Ihnen beauftragten Dienstleister wie Notare, Finanzspezialisten, etc."
+    },
+    {
+      "imgSrc": "12",
+      "title": "Ausblick ",
+      "text": "moneto wird laufend weiterentwickelt. Wir informieren Sie über weitere Applikationen wie «Digitale Autoversicherung», Ehe- (Güterstand) / Erbschaftsrechner, Bewertung von Liegenschaften, etc. In den nächsten Monaten und Jahren wird moneto die Vernetzung für alle finanziellen Lebensthemen darstellen. Unser Motto: einfach – schnell – übersichtlich – kompetent – zukunftsorientiert "
+    }
+  ],
+  "registerButton": {
+    "title": "Los geht‘s, probieren Sie es aus!",
+    "subTitle": "Erstellen Sie Ihren kostenfreien Account:",
+    "buttonText": "Account erstellen"
+  },
+  "anotherButton": {
+    "title": "moneto weiterempfehlen ",
+    "subTitle": "Laden Sie Ihre Freunde und Bekannten ein: ",
+    "buttonText": "EINladung versenden"
+  }
+}

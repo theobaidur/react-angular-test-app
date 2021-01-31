@@ -1,0 +1,12 @@
+{
+  "scanExceptions": {
+    "ConnectionIssues": "Vérifiez votre connexion Internet et réessayez.",
+    "AuthIssues": "Ce lien de numérisation a expiré ! Veuillez retourner à moneto et générer un nouveau lien.",
+    "Unspecified": "Il y a quelque chose qui a mal tourné, veuillez réessayer.",
+    "UnsupportedFileType": "Le fichier {{values.0}} de type {{values.1} n'est pas pris en charge.",
+    "UnrecognisedTemplate": "Impossible de trouver une documentation correspondant.",
+    "ImageDimensionsLimit": "La résolution est trop grande ! Moneto prend en charge des résolutions jusqu'à un maximum de : {{valeurs.0}}x{{valeurs.1}} .",
+    "PdfPageLimit": "Votre PDF a trop de pages! Réduisez le nombre de pages à un maximum de {{values.0}}.",
+    "PdfTimedOut": "La lecture du fichier PDF a pris trop de temps, veuillez réessayer."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "header": {
+    "title": "Datei hochladen",
+    "descriptionPdf": "Laden Sie Ihr {{templateName}}-Auszug als PDF hoch.",
+    "descriptionImg": "Laden Sie Ihr {{templateName}}-Auszug als Bilddatei hoch."
+  },
+  "dragAreaText": "Dateien hier hineinziehen, oder klicken, um Dateien auszuwählen.",
+  "waitingText": "Bitte warten während die Dateien verarbeitet werden.",
+  "sendBtnText": "Hochladen"
+}

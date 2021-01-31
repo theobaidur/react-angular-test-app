@@ -1,0 +1,102 @@
+{
+  "title": "It couldn't be simpler!",
+  "subTitle": "Deal with financial issues easily.",
+  "registerAccount": "create account",
+  "iconWithText": [
+    {
+      "iconName": "cup",
+      "title": "ADVANTAGES ",
+      "subTitle": "moneto is independent, free and easy to use. Check out the other advantages..."
+    },
+    {
+      "iconName": "starFilled",
+      "title": "MY MONETO",
+      "subTitle": "You have access to your data at all times. moneto will not pass on your data without your consent!"
+    },
+    {
+      "iconName": "mount",
+      "title": "ABOUT MONETO",
+      "subTitle": "moneto is financed by advertising revenues and so can provide its services to you free of charge."
+    }
+  ],
+  "advantagesTitle": "Advantages of moneto",
+  "advantages": [
+    {
+      "imgSrc": "1",
+      "title": "Calculation of your AHV pension, pension fund annuity, IV pension (disability pension) etc.",
+      "text": "How many francs can you expect to receive from the AHV and what will your pension fund pay? How much is the IV pension in the event of disability? <br/> <br/>With moneto you can easily check your complete pension situation, and what is more, moneto gives you valuable recommendations on how you can further optimise your situation."
+    },
+
+    {
+      "imgSrc": "2",
+      "title": "Numerous videos and help texts",
+      "text": "You can access videos and help texts. Complex specialist topics are explained clearly and simply. Based on the information you enter, you will receive messages about your personal situation. <br /> <br />You have the option to seek advice from professional consultants certified by Leadership Akademie Schweiz AG at any time."
+    },
+    {
+      "imgSrc": "3",
+      "title": "Free of charge & personal",
+      "text": "You can use moneto completely free of charge. The online platform moneto offers you calculation tools that are used on a daily basis by financial experts. <br/> <br/>      Individualise your profile, and even add a personal photo if you wish. You can adjust moneto to your requirements in the user settings. "
+    },
+    {
+      "imgSrc": "4",
+      "title": "Technology & know-how ",
+      "text": "Using OCR scanning, you can load your pension certificate and your AHV IK [AHV Individual Account] statement to the system as a photo. The relevant data will be automatically transferred for you. <br /> <br />moneto’s intelligent programming reacts to your individual needs and points you to relevant content. "
+    }
+  ],
+  "myMonetoTitle": "My moneto",
+  "myMoneto": [
+    {
+      "imgSrc": "5",
+      "title": "Your data – your decision",
+      "text": "moneto is a platform for everyone who wants to further improve their financial life situation. You decide whether you want to make your data or just parts of it available to experts like notaries, financial planners, tax experts etc."
+    },
+    {
+      "imgSrc": "6",
+      "title": "How we use your data",
+      "text": "moneto uses your data exclusively for the analysis of your personal financial situation. We guarantee that you have full control over the data and that you can delete the data at any time."
+    },
+    {
+      "imgSrc": "7",
+      "title": "Data security ",
+      "text": "moneto is a web application. We are very much aware of confidentiality issues, because in addition to general information, financial data and in some cases health data will be entered into the system. The data is secured on a server in Switzerland. The recommendations of the FINMA (Swiss Financial Market Supervisory Authority) regarding cloud servers are binding for moneto and further security measures are built in. We regularly have tests carried out by professional ‘white hat’ hackers.<br /> <br /> In addition, moneto is protected by two-factor authentication (2FA). "
+    },
+    {
+      "imgSrc": "8",
+      "title": "Your central archive",
+      "text": "moneto will serve you as a central data storage in the future. If you wish, you can use it to set up your digital insurance and financial folder and store other documents securely. All documents are backed up and can be viewed even years later."
+    },
+    {
+      "imgSrc": "9",
+      "title": "Numerous services",
+      "text": "moneto reminds you of important dates and facts. Examples are:<br /><br />- When you enter your family tree, moneto checks whether you are receiving all the family allowances for which you are eligible or whether there is a possibility of receiving additional allowances. <br /><br />- Two months before the child’s 16th birthday, moneto will inform you that you may be able to claim education allowances. <br/><br />- 30 months before you reach regular retirement age, moneto informs you about the possibility of early receipt of the AHV pension."
+    }
+  ],
+  "aboutMonetoTitle": "about moneto",
+  "aboutMoneto": [
+    {
+      "imgSrc": "10",
+      "title": "Philosophy ",
+      "text": "We offer all persons living in Switzerland the opportunity to increase their financial self-reliance. "
+    },
+    {
+      "imgSrc": "11",
+      "title": "Transparency ",
+      "text": "On moneto's neutral platform you have the same insight into the data  at any time as any service providers you may have commissioned, such as notaries, financial specialists, etc."
+    },
+    {
+      "imgSrc": "12",
+      "title": "Prospects ",
+      "text": "moneto is constantly being further developed. We can inform you about further applications such as 'digital car insurance', marriage (matrimonial property) / inheritance calculator, valuation of real estate, etc. In the coming months and years, moneto will become a network for all financial life topics. Our motto: simple - fast - clear - competent - future-oriented. "
+    }
+  ],
+  "registerButton": {
+    "title": "Give it a go, just try it out!",
+    "subTitle": "Create your free account:",
+    "buttonText": "create account"
+  },
+  "anotherButton": {
+    "title": "Recommend moneto ",
+    "subTitle": "Invite your friends and acquaintances: ",
+    "buttonText": "Send invitation"
+  }
+}

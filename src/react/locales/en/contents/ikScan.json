@@ -1,0 +1,27 @@
+{
+  "results": {
+    "incomeCode": " Income code",
+    "incomeYear": " Year",
+    "incomeAmmount": " Amount",
+    "needVerifyIncomeCode": "Not clearly identified",
+    "addLine": "Next entry",
+    "header": "Check the scan result",
+    "helpInfo": "After checking carefully, please confirm the accuracy of the data at the end of the form!",
+    "confirmText": "The data will not be saved and will no longer be available if you cancel. Do you still want to close the window?",
+    "dataTransferBtn": "Save data",
+    "checkBoxText": "I hereby confirm the accuracy of the data.",
+    "contentLabels": ["Data from first photo", "Data from second photo", "Data from third photo"],
+    "contentLabelsDefault": "Data from {{value}} photo",
+    "total": "Total",
+    "totalCalculated": "Total calculated",
+    "totalScanned": "Total read out",
+    "matchTotalValidation": "The fields 'Total calculated' and 'Total read out' must agree"
+  },
+  "feedback": {
+    "title": "IK feedback",
+    "descriptionPlaceholder": "Comment (optional)",
+    "cancel": "Skip ",
+    "approve": " Send feedback"
+  },
+  "expiredTemplateMessage": "Your IK [Individual Account] statement is out of date. Please check the entries and add the missing years. "
+}

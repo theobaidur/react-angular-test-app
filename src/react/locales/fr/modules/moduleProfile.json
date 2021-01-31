@@ -1,0 +1,75 @@
+{
+  "title": "Informations personnelles",
+  "card_profile_personal_1": {
+    "firstName": "Prénom",
+    "lastName": "Nom de famille",
+    "birthDate": "Date de naissance",
+    "gender": "genre",
+    "genderItems": ["masculin", "féminin", "autre"],
+
+    "helpTitle": "Informations personnelles",
+    "helpText": "<p>Votre <strong>date de naissance</strong> et votre <strong>sexe</strong> sont essentiels pour différents calculs ! Votre <strong>nom et prénom</strong> sont requis si vous souhaitez bénéficier des produits.</p><p><u>Pourquoi toutes ces informations personnelles?</u></p><p>Votre <strong>date de naissance </strong> exacte est essentielle pour les différents calculs effectués dans le cadre de la prévoyance publique (AVS/AI) et de la prévoyance professionnelle (LPP).</p><p>Le <strong>genre/sexe</strong> détermine l'âge de la retraite AVS, le nombre d'années de cotisation AVS, ainsi que de l'octroi et de la durée du versement d'une pension de veuve. Si vous préférez <strong>autres</strong>, au lieu de <strong>masculin</strong> ou <strong>féminin</strong> , vous avez également la possibilité de choisir. Cependant, puisque la loi sur la prévoyance ne fournit que des bases de calcul pour les hommes et les femmes, nous utilisons, pour des raisons de sécurité, pour les autres, une base légèrement inférieure à celle des hommes.</p><p>Votre vrai <strong>nom et prénom</strong> est nécessaire si, par exemple, vous souhaitez obtenir un rendez-vous avec un conseiller pour une consultation approfondie chez vous ou à un endroit de votre choix.</p><p>Vous souhaitez en savoir plus sur les règles de confidentialité de moneto? <a href='#'>Sur cette page</a> , vous trouverez toutes les informations nécessaires!</p>",
+    "helpDropdownItems": [
+      {
+        "title": "Prénom / nom",
+        "text": "Introduisez votre prénom et votre nom ici. En cas de contact avec un conseiller ou si vous achetez un produit via moneto, des informations véridiques doivent obligatoirement être fournies."
+      },
+      {
+        "title": "Date de naissance",
+        "text": "Votre date de naissance influence divers calculs."
+      },
+      {
+        "title": "Genre",
+        "text": "Votre sexe a un impact divers calculs. Le genre 'autre' correspond dans les assurances sociales aux bases de calcul 'masculin'."
+      }
+    ]
+  },
+  "card_profile_partner_1": {
+    "question": "Avez-vous un/e partenaire?",
+    "answers": ["Oui", "Non"],
+    "closedText": "Partenaire",
+    "disablePartnerQuestion": "Voulez-vous vraiment effacer les données de votre partenaire?",
+    "helpTitle": "Partner",
+    "helpText": "<p>Introduisez ici un concubinage, mariage ou partenaire <strong>enregistré</strong>.</p><p><u>Pourquoi saisir le(s) partenaire(s)/dans?</u></p><p>L'enregistrement d'une <strong>partenaire</strong> ou d'un <strong>partenaire</strong> apporte une grande valeur ajoutée.</p><p>Pour les couples en général et les familles en particulier, il est recommandé d'analyser les situations financières communes à l'âge, en cas d'incapacité de gain ou du décès d'un/e partenaire.</p><p>Pour plus d'informations sur le concubinage, reportez-vous à la section <a href='#'>Ici sur le wiki-moneto</a>.</p>",
+    "helpDropdownItems": [
+        {
+          "title": "Partenaire oui/non?",
+          "text": "Répondez <strong>'OUI'</strong> à la question si l'un des éléments suivants s'applique à vous :<br><br> - marié<br> - domicile commun (concubinage)<br> - partenariat enregistré (de même sexe)<br><br><br>Répondez <strong>« NON »</strong> à la question si l'un des éléments suivants s'applique à vous:<br><br> - divorcé et sans nouveau partenaire<br> - relation sans engagement, sans résidence commune<br> - célibataire<br><br><br>La saisie numérique de partenaires offre de grands avantages : Vous gagnez du temps et obtenez un aperçu de votre situation financière commune."
+        },
+        {
+          "title": "Modifier/supprimer les données d'un partenaire",
+          "text": "<strong>Attention:</strong><br>Si vous supprimez la saisie de données de votre partenaire, ces données seront perdues ! À l'avenir, Moneto vous donnera l'occasion de générer pour le partenaire son propre compte, pour qu'il puisse continuer à utiliser ses données."
+        }        
+      ]
+  },
+  "card_profile_connection_1": {
+    "mode": "Type de relation",
+    "modeItems1": ["Marié", "Concubinage", "Autres"],
+    "modeItems2": ["Partenariat enregistré", "Concubinage", "Autres"],
+    "modeStart": "Relation depuis",
+    "modeStart1": "Mariage civil",
+    "modeStart2": "Emménagement commun",
+    "modeStart3": "Relation depuis",
+    "closedText": "{{mode}}} depuis {{start}}",
+    "helpTitle": "Relation",
+    "helpText": "<p>La distinction entre les types de relations <strong></strong> de mariage, de partenariat enregistré ou de concubinage est nécessaire, parce qu'ils sont traités différemment par la loi.</p><p>La <strong>durée</strong> de la relation a également une influence sur les calculs.</p><p><u>Pourquoi cette distinction?</u></p><p>Les couples en concubinage n'ont pas les mêmes avantages que les couples <strong>mariés</strong> ou en<strong>partenariats enregistrés</strong>, dans la plupart des cas, sont bien mieux couverts.</p><p>Pour plus d'informations sur le concubinage, reportez-vous à la section <a href='#'>hier im moneto-Wiki</a>.</p>",
+    "helpDropdownItems": [
+      {
+        "title": "Marié",
+        "text": "Entrez la date de votre <strong>mariage civil</strong> ou partenariat enregistré."
+      },
+      {
+        "title": "Domicile commun (concubinage)",
+        "text": "Entrez la date de votre domicile commun."
+      },
+      {
+        "title": "Partenariat enregistré",
+        "text": "Entrez la date de votre <strong>mariage civil</strong> ou partenariat enregistré."
+      },
+      {
+        "title": "Autres",
+        "text": "Ici, <strong>aucune date</strong> influence les calculs."
+      }
+    ]
+  }
+}

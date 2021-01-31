@@ -1,0 +1,83 @@
+{
+  "stepper": {
+    "tipps": "Tips:",
+    "photos": "Photos:",
+    "processing": "Processing:",
+    "complete": "Complete:",
+    "invalid": "Invalid code:",
+    "previewStep": {
+      "default": [
+        "Place the first page of your PF certificate on a free surface.",
+        "To take a picture, move your smartphone as close as possible to the card, making sure that the edges of the card are in the frame."
+      ],
+      "IK": [
+        "Place the first page of your IK [individual account] statement on a free surface.",
+        "Zum fotografieren gehen Sie mit dem Smartphone moglichst nahe an den Ausweis heran, achten Sie darauf, dass die Seitenränder im Bild sind."
+      ]
+    },
+    "pageName": "Page",
+    "processingText": "The photos are now being processed. Please wait, this may take a few moments…",
+    "searchingText": "moneto is dealing with your request...",
+    "waitingText": "Please do not close this window. moneto will tell you here if the process has been successful...",
+    "completeText": "The data have been successfully scanned! <br />You can continue using moneto. <br />Goodbye!",
+    "invalidText": "For security reasons, the code becomes invalid after one attempt. To try again, please click on 'Request new code'.",
+    "understandBtn": "Understood - here we GO!",
+    "oneMorePageBtn": "NEXT PAGE",
+    "startPhotoBtn": "START PHOTO",
+    "sendToServerBtn": "NO FURTHER PAGES!",
+    "addImageFirst": "Please add a graphics file or a pdf first."
+  },
+  "common": {
+    "stop": "Cancel",
+    "withoutASmartphone": "Continue without smartphone",
+    "uploadingData": "Save data",
+    "onSmartphoneDone": "Completed on smartphone",
+    "soHoItsDone": "Here's how it works.",
+    "dataIsCorrect": "I hereby confirm the accuracy of the data.",
+    "rescan": "Enter data again"
+  },
+  "header": {
+    "titleText": "Read in document",
+    "titleSubText": "Pension certificate",
+    "photoWithSmartphone": "Photo with smartphone"
+  },
+  "dialog": {
+    "description": "Does your smartphone have a QR code reader",
+    "descriptionEmailSuffix": " or e-mail access?",
+    "help": "Help",
+    "qrCode": "QR Code",
+    "scanQRCodeBelow": "Scan the QR code below with your smartphone.",
+    "youWillBeRedirected": "You will be directed to the correct web page.",
+    "takeAPhotoOfThePKBadge": "Photograph the IK (individual account) statement with your smartphone. Done!",
+    "email": "E-Mail",
+    "emailStep1": "Enter your e-mail below and press 'Request e-mail'..",
+    "emailStep2": "You will receive an e-mail. Open the link provided in it.",
+    "emailStep3": "Photograph the IK (individual account) statement with your smartphone. Done!",
+    "manual": "Manuell",
+    "manualStep1": "Open a browser on your smartphone.",
+    "manualStep2": "Enter the link below in the address line.",
+    "manualStep3": "Photograph the IK (individual account) statement with your smartphone. Done!",
+    "manualUrlLabel": "Link URL",
+    "openManual": "Open web page manually",
+    "installQRCode": "Install QR code reader",
+    "helpAndTips": "Help and tips on registration and quality"
+  },
+  "content": {
+    "information": {
+      "takePhoto": "Please take photographs of all pages of the pension certificate.",
+      "isVisibleFrame": "Make sure that the page is completely visible in the frame.",
+      "isAllSidescaptured": "If you have photographed all the pages, please click here. -->",
+      "dataReadFromDocument": "The data are being read out from the document.",
+      "pleaseWait": "Please wait a moment…",
+      "successfullyScanned": "The data have been successfully scanned.",
+      "onMonetoGoOn": "You can continue using moneto!",
+      "goodBye": "Goodbye!"
+    }
+  },
+  "progress": {
+    "step1": "Upload data",
+    "step2": "Analyse data",
+    "step3": "Process data",
+    "ready": "Done!"
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "title": "Betriebliche Vorsorge",
+  "card_pensionwork_base_1": {
+    "title": "Leistungen der Pensionskasse (BVG)",
+    "detailed": "Haben Sie einen Pensionskassen-Ausweis?",
+    "detailedItems": [
+      "Ja",
+      "Nein"
+    ],
+    "detailedClosedText": "PK-Auszug",
+    "quick": "Wählen Sie eine Alternative aus",
+    "quickItems": [
+      "Schnellberechnung",
+      "Jetzt keine Leistungen erfassen"
+    ],
+    "quickYearQuestion": "Ab welchem Kalendarjahr sind Sie versichert?",
+    "firstAgeQuestion": "Ab welchem Alter sind Sie versichert?",
+    "quickYear": "Jahr",
+    "firstAge": "Alter",
+    "moveToNextStep": "Scan ist fertig. Sie können mit dem nächsten Schritt fortfahren",
+    "selectIkUploadOption": " Wie möchten Sie Ihren PK-Auszug im System erfassen?",
+    "addLine": "Nächster Eintrag",
+    "header": "Prüfen Sie das Scan-Ergebnis",
+    "helpInfo": "Nach der genauen Prüfung bestätigen Sie die Korrektheit der Daten am Formularende!",
+    "confirmText": "Wenn Sie abbrechen, werden die Daten nicht übernommen und sind nicht mehr vorhanden. Möchten Sie das Fenster trotzdem schliessen?",
+    "dataTransferBtn": "Daten übernehmen",
+    "checkBoxText": "Hiermit bestätige ich die Korrektheit der Daten",
+    "dateNameBorderLabel": "Datum und Stiftung",
+    "date": "Datum",
+    "companyName": "Stiftung",
+    "deathCapital": "Kapital",
+    "deathillness": "Krankheit",
+    "deathaccident": "Unfall",
+    "deathmarried": "verheiratet",
+    "deathnotmarried": "unverheiratet",
+    "deathBenefitBorderLabel": "Todesfallkapital",
+    "salaryDataBorderLabel": "Angaben zum Lohn",
+    "incomeYear": "gemeldeter Lohn",
+    "incomeInsured": "versicherter Lohn",
+    "workload": "Beschäftigungsgrad",
+    "pensionActivesDataBorderLabel": "Aktuelles Altersguthaben",
+    "creditTotal": "Total",
+    "creditBvg": "gemäss BVG",
+    "maxPayIn": "Dienstjahreseinkauf",
+    "ownershipWithdrawDataBorderLabel": "Vorbezug für Wohneigentum",
+    "gotWef": "vorhanden",
+    "retirementBenefitsBorderLabel": "Altersleistungen",
+    "pensionAge": "Alter",
+    "pensionCapital": "Kapital mit Zins",
+    "pensionYear": "Rente / Jahr",
+    "disabilityPensionBorderLabel": "Erwerbsunfähigkeits-Rente",
+    "isChildAvailable": "Kinder-Erwerbsunfähigkeits-Rente individuell eintragen",
+    "dischild": "Kinder-EU-Rente",
+    "dischildCheck": "Unfall",
+    "maxWef": "maximal",
+    "disValue": "Rente",
+    "disWait": "Wartefrist (Monate)",
+    "disAccident": "Unfall",
+    "survivorsProtectionBorderLabel": "Hinterlassenen-Schutz",
+    "widowValue": "Witwen-/Witwer-Rente",
+    "widowAccident": "Unfall",
+    "orphanValue": "Waisen-Rente",
+    "orphanAccident": "Unfall",
+    "lifePartner": "Lebenspartner-Rente eingetragen",
+    "dragPhotos": "Legen Sie die Fotos hier ab ...",
+    "dragSelectPhotos": "Ziehen Sie einige Fotos hierher oder klicken Sie, um sie auszuwählen",
+    "processingPhotos": "Bitte warten Sie, bis die Fotos verarbeitet wurden ...",
+    "helpTitle": "Leistungen der Pensionskasse (BVG)",
+    "helpDropdownItems": [
+      {
+        "title": "Pensionskasse - wer ist versichert?",
+        "text": "Die Pensionskassen-Beitragspflicht besteht für alle Arbeitnehmer mit einem Jahreslohn von mindestens 21'330 Franken (Stand: 2019). Sie beginnt am 01. Januar nach dem 17. Geburtstag und endet mit Vollendung des Rentenbezugsalters gemäss AHV."
+      },
+      {
+        "title": "Pensionskassen-Ausweis - was ist das?",
+        "text": "Der Pensionskassen-Ausweis, beinhaltet Ihre persönlichen Leistungen der Pensionskasse, bei der Ihr Arbeitgeber angemeldet ist. Mindestens einmal im Jahr, in der Regel im Januar oder Februar, wird Ihnen ein neuer Ausweis mit den aktuellen Zahlen zugeschickt. Darauf finden Sie unter anderem Ihren aktuellen Lohn und wieviel Sie bisher angespart haben, sowie die Leistungen bei Pensionierung, Erwerbsunfähigkeit, Todesfall, etc. "
+      },
+      {
+        "title": "Pensionskassen-Ausweis bestellen",
+        "text": "Es gibt zwei Wege, wie Sie einen neuen Pensionskassen-Ausweis (PK-Ausweis) erhalten:<br><br> - Wenden Sie sich an Ihren Arbeitgeber oder an die Personalabteilung Ihres Unternehmens und bitten Sie um die Bestellung eines PK-Ausweises.<br> - Gehen Sie ohne Umwege auf Ihre Pensionskasse zu. Nebst Kundenhotline oder Email-Kontakt, bieten viele Pensionskassen Ihren Kunden einen Login auf ihrer Webseite, über die Sie einen neuen Ausweis bestellen oder sogar direkt herunterladen können.<br><br><br>Unabhängig welchen Weg Sie wählen, wird Ihnen Ihre Pensionskasse den neuen Ausweis per Post zustellen.<br><br>Sollten Sie aktuell ohne Arbeit sein (arbeitslos), kann es sein, dass Ihre Pensionskassengelder bei der Stiftung Auffangeinrichtung auf einem Freizügigkeitskonto parkiert sind: https://web.aeis.ch/"
+      },
+      {
+        "title": "Schnellberechnung",
+        "text": "Die Pensionskassen-Beitragspflicht beginnt grundsätzlich bei Antritt der ersten Arbeitsstelle und frühestens mit der Vollendung des 17. Lebensjahres. Seit 2019 muss sich der Lohn auf mindestens 21’330 Franken pro Jahr, bzw. 1'777.50 Franken im Monat belaufen."
+      }
+    ],
+    "qrcode": {
+      "label": "QR-Code",
+      "title": "QR-Code",
+      "listItems": [
+        "Scannen Sie den untenstehenden QR-Code mit Ihrem Smartphone",
+        "Sie werden auf die korrekte Website geleitet",
+        "Fotografieren Sie den PK-Auszug mit Ihrem Smartphone. Fertig!"
+      ]
+    },
+    "email": {
+      "label": "E-mail",
+      "title": "E-Mail",
+      "inputLabel": "Ihre E-Mail-Adresse",
+      "listItems": [
+        "Geben Sie unten Ihre E-Mail ein und drucken Sie auf `E-Mail anfordern`",
+        "Sie erhalten eine E-Mail. Öffnen Sie den darin angegebenen Link.",
+        "Fotografieren Sie den PK-Auszug mit Ihrem Smartphone. Fertig!"
+      ],
+      "failedReason": "Beim Versenden des Scan-Links ist ein Fehler aufgetreten.",
+      "failedGeneral": "Beim Versenden des Scan-Links ist ein Fehler aufgetreten.",
+      "succeeded": "Eine E-Mail wurde gesendet. Bitte überprüfen Sie Ihre E-Mails auf dem Smartphone.",
+      "documentTitle": "Vorsorgeausweis",
+      "invalidMail": "Ungültige E-Mail-Adresse",
+      "button": "E-Mail anfordern"
+    },
+    "manual": {
+      "label": "Link",
+      "title": "Manuell",
+      "listItems": [
+        "Öffnen Sie auf Ihtrem Smartphone einen Browser.",
+        "Geben Sie den untenstehenden Link in der Adresszeile ein.",
+        "Fotografieren Sie den PK-Auszug mit Ihrem Smartphone. Fertig!"
+      ]
+    },
+    "photo": {
+      "label": "Foto",
+      "title": "Foto mit Smartphone",
+      "description": "Haben Sie auf Ihrem Smartphone einen QR-Code-Reader oder einen E-Mail-Zugang?"
+    },
+    "upload": {
+      "label": "Datei Upload",
+      "title": "Datei hochladen",
+      "description": "Laden Sie Ihr PK-Auszug als Bilddatei oder PDF hoch."
+    },
+    "edit": {
+      "label": "abschreiben",
+      "title": "Manuelle Eingabe",
+      "description": "Geben Sie die Daten aus Ihrem PK-Auszug manuell ein."
+    },
+
+    "noIncome": "Kein Arbeitgeber",
+    "noIncomeMessage": "Sie haben als Einkommen \"Kein Lohn\" eingegeben. Ohne Arbeitgeber Sie erhalten keine Pensionskassen-Leistungen"
+  },
+  "card_pensionwork_uvg_1": {
+    "title": "Lohnfortzahlung bei Krankheit / Unfall",
+    "detailed": "Wie wollen Sie Ihre UVG Leistungen und Lohnfortzahlung berechnen?",
+    "detailedItems": [
+      "Erfassung gemäss Arbeitsvertrag (detailliert)",
+      "Schnellberechnung",
+      "Jetzt keine Leistung erfassen"
+    ],
+    "cut": "Ist in der Lohnabrechnung ein Abzug für Krankentaggeld vorhanden?",
+    "cutItems": [
+      "Ja",
+      "Nein"
+    ],
+    "contract": "Besteht ein Gesamtarbeitsvertrag für Ihre Branche?",
+    "contractItems": [
+      "Ja",
+      "Nein"
+    ],
+    "branch": "Branche",
+    "branchItems": [
+      "Bauhauptgewerbe",
+      "Schreiner",
+      "Elektro & Telekommunikation",
+      "Personalverleih",
+      "Ziegelindustrie",
+      "Coiffeur",
+      "Maler & Gipser",
+      "Gastgewerbe",
+      "Carosseriegewerbe",
+      "Forstwirtschaft",
+      "Contact & Call Center",
+      "Holzbaugewerbe",
+      "Allpura (Reinigung)"
+    ],
+    "start": "Wann war der Eintritt in die Firma?",
+    "startDate": "Datum",
+    "detailedQuestion": "Lohnfortzahlung bei Unfall und Krankheit bis 720 Tage",
+    "illness": "Krankheit",
+    "accident": "Unfall",
+    "disablity": "Invaliden-Rente bei Unfall ab 720 Tage",
+    "disablityMessage": "Aufgrund des Unfallversicherungs-Gesetzes sind Sie entsprechend versichert. Die gesetzliche Mindestleistungen werden in die Planung übernommen",
+    "from": "Ab",
+    "till": "Bis",
+    "percent": "Prozent",
+    "add": "Abstufung hinzufügen",
+    "helpTitle": "Lohnfortzahlung bei Krankheit / Unfall",
+    "helpDropdownItems": [
+      {
+        "title": "Lohnfortzahlung bei Krankheit",
+        "text": "Die Angaben zu Ihrer Lohnfortzahlung bei Krankheit finden Sie in Ihrem Arbeitsvertrag oder in Ihrem Personalreglement. Im Fall einer längerdauernden Arbeitsunfähigkeit infolge Krankheit wird das Taggeld in der Regel für maximal zwei Jahre ausgerichtet.  Danach treten die Leistungen der Pensionskasse in Kraft."
+      },
+      {
+        "title": "Lohnfortzahlung bei Unfall",
+        "text": "Im Fall einer längerdauernden Arbeitsunfähigkeit infolge Unfall wird das Taggeld für maximal zwei Jahre ausgerichtet.  Danach wird das Taggeld von der UVG-Rente abgelöst."
+      },
+      {
+        "title": "Abstufung hinzufügen",
+        "text": "Falls Sie gemäss Arbeitsvertrag zum Beispiel in den ersten 90 Tagen den vollen Lohn und danach 80% erhalten sollten, fügen Sie eine Abstufung hinzu."
+      },
+      {
+        "title": "Schnellberechnung – Abzug für Krankentaggeld auf Lohnabrechnung",
+        "text": "Die Schnellberechnung basiert auf der Annahme des Lohnabzugs. Ist dieser Abzug in der Lohnabrechnung vorhanden, wird 80% des Gehalts als versichert angenommen. Es handelt sich allerdings eine Annahme. Abweichungen von dieser Annahme können sein:<br><br>- Der Arbeitgeber übernimmt auch den Prämienanteil des Arbeitnehmers. In diesem Fall wären versicherte Leistungen vorhanden, aber nicht im Lohnabzug sichtbar.<br><br>- Die versicherte Leistung beträgt 90% des Lohnes.<br><br>- Es ist eine Wartefrist von beispielsweise 3 Tagen bis zur Leistungsberechtigung vorhanden."
+      },
+      {
+        "title": "Schnellberechnung – Gesamtarbeitsvertrag",
+        "text": "Die Liste der erfassten Gesamtarbeitsverträge wird laufend erweitert. Beachten Sie bitte, dass ein Gesamtarbeitsvertrag ausschliesslich die Mindestleistungen beinhaltet und dass Ihr Arbeitgeber darüber hinaus Leistungen bieten kann."
+      },
+      {
+        "title": "Wann war der Eintritt in die Firma?",
+        "text": "Sollte bei Arbeitsunfähigkeit aufgrund Krankheit keine Leistung gemäss Arbeitsvertrag, Lohnabrechnung oder Gesamtarbeitsvertrag vorhanden sein, gelten die gesetzlichen Rahmenbedingungen gemäss Obligationenrecht (OR). Diese stehen im Zusammenhang mit der Anstellungsdauer und dem Kanton des Arbeitgebers. In der Analyse wird die schwächste Situation berechnet. Für weitergehende Auskünfte stehen Ihnen gerne zertifizierte Berater zur Verfügung."
+      }
+    ],
+
+    "noIncome": "Kein Arbeitgeber",
+    "noIncomeMessage": "Sie haben als Einkommen \"Kein Lohn\" eingegeben. Ohne Arbeitgeber Sie erhalten keine Leistungen."
+  },
+  "view": {
+    "secondPillarTitle": "BVG Altersrente",
+    "secondPillarTitleDisability": "BVG Invaliden-Rente",
+    "secondPillarTitleUVGDisability": "UVG Invaliden-Rente",
+    "secondPillarTitleWidow": "BVG Witwe/r-Rente",
+    "secondPillarTitleUVGWidow": "UVG Witwe/r-Rente"
+  },
+  "dragAreaText": "Ziehen Sie ein PDF oder eine Bilddatei hier her",
+  "sendBtnText": "Bestätigen"
+}

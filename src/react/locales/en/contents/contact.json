@@ -1,0 +1,13 @@
+{
+    "placeholderTitle": "Identifying a consultant",
+    "placeholderText": "We are identifying a consultant from your region. You will be contacted by the consultant in accordance with your contact details!",
+    "consultantMenuHeader": "Consultants",
+    "contact": "Contact",
+    "recommend": "Recommend",
+    "consultantInfo": "About the consultant",
+    "authorization": "Authorisation",
+    "changeConsultant": "Changing consultant",
+    "removeConsultant": "Removing a consultant",
+    "specialistDeleted": "Consultant removal successful",
+    "specialistDeleteFailed": "Consultant removal failed"
+}

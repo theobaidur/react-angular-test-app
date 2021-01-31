@@ -1,0 +1,23 @@
+{
+  "moduleTitles": {
+    "profile": "Persönliche Angaben",
+    "finances": "Einkommen",
+    "pensionState": "Staatliche Vorsorge",
+    "pensionWork": "Betriebliche Vorsorge",
+    "pensionPrivate": "Private Vorsorge",
+    "needs": "Bedarf",
+    "wealth": "Vermögen",
+    "need": "Meine Ziele",
+    "children": "Kinder / Ex-Beziehungen",
+    "analyzerPension": "Analyse & Auswertung",
+    "analyzerDisability1": "Erwerbsunfähigkeit durch Krankheit",
+    "analyzerDisability2": "Erwerbsunfähigkeit durch Unfall",
+    "analyzerLeftBehind1": "Todesfall durch Krankheit",
+    "analyzerLeftBehind2": "Todesfall durch Unfall"
+  },
+  "next": "Weiter",
+  "back": "Zurück",
+  "backToDashboard": "Zurück",
+  "return": "Weiter zur Anwendung",
+  "currency" : "CHF"
+}

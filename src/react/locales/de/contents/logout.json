@@ -1,0 +1,14 @@
+{
+  "oneFirst": "Auf Wiedersehen {{firstName}}",
+  "oneSecond": "moneto wünscht Ihnen einen",
+  "oneSecondLunch": "moneto wünscht Ihnen",
+  "twoFirst": "Auf Wiedersehen {{firstName}} & {{secondName}}",
+  "twoSecond": "moneto wünscht Euch einen",
+  "twoSecondLunch": "moneto wünscht Euch ",
+  "morning": "guten Morgen! ",
+  "day": "schönen Tag! ",
+  "lunch": "\"en Guete\"! ",
+  "evening": "schönen Abend! ",
+  "night": "gute Nacht! ",
+  "partnersText": "Die Werbepartner sichern zusätzlich die Weiterentwicklung der Plattform und ermöglichen die kostenfreie Basis-Nutzung von moneto."
+}

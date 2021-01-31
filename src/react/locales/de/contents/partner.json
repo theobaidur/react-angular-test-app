@@ -1,0 +1,45 @@
+{
+  "title": "Partner",
+  "overview": "Übersicht",
+  "overviewItems": [
+    {
+      "title": "Werbepartner",
+      "description": "Moneto bedankt sich bei allen wertvollen Werbepartnern, welche die Weiterentwicklung der Plattform ermöglichen und sicherstellen. Desweiteren bewirken die Werbepartner die kostenfreie Nutzung von Moneto."
+    },
+    {
+      "title": "Pensionskassen",
+      "description": "Moneto steht mit allen Partnern in engem Kontakt und aktualisiert Moneto anhand der weiteren Bedürfnisse. Die Partner-Pensionskassen stellen die ausserordentlichen Dienstleistungen von Moneto ihren Destinatären (Versicherten) zur Verfügung. Damit bieten die Partner schweizweit einen exklusiven Service zur Steigerung der finanziellen Selbstkompetenz."
+    },
+    {
+      "title": "Pensionskassen-Verwaltungssysteme",
+      "description": "Die Grundlage zur Digitalisierung der Pensionskassen bieten die PK-Verwaltungssysteme. Mit der Möglichkeit auf Wunsch der Anwender die Pensionskassen-Daten automatisch übernehmen zu können, wird die neue Dimension der umfassenden Digitalisierung erreicht.",
+      "imgs": ["img4"]
+    },
+    {
+      "title": "Arbeitgeber, Verbände & Organisationen",
+      "description": "Wir freuen uns über die Vielzahl von Organisationen, die ihren Mitarbeitenden / Mitgliedern den Service zur finanziellen Kompetenzerweiterung zur Verfügung stellen."
+    },
+    {
+      "title": "Produktpartner",
+      "description": "Zur Sicherstellung der individuellen Bedürfnisse stehen unsere Produktpartner zur Verfügung. Sofern noch nicht digital vernetzt, erhalten Sie mehr Informationen über unsere zertifizierten Beraterfirmen."
+    },
+    {
+      "title": "Zertifizierte Beraterfirmen",
+      "description": "Moneto legt den Fokus auf die Qualität und Neutralität der gelisteten Beraterfirmen. Die Qualitätsmerkmale werden jährlich geprüft. Bei Erfolg wird das Zertifikat für die nächsten Monate ausgestellt."
+    },
+    {
+      "title": "Qualitätskontrolle",
+      "description": "Damit die Beratungsqualität der Beraterfirmen gewährleistet wird, absolvieren alle Beraterinnen und Berater den zertifizierten Lehrgang der Leadership Akademie Schweiz AG. Die zeitlichen beschränkten Bescheinigungen werden durch obligatorische Weiterbildungen erneuert.",
+      "imgs": ["img7"]
+    },
+    {
+      "title": "Werden Sie Partner",
+      "link": "Werden auch Sie Partner",
+      "description": "Möchten auch Sie Moneto Partner werden? Nehmen Sie mit uns Kontakt auf, wir senden Ihnen gerne weitere Unterlagen oder vereinbaren ein Meeting:",
+      "email": "mail",
+      "emailValue": "info@moneto.ch",
+      "phone": "tel",
+      "phoneValue": "+41 71 272 52 07"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "title": "Support",
+  "back": "Zurück",
+  "items": [
+    {
+      "title": "Login",
+      "subItems": [
+        {
+          "title": "Passwort vergessen",
+          "description": "1. Klicken Sie unter dem Loginbutton auf «Passwort vergessen» <br />2. Anschliessend geben Sie Ihre E-Mail Adresse an und klicken auf «Passwort zurücksetzen»<br />3. Sie erhalten von Moneto eine E-Mail. Öffnen Sie diese E-Mail und klicken Sie auf den darin enthaltenen Link, um Ihr Passwort zurückzusetzen<br/>4. Legen Sie Ihr neues Passwort fest "
+        },
+        {
+          "title": "Zugang zu meiner E-Mail verloren",
+          "description": "<strong>Wenn Sie Ihre Mobile Nr. erfasst haben:</strong> <br />1.Öffnen Sie die Loginseite<br />2. Klicken Sie unter dem Loginbutton auf «Kein Zugriff auf E-Mail»<br />3. Tragen Sie Ihre registrierte E-Mail Adresse ein und Ihre erfasste Mobile Nr.<br />4. Klicken Sie auf «CODE SENDEN»<br />5. Sie erhalten einen sechsstelligen Code auf Ihr Mobile<br />6. Tragen Sie diesen Code ein und bestimmen Sie eine neue E-Mail Adresse. Klicken Sie auf «E-MAIL VERIFIZIEREN»<br />7. Sie erhalten von Moneto eine E-Mail. Klicken Sie auf den darin enthaltenen Link, um Ihre neue E-Mail Adresse zu verfizieren.<br />8. Legen Sie Ihr neues Passwort fest. <strong>Wenn Sie keine Mobile Nr. hinterlegt haben:</strong><br/> Kontaktieren Sie den telefonischen Support: +41 71 272 52 08 "
+        },
+        {
+          "title": "Zugang zu meinem Smartphone verloren",
+          "description": "Kontaktieren Sie den telefonischen Support: +41 71 272 52 08 "
+        },
+        {
+          "title": "Zwei-Faktor-Authentifizierung anpassen/deaktivieren (E-Mail oder SMS)",
+          "description": "<strong>Empfehlung:</strong><br/>Für Ihre Sicherheit wird grundsätzlich empfohlen, die Zwei-Faktor-Authentifizierung (2FA) nicht zu deaktivieren!<br /> <br/><strong>2FA anpassen/deaktivieren:</strong><br/>Das Anpassen oder Deaktivieren der 2FA kann nur erfolgen, wenn Sie eingeloggt sind. <br/>1. Klicken Sie oben rechts auf Ihren Benutzernamen<br/>2.Wählen Sie im Seitenmenü «Login Einstellungen (2FA)» aus<br/>3.Wählen Sie Ihre gewünschte 2FA Methode aus. SMS bietet die höchste Sicherheit."
+        }
+      ]
+    },
+    {
+      "title": "Account",
+      "subItems": [
+        {
+          "title": "Mein Profil & Beziehungen anpassen",
+          "description": "Bei Ihren Profileinstellungen können Sie Ihre persönlichen Angaben wie Vorname, Name oder Geburtstag anpassen. Zudem können Sie Ihre/n Partner/in erfassen.<br/>1. Klicken Sie oben rechts auf Ihren Benutzernamen<br/>2. Wählen Sie im Seitenmenü «Persönliche Angaben & Beziehung»<br/><strong>Wichtig:</strong><br/>Wenn Sie den erfassten Partner deaktivieren, gehen alle vom Partner erfassten Daten verloren. In Zukunft wird die Möglichkeit bestehen, für den Partner einen Account zu erstellen, damit dieser seine Daten weiter verwenden kann."
+        },
+        {
+          "title": "Achtung: Bei Trennung des erfassten Partners",
+          "description": "Wenn Sie den erfassten Partner deaktivieren, gehen alle vom Partner erfassten Daten verloren. In Zukunft wird die Möglichkeit bestehen, für den Partner einen Account zu erstellen, damit dieser seine Daten weiter verwenden kann.  "
+        },
+        {
+          "title": "Account löschen",
+          "description": "Mit Bedauern akzeptieren wir Ihren Entscheid und bedanken uns dafür, dass Sie Moneto genutzt haben. Nach Klick auf “Account vollständig löschen”, wird nach dem Ausloggen der Löschungs-Timer gestartet. <br/>Beachten Sie bitte:<br/> - Zur Ihrer Sicherheit werden alle Daten erst nach Ablauf von 90 Tagen vollständig aus unserer Datenbank entfernt. <br/> - Jeder Login auf Moneto, innerhalb dieser 90 Tage, führt zu einem sofortigen Stopp des Timers und einem Abbruch des “Lösch-Auftrags”.<br/> - Haben Sie auf Basis Ihrer Daten aus Moneto, ein Produkt gekauft oder einen Vertrag abgeschlossen, ist es uns aufgrund gesetzlicher Bestimmungen nicht möglich dem Lösch-Auftrag nach zu kommen. Prüfen Sie dazu unsere AGB’s. "
+        }
+      ]
+    },
+    {
+      "title": "Darstellungsprobleme",
+      "subItems": [
+        {
+          "title": "Empfohlene Internetbrowser",
+          "description": "Bei der Verwendung von diversen Internetbrowsern kann es zu Darstellungsproblemen kommen. Die besten Ergebnisse erzielen Sie mit folgenden Browsern: <br/>Mozilla Firefox:<br/><0>Downloadlink Mozilla Firefox</0><0>(https://www.mozilla.org/de/firefox/new/)</0><br/>Google Chrome:<br/><1>Downloadlink Google Chrom</1><1>(https://www.google.com/intl/de/chrome/)</1><br /> «Javascript» darf nicht blockiert werden.  "
+        },
+        {
+          "title": "Moneto lädt sehr langsam",
+          "description": "Moneto benötigt eine dauerhafte und stabile Internetverbindung zum Moneto-Server, um Ihre Angaben verarbeiten und die notwendigen Berechnungen ausführen zu können. <br />Um die Leistung zu verbessern, schliessen Sie alle ungenutzten Browser-Fenster oder Tabs sowie ungenutzten Programme. Sollten Sie aktive Downloads im Hintergrund haben, sollten diese ebenfalls pausiert werden. <br />Sollten Sie <strong>WLan</strong> nutzen, prüfen Sie bitte die Signalstärke. Ist der Wlan-Sender in einem anderen Raum, Stockwerk oder weiter entfernt, kann die Signalstärke verbessert werden, indem Sie versuchen die Distanz zu verkürzen. Gebäudeteile, wie Wände und Böden, können die Stärke des WLans stark beeinträchtigen. <br />Bestehen noch immer Schwierigkeiten mit der Verbindung, nehmen Sie Kontakt mit Ihrem Internetprovider auf (z.B. Swisscom, Cablecom, Sunrise, etc.)"
+        }
+      ]
+    },
+    {
+      "title": "IK-Auszug",
+      "subItems": [
+        {
+          "title": "Was ist ein IK-Auszug?",
+          "description": "Der Auszug aus dem Individuellen Konto, kurz “IK-Auszug”, ist Ihr persönliches Kassenbuch bei der AHV. Auf diesem Dokument werden die notwendigen Angaben aufgelistet, mit denen Ihre AHV-Rente berechnet werden kann."
+        },
+        {
+          "title": "Woher bekomme ich einen IK-Auszug?",
+          "description": "Sie können entweder Ihre <2>Ausgleichskasse suchen</2> oder einen <3>Gesamt-Auszug bestellen.</3> Dafür benötigen Sie nur Ihre AHV-Karte, die Bestellung Ihres IK-Auszugs ist in jedem Fall kostenfrei.<br />          Beachten Sie bitte, dass es 3 - 4 Wochen dauern kann bis die Ausgleichskasse Ihnen den IK-Auszug per Post zusendet."
+        },
+        {
+          "title": "Tipps nach Erhalt des IK-Auszugs",
+          "description": "Moneto empfiehlt Ihnen dringend den IK-Auszug nach Erhalt, auf folgende Punkte genau zu überprüfen.<br/>- Sind alle Ihre Arbeitgeber aufgeführt?<br/>- Sind die Jahreszahlen (Spalte 5) zusammenhängend, bzw. unterbrochen, wo sie nicht sein sollten?<br/>- Stimmen die (Jahres-) Einkommen (Spalte 6) mit den Jahren und Arbeitgeber überein?<br/> Grund dafür: Sollten Daten Fehlen oder nicht stimmen, haben Sie nach Erhalt des IK-Auszuges 30 Tage Zeit um bei Ihrer Ausgleichskasse eine “Berichtigung” zu verlangen. Nach Ablauf dieser 30 Tage, gilt der Stand des IK-Auszugs als korrekt und ist nicht mehr anfechtbar."
+        }
+      ]
+    },
+    {
+      "title": "PK-Ausweis (Pensionskasse)",
+      "url": "pk-ausweis",
+      "subItems": [
+        {
+          "title": "Was ist ein Pensionskassen-Ausweis?",
+          "description": "Der Pensionskassen-Ausweis, ist Ihr persönlicher Kontoauszug der Pensionskasse, bei der Ihr Arbeitgeber angemeldet ist. Einmal im Jahr, in der Regel im Januar oder Februar, wird Ihnen ein neuer Ausweis mit den aktuellen Zahlen zugeschickt.<br/>Darauf finden sich unter anderem Ihr momentaner Lohn und wieviel Sie bisher angespart haben, sowie die Leistungen (z.B. die Renten bei Pensionierung und Erwerbsunfähigkeit) die Sie aktuell von der Pensionskasse erwarten können."
+        },
+        {
+          "title": "Wie erhalte ich einen neuen Pensionskassen-Ausweis?",
+          "description": "Es gibt zwei Wege, wie Sie einen neuen Pensionskassen-Ausweis (PK-Ausweis) erhalten.<br/> <br/><br/>A. Wenden Sie sich an Ihren Arbeitgeber oder an die Personalabteilung Ihres Unternehmens und bitten Sie um die Bestellung eines PK-Ausweises.<br/>B. Gehen Sie ohne Umwege auf Ihre Pensionskasse zu. Nebst Kundenhotline oder Email-Kontakt, bieten viele Pensionskassen Ihren Kunden einen Login auf ihrer Webseite, über die Sie einen neuen Ausweis bestellen oder sogar direkt herunterladen können.<br/><br/>Unabhängig welchen Weg Sie wählen, wird Ihnen Ihre Pensionskasse den neuen Ausweis per Post zustellen.<br/><br/>Sollten Sie aktuell ohne Arbeit sein (arbeitslos), kann es sein, dass Ihre Pensionskassengelder bei der “Stiftung Auffangeinrichtung” auf einem Freizügigkeitskonto parkiert sind: <4>https://web.aeis.ch/</4> <br/><strong> Anmerkung:</strong><br/><br/>    Verlässt ein Arbeitnehmer eine Firma, ohne dass er anschliessend eine neue Stelle antritt, muss die zuständige Pensionskasse nach spätestens 6 Monaten das Geld an die Stiftung Auffangeinrichtung überweisen."
+        }
+      ]
+    },
+    {
+      "title": "Berater",
+      "subItems": [
+        {
+          "title": "Berater kontaktieren",
+          "description": "In der Vorsorgeplanung wird am Ende jedes Bereiches, Pensionierung, Erwerbsunfähigkeit und Todesfall, die Möglichkeit geboten einen Berater anzufordern.<br/>1. Mit einem Klick auf «Berater kontaktieren», öffnet sich die Kontakt-Seite<br/>2. Wählen Sie die Themen aus, zu denen Sie eine persönliche Beratung wünschen<br/>3. Bestimmen Sie den Zeitpunkt, wann der Berater Sie kontaktieren soll<br/>4. Sind Sie mit der Auswahl zufrieden, können Sie mit einem letzten Klick auf «Bestätigen» die Anfrage abschicken.<br/>5. Moneto wird schnellstmöglich (24h) einen geeigneten Berater für Sie suchen"
+        },
+        {
+          "title": "Berater weiterempfehlen",
+          "description": "Sind Sie mit Ihrem Berater zufrieden? Für Die Berater auf Moneto ist das grösste Lob eine Weiterempfehlung an Freunde und Bekannte.<br/>Möchten Sie Ihren Berater weiterempfehlen, gehen Sie wie folgt vor:<br/>1. Mit einem Klick auf das Moneto-Logo oben links gelangen Sie in den Home Bereich<br/>2. Am rechten, oberen Bildschirmrand klicken Sie auf das Profilbild ihres aktuellen Beraters<br/>3. Mit einem weiteren Klick auf “Weiterempfehlen” erhalten Sie den Referenzlink, welchen Sie an Ihre Freunde und Bekannte weitergeben können.<br/>4. Sobald sich Ihre Freunde und Verwandte mit diesem Link registrieren, erhalten Sie den gleichen Service des ausgewählten Beraters"
+        },
+        {
+          "title": "Berater wechseln",
+          "description": "Sind Sie unzufrieden mit Ihrem Berater oder wünschen Sie sich jemanden mit andern Kompetenzen, dann gehen Sie wie folgt vor.<br/>1. Mit einem Klick auf das Moneto-Logo oben links gelangen Sie in den Home Bereich<br/>2. Am rechten, oberen Bildschirmrand finden Sie das Profilbild ihres aktuellen Beraters und mit einem Klick darauf, öffnen Sie die Berater-Übersicht<br/>3. Mit einem weiteren Klick auf “Berater wechseln” wird Moneto für Sie einen weiteren Berater suchen (24h)<br/>Bis Moneto einen neuen Berater für Sie gefunden hat, wird weiterhin das Profilbild Ihres aktuellen Beraters angezeigt."
+        },
+        {
+          "title": "Berater entfernen",
+          "description": "Sind Sie unzufrieden mit Ihrem Berater oder haben Sie keinen Bedarf an einer persönlichen Beratung, haben Sie die Möglichkeit Ihren aktuellen Berater zu entfernen.<br/>1. Mit einem Klick auf das Moneto-Logo oben links gelangen Sie in den Home Bereich<br/>2. Am rechten, oberen Bildschirmrand finden Sie das Profilbild ihres aktuellen Beraters und mit einem Klick darauf, öffnen Sie die Berater-Übersicht<br/>3. Mit einem weiteren Klick auf “Berater entfernen” wird dieser Berater von Ihrem Profil entfernt<br />Durch das Entfernen, wird Ihrem aktuellen Berater der Zugriff auf Ihre Daten entzogen."
+        }
+      ]
+    }
+  ]
+}

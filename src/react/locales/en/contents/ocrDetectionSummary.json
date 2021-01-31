@@ -1,0 +1,45 @@
+{
+  "generalSummary": "Unfortunately no matching template could be found for your scanned documents.",
+  "summary": {
+    "SUCCESS": { "title": "", "message": "", "button": "", "link": "" },
+    "UNKNOWN_TEMPLATE": {
+      "title": "Missing data: unknown template?",
+      "message": "We strive to always support the most recent templates of the most common pension funds. Unfortunately, your template may not correspond to any of those known to us. Please help us to improve our service and report this to us.",
+      "button": "Report template",
+      "link": "Other possible causes..."
+    },
+    "MISSING_PAGES": {
+      "title": "Missing data: pages missing?",
+      "message": "Pension certificates can be several pages long. Not all pages may have been scanned. Please check whether all pages are present. If pages are missing, please scan them again.",
+      "button": "Scan again",
+      "link": "Other possible causes..."
+    },
+    "BAD_IMAGE_QUALITY": {
+      "title": "Missing data: inadequate image quality?",
+      "message": "Unfortunately, the image quality does not permit satisfactory recognition of the data. Please check that the scanned pages are not too dark or too light, are completely in the image frame and not skewed. To improve the quality, try scanning them again.",
+      "button": "Scan again",
+      "link": "Other possible causes..."
+    }
+  },
+  "detailsDialog": {
+    "title": "Report template",
+    "subTitle": "",
+    "text": [
+      "To enable us to read in your pension certificate even better in future, we would ask you to provide us with your scanned documents.",
+      "These will only be used for further development and will be treated confidentially. This is the only way we can ensure that your data can be read in as easily and completely as possible in the future.",
+      "Many thanks for your support."
+    ],
+    "buttons": { "cancel": "Cancel", "ok": "Accept" }
+  },
+  "linkDialog": {
+    "title": "Possible causes of missing data",
+    "subTitle": "",
+    "header": ["Unknown template", "Missing pages", "UInadequate image quality"],
+    "text": [
+      "We strive to always support the most recent templates of the most common pension funds. Unfortunately, your template may not correspond to any of those known to us. Please help us to improve our service and report this to us.",
+      "Pension certificates can be several pages long. Not all pages may have been scanned. Please check whether all pages are present. If pages are missing, please scan them again.",
+      "Unfortunately, the image quality does not permit satisfactory recognition of the data. Please check that the scanned pages are not too dark or too light, are completely in the image frame and not skewed. To improve the quality, try scanning them again."
+    ],
+    "buttons": { "report": "Report scan", "retry": "Nochmals Scannen", "close": "Close" }
+  }
+}

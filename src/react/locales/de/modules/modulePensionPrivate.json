@@ -1,0 +1,112 @@
+{
+    "title": "Private Vorsorge",
+
+    "card_pensionprivate_life_1" : {
+        "init" : {
+            "add": "Lebensversicherung erfassen",
+            "hasNoElements": "Keine Lebensversicherung",
+            "noMore": "Keine weitere Lebensversicherung",
+            "accept": "Weiter"
+        },
+        "title": "Lebensversicherung",
+        "name": "Bezeichnung",
+        "defaultName": "Lebensversicherung",
+
+        "type": "Art",
+        "typeItems": ["3a (gebunden)", "3b (ungebunden)"],
+
+        "timeFrame": "Laufzeit der Lebensversicherung",
+
+        "hasCapitalQuestion" : "Beinhaltet die \"{{name}}\" ein Erlebensfall-Kapital?",
+        "hasCapital" : "Erlebensfall",
+        "hasCapitalItems": ["Ja","Nein"],
+        "capitalValue": "Betrag",
+        
+        "capitalType": "Ist ein Kapital auf Ihrer Lebensversicherung aufgeführt?",
+        "capitalTypeItems": ["Ja","Nein"],
+        "capitalOption": "Wählen Sie einen Möglichkeit aus",
+        "capitalOptionItems":[
+            "Kein Betrag angeben",
+            "Vermutete Betrag angeben",
+            "Betrag aus Offerte erfassen"
+        ],
+        "capitalInformation": [
+            "Sie geben kein Erlebensfall-Kapital an und erfassen nur die möglichen Zusatzleistungen wie Absicherungen bei Erwerbsunfähigkeit und Todesfall.",
+            "Sie erhalten jedes Jahr eine Abrechnung mit dem aktuellen Stand, dies könnte Ihnen als Anhaltspunkt dienen. Vielleicht erinnern Sie sich auch noch an das Beratungsgespräch zu Ihrer Lebensversicherung. Wurde dabei eine mögliche Endsumme genannt?",
+            "Bevor Sie den Vertrag für die Lebensversicherung unterschrieben haben, wurde Ihnen von Ihrer Versicherung eine Offerte dafür zugeschickt. Auf dieser Offerte sind in der Regel drei verschiedene Werte für ein “theoretisch mögliches” Erlebensfall-Kapital aufgeführt. Wählen Sie diese Möglichkeit, empfiehlt Ihnen moneto sicherheitshalber den geringsten Wert zu verwenden."
+        ],
+
+        "customDate" : "Abweichende Laufzeit",
+
+        "hasDisabilityQuestion": "Beinhaltet die \"{{name}}\" Erwerbsunfähigkeits-Leistungen?",
+        "hasDisability": "Erwerbsunfähigkeit",
+        "hasDisabilityItems": ["Ja","Nein"],
+        "disabilityShortQuestion": "Sind die Renten-Zahlungen auf eine fixe Anzahl Monate begrenzt? (Kurzrente)",
+        "disabilityShortItems": ["Ja","Nein"],
+        "disabilityShortTime": "Anzahl Monate",
+        "disabilityWait": "Wartefrist (Monate)",
+        "disabilityModalTitle": "Erwerbsunfähigkeits-Leistung",
+        "disabilityElement": "diese Erwerbsunfähigkeits-Leistung",
+        "disabilityAddButton": "Erwerbsunfähigkeits-Leistung hinzufügen",
+
+        "hasLeftBehindQuestion": "Beinhaltet die \"{{name}}\" Leistungen für Hinterlassene?",
+        "hasLeftBehind": "Todesfall",
+        "hasLeftBehindItems": ["Ja","Nein"],
+        "leftBehindType": "Leistungs-Art",
+        "leftBehindTypeItems": ["Rente","Kapital"],
+        "leftBehindModalTitle": "Todesfall-Leistung",
+        "leftBehindElement": "diese Todesfall-Leistung",
+        "leftBehindAddButton": "Todesfall-Leistung hinzufügen",
+
+        "subType": "Leistungs-Art",
+        "subTypeItems": ["Rente","Kapital"],
+        "cycleItems": ["pro Jahr","pro Monat"],
+        "start": "Beginn Laufzeit",
+        "end": "Ende Laufzeit",
+        "cases": "Welche Fälle spricht diese Leistung an?",
+        "illness": "Krankheit",
+        "accident": "Unfall",
+        "value": "Betrag",
+        
+        "optionalTitle": "Weitere Angaben (optional)",
+        "removeElement": "Entfernen",
+
+        "helpTitle": "Lebensversicherungen",
+        "helpText": "<p>Inhalt folgt in Kürze</p>",
+        
+        "helpDropdownItems": [
+          {
+            "title": "Bezeichnung",
+            "text": "Tragen Sie hier eine <strong>Bezeichnung</strong> für Ihre Lebensversicherung ein. Beispielsweise den Namen der Versicherung oder, sollten Sie über mehrere Lebensversicherungen verfügen, eine andere deutliche Benennung für eine klare Unterscheidung."       
+        },
+        {
+            "title": "Art der Police",
+            "text": "Wählen Sie die <strong>Art</strong> Ihrer Lebensversicherung aus.<br>Auf Ihrer Lebensversicherungs-Police gibt es folgende Varianten:<br><br> - <strong>Gebundene Vorsorge</strong> oder auch Säule <strong>3a</strong><br>oder<br> - <strong>Ungebundene Vorsorge</strong> oder auch Säule <strong>3b</strong><br><br><strong>Hinweis:</strong> Oft finden Sie die Art der Police bereits im Titel. Bei manchen ist es auch separat unter (beispielsweise) “Vorsorgeart” aufgeführt."
+        },
+        {
+            "title": "Laufzeit",
+            "text": "Tragen SIe hier den <strong>Beginn</strong> und das <strong>Ende der Laufzeit</strong> ihrer Lebensversicherung ein.<br><br>Andere Bezeichnungen für “Beginn der Laufzeit” sind:<br>- Versicherungsbeginn<br>- Beginn der Versicherung<br>- Vertragsbeginn<br>Möglich sind auch ähnliche Bezeichnungen oder Kombinationen.<br><br>Andere Bezeichnungen für “Ende der Laufzeit” sind:<br>- Versicherungsende<br>- Ende der Versicherung<br>- Vertragsende<br>Möglich sind auch ähnliche Bezeichnungen oder Kombinationen.<br><br><strong>Achtung:</strong> Achten Sie sehr genau darauf welche Laufzeit sie eintragen.<br>Es kann bei Lebensversicherungen vorkommen, dass Leistungen unterschiedlich lange Laufzeiten haben oder zu unterschiedlichen Zeitpunkten erweitert wurden. Ist das bei Ihrer Police der Fall, tragen Sie die unterschiedlichen Laufzeiten bei den Leistungen unter <strong>Abweichende Laufzeit</strong> ein."
+        },
+        {
+            "title": "Beinhaltet die “Lebensversicherung” eine Erlebensfall-Leistung?",
+            "text": "Wählen Sie <strong>Ja</strong> aus, wenn Ihre Lebensversicherung ein <strong>Erlebensfall-Kapital</strong> beinhaltet.<br><br>Tragen Sie anschliessend den <strong>Betrag</strong> Ihres Erlebensfall-Kapitals ein.<br><br>Andere Bezeichnungen für “Erlebensfall-Kapital” sind:<br>- Kapital im Erlebensfall<br>- Erlebensfallsumme<br>- im Erlebensfall<br>Möglich sind auch ähnliche Bezeichnungen oder Kombinationen.<br><br><strong>Ist ein Kapital auf Ihrer Lebensversicherung aufgeführt?</strong><br><br>Wählen Sie <strong>Ja</strong> aus, wenn Ihre Lebensversicherung ein garantiertes Erlebensfallkapital enthält.<br><br>Ist Ihr Erlebensfall-Kapital <strong>Fond basiert</strong> (Ihre Prämien werden an der Börse angelegt) kann es sein, dass keine Zahl aufgeführt ist. Der Grund dafür ist, dass niemand sagen kann, wie sich die Börse entwickelt und wie hoch das Kapital zum Auszahlungszeitpunkt sein wird.<br><br>Trifft dies auf Sie zu, wählen Sie <strong>Nein</strong> aus.<br><br><strong>Wählen Sie eine Möglichkeit aus</strong><br><br><strong>Kein Betrag angeben</strong> - Sie lassen diese Leistung Ihrer Lebensversicherung offen, dass heisst diese Police wird in Ihrer aktuellen Pensionsplanung nicht auftauchen.<br><br><strong>Vermuteter Betrag</strong> - Sie schätzen selbst die mögliche Höhe des Erlebensfall-Kapitals.Sie erhalten jedes Jahr eine Abrechnung mit dem aktuellen Stand, dies kann Ihnen als Anhaltspunkt dienen. Vielleicht erinnern Sie sich auch noch an das Beratungsgespräch zu Ihrer Lebensversicherung. Wurde dabei eine mögliche Endsumme genannt?<br><br><strong>Betrag aus Offerte erfassen</strong> - Bevor Sie den Vertrag für die Lebensversicherung unterschrieben haben, wurde Ihnen von Ihrer Versicherung eine Offerte dafür zugeschickt. Auf dieser Offerte sind in der Regel drei verschiedene Werte für ein “theoretisch mögliches” Erlebensfall-Kapital aufgeführt.Wählen Sie diese Möglichkeit, empfiehlt Ihnen moneto sicherheitshalber den kleinsten Wert zu verwenden. <br><br><strong>Abweichende Laufzeit</strong><br>Aktivieren Sie <strong>abweichende Laufzeit</strong> sollte sich die Laufzeit für Ihr Erlebensfallkapital von der allgemeinen Vertragslaufzeit Ihrer Lebensversicherung unterscheiden.Tragen Sie anschliessend den <strong>Beginn</strong> und das <strong>Ende der Laufzeit</strong> für Ihr Erlebensfallkapital ein."
+          },
+        {
+            "title": "Beinhaltet die “Lebensversicherung” Erwerbsunfähigkeits-Leistungen?",
+            "text": "Wählen Sie <strong>Ja</strong> aus, wenn Ihre Lebensversicherung <strong>Erwerbsunfähigkeits-Leistungen</strong> beinhaltet.<br>Um die Leistungen zu erfassen, wählen Sie anschliessend <strong>Erwerbsunfähigkeits-Leistung hinzufügen</strong> aus.<br><br><strong>Leistungsart</strong><br>Wählen Sie aus, ob die Leistungsart bei Erwerbsunfähigkeit Ihrer Lebensversicherung eine <strong>Rente</strong> oder ein <strong>Kapital</strong> beinhaltet.<br><strong>Hinweis:</strong> Sollte Ihre Lebensversicherung als Leistung bei Erwerbsunfähigkeit ein Kapital und eine Rente beinhalten, erfassen Sie zuerst den einen Betrag und fügen über “Erwerbsunfähigkeits-Leistung hinzufügen” die zweite Leistung hinzu.<br><br><strong>Betrag (Kapital)</strong><br>Tragen Sie hier den <strong>Betrag</strong> der Leistungen bei Erwerbsunfähigkeit aus Ihrer Lebensversicherung ein.<br><br><strong>Betrag (Rente)</strong><br>Wählen Sie aus, ob die Rente bei Erwerbsunfähigkeit pro Monat oder pro Jahr angegeben ist und tragen Sie hier <strong>den Betrag</strong> der Leistungen bei Erwerbsunfähigkeit aus Ihrer Lebensversicherung ein.<br><br><strong>Abweichende Laufzeit</strong><br>Aktivieren Sie <strong>abweichende Laufzeit</strong>, sollte sich die Laufzeit für Ihre Leistungen bei Erwerbsunfähigkeit von der allgemeinen Vertragslaufzeit Ihrer Lebensversicherung unterscheiden.Tragen Sie anschliessend den <strong>Beginn</strong> und das <strong>Ende der Laufzeit</strong> für Ihre Leistungen bei Erwerbsunfähigkeit ein.<br><br><strong>Welche Fälle spricht diese Leistung an?</strong><br>Wählen Sie aus, ob die Leistungen bei Erwerbsunfähigkeit bei Krankheit, Unfall oder beiden ausbezahlt werden."
+          },
+        {
+            "title": "Beinhaltet die “Lebensversicherung” Leistungen für Hinterlassene?",
+            "text": "Wählen Sie <strong>Ja</strong> aus, wenn Ihre Lebensversicherung Leistungen für Hinterlassene beinhaltet.<br>Um die Leistungen zu erfassen, wählen Sie anschliessend Leistungen für Hinterlassene aus.<br><br><strong>Leistungsart</strong><br>Wählen Sie aus, ob die Leistungsart für Hinterlassene Ihrer Lebensversicherung eine Rente oder ein Kapital beinhaltet.<br>Hinweis: Sollte Ihre Lebensversicherung für Hinterlassene ein Kapital und eine Rente beinhalten, erfassen Sie zuerst den einen Betrag und fügen über “Todesfall-Leistung hinzufügen” die zweite Leistung hinzu.<br><br><strong>Betrag (Kapital)</strong><br>Tragen Sie hier den Betrag der Leistungen bei Todesfall aus Ihrer Lebensversicherung ein.<br><br><strong>Betrag (Rente)</strong><br>Wählen Sie aus, ob die Rente bei Todesfall pro Monat oder pro Jahr angegeben ist und tragen Sie hier den Betrag der Leistungen bei Todesfall aus Ihrer Lebensversicherung ein.<br><br><strong>Abweichende Laufzeit</strong><br>Aktivieren Sie <strong>abweichende Laufzeit</strong>, sollte sich die Laufzeit der Leistungen für Hinterlassene von der allgemeinen Vertragslaufzeit Ihrer Lebensversicherung unterscheiden.Tragen Sie anschliessend den <strong>Beginn</strong> und das <strong>Ende der Laufzeit</strong> für die Leistungen für Hinterlassene ein.<br><br><strong>Welche Fälle spricht diese Leistung an?</strong><br> Wählen Sie aus, ob die Leistungen bei Erwerbsunfähigkeit bei Krankheit, Unfall oder in beiden Fällen ausgezahlt werden."
+          }
+        ]
+    },
+    
+    "card_pensionprivate_life_1_init" :{
+        "helpTitle": "Lebensversicherungen",
+        "helpText": "Klicken Sie auf <strong>Lebensversicherung erfassen</strong>, um die Leistungen Ihrer gebundenen (3a) oder ungebundenen (3b) Lebensversicherung für die spätere Planung zu nutzen."
+    },
+
+    "removeModalTitle": "Daten entfernen",
+    "removeModalContent": "Wollen Sie diese Leistung in Private Vorsorge entfernen?"
+}

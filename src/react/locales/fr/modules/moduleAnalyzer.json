@@ -1,0 +1,115 @@
+{
+  "diagramHeading": "Résultat",
+
+  "diagramTutorial": "Explication du diagramme",
+  "editNeeds": "Modifier les objectifs",
+  "editWealth": "Introduire le patrimoine",
+  "editPensionPrivate": "Prévoyance privée",
+  "cancel": "Annuler",
+  "approve": "Übernehmen",
+  "need": {
+    "title": "Destinations {{name}}",
+    "slider": "Départ à la retraite",
+    "month": "Revenu mensuel",
+    "currency": "CHF"
+  },
+  "wealth": {
+    "title": "Introduire le patrimoine {{name}}",
+    "person": "Ressources personnelles {{name}}",
+    "personLabel": "Montant",
+    "personUsed": "déjà utilisé",
+    "personAvailable": "maximum disponible: ",
+    "connection": "Patrimoine commun",
+    "connectionLabel": "Montant",
+    "connectionUsed": "déjà utilisé",
+    "connectionAvailable": "maximum disponible: "
+  },
+  "pensionPrivate":{
+    "title": "Prévoyance privée {{name}}",
+    "left": "Capital en cas de décès",
+    "cap": "Capital en cas de vie",
+    "dis": "Capital en cas d'incapacité de travail",
+    "use": "Montant",
+    "available": "disponible: "
+  },
+  "facts": {
+    "title": "Faits",
+    "saveTitle": "Lacune présente",
+    "saveText": "Il existe une lacune (rouge). Pour combler cette lacune, vous devez économiser environ {{month}} chaque mois à partir d'aujourd'hui, afin que vous ayez {{need}} à disposition, chaque mois lors de votre retraite.",
+    "insureTitle": "Lacune présente",
+    "insureText": "Pour atteindre vos objectifs et disposer de {{need}} par mois  , nous vous recommandons de souscrire une assurance appropriée.",
+    "checkTitle": "Félicitations",
+    "checkText": "Selon vos données, vous avez atteint votre objectif de {{need}} par mois."
+  },
+
+  "suggestions": {
+    "title": "Solutions",
+    "goalsTitle": "Ajuster mes objectifs",
+    "goalsText": "Voulez-vous modifier la date de votre retraite? Ou voulez-vous renoncer à certaines parts de votre revenu? Alors cliquez ici.",
+    "goalsText1": "Voulez-vous modifier la date de votre retraite? Ou voulez-vous renoncer à certaines parts de votre revenu? Alors cliquez ici.",
+    "goalsText2": "Voulez-vous adapter votre revenu désiré en cas d'incapacité de travail ? Quels coûts pourriez-vous réduire ou sur quoi pourriez-vous renoncer?",
+    "goalsText3": "Voulez-vous ajuster les prestations en faveur des survivants? Quels sont les coûts que vos proches pourraient réduire?",
+    "consultTitle": "Faire appel à un conseiller",
+    "consultText": "Un conseiller professionnel peut, le cas échéant, avec de bons placements, réduire le montant d'épargne mensuelle et ainsi assurer la réalisation des objectifs.",
+    "consultText1": "Un conseiller professionnel peut, le cas échéant, avec de bons placements, réduire le montant d'épargne mensuelle et ainsi assurer la réalisation des objectifs.",
+    "consultText2": "Un conseiller professionnel peut vous proposer les solutions idéales pour le meilleur rapport qualité/prix. Voulez-vous contacter un conseiller ?",
+    "consultText3": "Un conseiller professionnel peut vous proposer les solutions idéales pour le meilleur rapport qualité/prix. Voulez-vous contacter un conseiller ?",
+    "consultantToContact": "contactez {{name}}",
+    "consultantPhone": "Téléphone: ",
+    "consultantMail": "E-mail: "
+  },
+
+  "warning": {
+    "title": "Attention !",
+    "message": "Il manque encore certaines de vos informations. Veuillez revenir en arrière et compléter vos informations. Ensuite, votre évaluation complète s'affiche ici."
+  },
+
+  "labels": {
+    "type1a": "AVS",
+    "type1b": "AI",
+    "type2": "LPP",
+    "type3": "LAA",
+    "type4": "IJM",
+    "type5": "Prévoyance privée",
+    "type23": "Revenu",
+    "type42": "Lacune",
+    "type50": "AV",
+    "type51": "AV",
+    "type88": "Patrimoine",
+
+    "type1_pension_main": "Rente de vieillesse AVS",
+    "type1_pension_child": "Rente pour enfants AVS",
+    "type1_dis_main": "Rente d'invalidité AI",
+    "type1_dis_child": "Rente d'invalidité pour enfants AI",
+    "type1_left_main": "Rente de veuf/veuve",
+    "type1_left_child": "Rente d'orphelins AVS",
+
+    "type2_pension_main": "Rente de vieillesse LPP",
+    "type2_pension_child": "Rente pour enfants LPP",
+    "type2_dis_main": "Rente d'invalidité LPP",
+    "type2_dis_child": "Rente d'invalidité pour enfants LPP",
+    "type2_left_main": "Rente de veuf/veuve LPP",
+    "type2_left_child": "Rente d'orphelins LPP",
+    "type2_left_cap": "Capital en cas de décès LPP",
+
+    "type3_dis_main": "Rente d'invalidité LAA",
+    "type3_dis_child": "Rente d'invalidité pour enfants LAA",
+    "type3_dis_day": "Maintien du salaire LAA",
+    "type3_left_main": "Rente de veuf/veuve LAA",
+    "type3_left_child": "Rente d'orphelins LAA",
+    "type4_dis_day": "Indemnité journalière de maladie IJM",
+
+    "type50_cap": "Capital en cas de vie AV",
+    "type50_dis" : "Capital en cas d'incapacité de travail AV",
+    "type50_left" : "Capital en cas de décès AV",
+    "type51_dis": "Rente en cas d'incapacité de travail AV",
+    "type51_left" : "Rente en cas décès AV",
+
+    "type88_person": "Patrimoine (personnel)",
+    "type88_con": "Actifs (communs)"
+  },
+
+  "labelMonth" : "mensuellement",
+  "labelValue" : "Total",
+  "labelTime" : "Mois"
+}

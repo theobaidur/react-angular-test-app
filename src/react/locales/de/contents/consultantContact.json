@@ -1,0 +1,36 @@
+{
+  "contactTabHeader": "BERATER KONTAKT",
+  "plzQuestion": "Wo sind Sie wohnhaft?",
+  "plzLabel": "PLZ",
+  "ortLabel": "Ort",
+  "contactMethodQuestion": "Wie möchten Sie kontaktiert werden?",
+  "contactMethodLabel": "",
+  "contactMethods": ["Telefon", "E-Mail"],
+  "phoneQuestion": "Ihre Telefonnummer",
+  "phoneLabel": "Nr.",
+  "callTimeQuestion": "Wann sind Sie telefonisch erreichbar?",
+  "calltimeOptionLabel": "",
+  "calltimeoptions": ["jederzeit", "Termin"],
+  "calltimedateLabel": "Datum",
+  "calltimehourLabel": "Uhrzeit",
+  "emailQuestion": "Ihre E-Mail Adresse",
+
+  "textToS0": "Ich habe die",
+  "textToSPrivacy": " Datenschutzerklärung, ",
+  "textToSFirstLink": " Nutzungsbedingungen ",
+  "textToS1": "und die",
+  "textToSSecondLink": " AGB's ",
+  "textToS2": "bezüglich der Datenübermittlung gelesen und bin einverstanden damit",
+
+  "contactButton": "Kontaktanfrage senden",
+  "validators": {
+    "required": "Das Feld :attribute ist ungültig"
+  },
+  "RequestAlreadyPresent": "Eine Anfrage wurde bereits versendet",
+  "SpecialistNotContacted": "Berater kontaktieren fehlgeschlagen",
+  "SpecialistContacted": "Berater wurde kontaktiert",
+  "SuccessText": " Es wird ein Berater aus Ihrer Region gesucht! Sie werden gemäss Ihren Kontaktangaben vom Beraterkontaktiert.",
+  "BackButtonText": "Zurück zu Home",
+  "OptInText": "Ich möchte den verlinkten Berater/in kontaktieren und bin damit einverstanden, ihm/ihr Zugang zu meinen eingegeben Daten zu gewähren.",
+  "OptInButtonText": "Berater/in kontaktieren"
+}

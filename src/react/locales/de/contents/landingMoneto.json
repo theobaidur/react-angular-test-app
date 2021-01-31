@@ -1,0 +1,34 @@
+{
+  "firstSectionHeadline": "Herzlich Willkommen auf moneto. Die führende schweizer Plattform für alle finanziellen Themen.",
+  "registerLabel": "kostenfrei registrieren:",
+  "register": "ACCOUNT ERSTELLEN",
+  "videoButtonText": "",
+  "videoButtonQuestion": "Was ist moneto?",
+  "features": [
+    {
+      "title": "Herzlich Willkommen auf moneto. Die führende schweizer Plattform für alle finanziellen Themen.",
+      "background": "first"
+    },
+    {
+      "title": "Wovon lebe ich im Alter?",
+      "description": "Berechnen Sie Ihre AHV- & Pensionskassenleistungen auf Expertenniveau. Die Vorsorgeanalyse ist die erste Applikation in Moneto.",
+      "img": "second",
+      "background": "second"
+    },
+    {
+      "title": "Bequem von zu Hause aus",
+      "description": "Mit moneto erhalten Sie kostenfrei Expertentools, damit Sie selbständig und unabhängig Ihre finanziellen Themen bequem von zu Hause aus schnell erledigen können.",
+      "img": "third",
+      "background": "third"
+    },
+    {
+      "title": "moneto ist Ihre Plattform",
+      "description": "Sie haben jederzeit Ihre Daten im Griff. Im Gegensatz zu den meisten anderen Plattformen betreibt moneto keinen Datenhandel. ",
+      "img": "fourth",
+      "background": "fourth"
+    }
+  ],
+  "rightSideTitile": "Werbepartner",
+  "rightSideDescription": "Die Werbepartner sichern zusätzlich die Weiterentwicklung der Plattform und ermöglichen die kostenfreie Basis-Nutzung von moneto.",
+  "rightSideImgs": ["first", "first", "first"]
+}

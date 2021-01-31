@@ -1,0 +1,10 @@
+{
+  "title": "Mitteilungen",
+  "new": "neu",
+  "readed": "gelesen",
+  "buttonText": "OK",
+  "type1": "Nachricht",
+  "type2": "Feedback",
+  "type3": "Update",
+  "type4": "Error"
+}

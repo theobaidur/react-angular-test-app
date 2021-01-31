@@ -1,0 +1,229 @@
+{
+  "title": "Prévoyance professionnelle",
+  "card_pensionwork_base_1": {
+    "title": "Prestations de la caisse de pension (LPP)",
+    "detailed": "Avez-vous un certificat de prévoyance (CP)?",
+    "detailedItems": [
+      "Oui",
+      "Non"
+    ],
+    "detailedClosedText": "Attestation CP",
+    "quick": "Sélectionnez une alternative",
+    "quickItems": [
+      "Calcul sommaire",
+      "Ne pas saisir les prestations maintenant"
+    ],
+    "quickYearQuestion": "À partir de quelle année du calendrier êtes-vous assuré?",
+    "firstAgeQuestion": "À partir de quel âge êtes-vous assuré ?",
+    "quickYear": "année",
+    "firstAge": "Âge",
+    "moveToNextStep": "La numérisation est terminée. Vous pouvez passer à l'étape suivante",
+    "selectIkUploadOption": "Comment souhaitez-vous saisir votre certificat de prévoyance dans le système?",
+    "addLine": "Entrée suivante",
+    "header": "Vérifier le résultat de la numérisation",
+    "helpInfo": "Une fois que vous avez vérifié l'exactitude, vous confirmez vos données à la fin du formulaire!",
+    "confirmText": "Si vous annulez, les données ne seront pas acquises et ne seront plus présentes. Voulez-vous quand même fermer la fenêtre?",
+    "dataTransferBtn": "Reprendre les données",
+    "checkBoxText": "Je confirme par la présente l'exactitude des données!",
+    "dateNameBorderLabel": "Date et Fondation",
+    "date": "Date",
+    "companyName": "Fondation",
+    "deathCapital": "Capital",
+    "deathillness": "Maladie",
+    "deathaccident": "Accident",
+    "deathmarried": "Marié/e",
+    "deathnotmarried": "Célibataire",
+    "deathBenefitBorderLabel": "Capital en cas de décès",
+    "salaryDataBorderLabel": "Données relatives au salaire",
+    "incomeYear": "Salaire déclaré",
+    "incomeInsured": "Salaire assuré",
+    "workload": "Taux d'occupation",
+    "pensionActivesDataBorderLabel": "Avoir de vieillesse actuel",
+    "creditTotal": "Total",
+    "creditBvg": "selon LPP",
+    "maxPayIn": "Possibilité de rachat",
+    "ownershipWithdrawDataBorderLabel": "Retrait pour la propriété résidentielle",
+    "gotWef": "présent / obtenu",
+    "retirementBenefitsBorderLabel": "Prestations de vieillesse",
+    "pensionAge": "Âge de retraite",
+    "pensionCapital": "Capital avec intérêts",
+    "pensionYear": "Année de retraite",
+    "disabilityPensionBorderLabel": "Rente d'incapacité de travail",
+    "isChildAvailable": "Inscrire individuellement la rente d'incapacité de gain pour enfants",
+    "dischild": "Rente d'incapacité de travail pour enfants",
+    "dischildCheck": "Accident",
+    "maxWef": "maximal",
+    "disValue": "Rente",
+    "disWait": "Délai d'attente (mois)",
+    "disAccident": "Accident",
+    "survivorsProtectionBorderLabel": "Protection pour les survivants",
+    "widowValue": "Rente de veuf/veuve",
+    "widowAccident": "Accident",
+    "orphanValue": "Rente d'orphelins",
+    "orphanAccident": "Accident",
+    "lifePartner": "Rente de partenaire",
+    "dragPhotos": "Legen Sie die Fotos hier ab ...",
+    "dragSelectPhotos": "Faites glisser certaines photos ici ou cliquez pour les sélectionner",
+    "processingPhotos": "Veuillez patienter jusqu'à ce que les photos soient traitées ...",
+    "helpTitle": "Prestations de la caisse de pension (LPP)",
+    "helpDropdownItems": [
+      {
+        "title": "Caisse de pension - qui est assuré?",
+        "text": "L'obligation de verser des cotisations au fonds de pension est imposée à tous les salariés dont le salaire annuel est d'au moins 21'330 francs suisses (situation: 2019). Elle commence le 1er janvier suivant le 17ème Anniversaire et se termine à l'âge de retraite selon l'AVS."
+      },
+      {
+        "title": "Certificat de prévoyance - Qu'est-ce que c'est?",
+        "text": "Le certificat de prévoyance de la caisse de pension comprend vos prestations personnelles de la caisse de pension à laquelle votre employeur est inscrit. Au moins une fois par an, généralement en janvier ou février,  un nouveau certificat de prévoyance vous sera envoyé avec les chiffres actuels. Vous y trouverez entre autres votre salaire actuel et le montant que vous avez économisé jusqu'à présent, ainsi que les prestations de retraite, d'invalidité, de décès, etc. "
+      },
+      {
+        "title": "Commander un certificat de prévoyance",
+        "text": "Il y a deux façons de recevoir un nouveau certificat de prévoyance (certificat CP):<br><br> - contactez votre employeur ou le service des ressources humaines de votre entreprise et demandez la commande d'un certificat CP.<br> - contactez directement votre votre caisse pension. En plus de la ligne d'assistance client ou du contact par e-mail, de nombreuses caisses de pension offrent à leurs clients un login sur leur page Web, leur permettant de commander un certificat de prévoyance ou même de le télécharger directement.<br><br><br>Quelle que soit la voie choisie, votre caisse de pension vous fournira attestation actuelle par la poste.<br><br>Si vous êtes actuellement sans emploi (sans emploi), il se peut que vos fonds de pension soient déposés à la Fondation institution supplétive sur un compte de libre passage: https://web.aeis.ch/"
+      },
+      {
+        "title": "Calcul sommaire",
+        "text": "L'obligation de verser des cotisations à la caisse de pension commence en principe dès le début du premier emploi et au plus tôt à l'achèvement de la 17ème année de vie. Depuis 2019, le salaire annuel doit s'élever à au moins à 21'330 francs, soit 1'777.50 francs par mois."
+      },
+      {
+        "title": "Pas d'employeur",
+        "text": "Vous avez saisi comme revenu \" pas de salaire \". Sans employeur vous ne recevez pas de prestations de la caisse de pension."
+      }
+    ],
+    "qrcode": {
+      "label": "Code QR",
+      "title": "Code QR",
+      "listItems": [
+        "Numérisez le code QR ci-dessous à l'aide de votre smart phone",
+        "Vous serez dirigé vers le site Internet correct",
+        "Photographiez l'extrait CI avec votre smart phone. Terminé!"
+      ]
+    },
+    "email": {
+      "label": "E-mail",
+      "title": "E-Mail",
+      "inputLabel": "Votre adresse E-mail",
+      "listItems": [
+        "Saisissez votre E-mail ci-dessous et appuyez sur 'demander un e-mail'",
+        "Vous recevrez un E-mail. Ouvrez le lien qui y est indiqué.",
+        "Photographiez l'extrait CI avec votre smart phone. Terminé !"
+      ],
+      "failedReason": "Une erreur s'est produite lors de l'envoi du lien de numérisation.",
+      "failedGeneral": "Une erreur s'est produite lors de l'envoi du lien de numérisation. Veuillez vérifier l'adresse e-mail fournie et réessayer.",
+      "succeeded": "Un e-mail a été envoyé. Vérifiez vos e-mails sur votre smartphone.",
+      "documentTitle": "Attestation de prévoyance",
+      "invalidMail": "Adresse e-mail non valide",
+      "button": "Demander un e-mail"
+    },
+    "manual": {
+      "label": "Link",
+      "title": "Manuel",
+      "listItems": [
+        "Sur votre smart phone, ouvrez un navigateur.",
+        "Saisissez le lien ci-dessous dans la ligne d'adresse.",
+        "Photographiez le attestation CP avec votre smartphone. Terminé !"
+      ]
+    },
+    "photo": {
+      "label": "Photo",
+      "title": "Photo avec smartphone",
+      "description": "Avez-vous un lecteur de code QR ou un accès e-mail sur votre smartphone?"
+    },
+    "upload": {
+      "label": "Télécharger le fichier",
+      "title": "Télécharger le fichier",
+      "description": "Téléchargez votre attestation CP en tant que fichier image ou PDF."
+    },
+    "edit": {
+      "label": "Reproduction",
+      "title": "Saisie manuelle",
+      "description": "Saisissez manuellement les données de votre attestation CP."
+    },
+
+    "noIncome": "Pas d'employeur",
+    "noIncomeMessage": "Vous avez saisi comme revenu \" pas de salaire \". Sans employeur vous ne recevez pas de prestations de la caisse de pension"
+  },
+  "card_pensionwork_uvg_1": {
+    "title": "Maintien du salaire en cas de maladie",
+    "detailed": "Comment voulez-vous calculer vos prestations LAA et les versements du maintien du salaire?",
+    "detailedItems": [
+      "Enregistrement selon contrat de travail (détaillé)",
+      "Calcul sommaire",
+      "Aucunes prestations"
+    ],
+    "cut": "Existe-t-il une déduction pour l'indemnité journalière en cas de maladie sur le décompte de salaire?",
+    "cutItems": [
+      "Oui",
+      "Non"
+    ],
+    "contract": "Existe-t-il une convention collective de travail pour votre industrie?",
+    "contractItems": [
+      "Oui",
+      "Non"
+    ],
+    "branch": "Branche d'industrie",
+    "branchItems": [
+      "Secteur principal de la construction",
+      "Menuisier",
+      "Électrique et télécommunications",
+      "Location de personnel",
+      "L'industrie de la brique/de la tuile",
+      "Coiffeur",
+      "Peintres et plâtriers",
+      "Secteur de la restauration",
+      "Secteur de la carrosserie",
+      "Foresterie, Sylviculture",
+      "Centre de contact et d'appel",
+      "Industrie de construction en bois",
+      "Allpura (nettoyage)"
+    ],
+    "start": "Quand l'entrée dans la société a-t-elle eu lieu?",
+    "startDate": "Date",
+    "detailedQuestion": "Maintien du salaire en cas d'accident et de maladie jusqu'à 720 jours",
+    "illness": "Maladie",
+    "accident": "Accident",
+    "disablity": "Rente d'incapacité de gain en cas d'accident à partir de 720 jours",
+    "disablityMessage": "En vertu de la loi sur l'assurance accidents, vous êtes assuré en conséquence. Les prestations minimales légales sont reprises dans la planification",
+    "from": "À partir de",
+    "till": "Jusqu'à",
+    "percent": "Pourcentage",
+    "add": "Taux d'incapacité",
+    "helpTitle": "Maintien du salaire en cas de maladie / accident",
+    "helpDropdownItems": [
+      {
+        "title": "Maintien du salaire en cas de maladie",
+        "text": "Vous trouverez les renseignements sur le maintien de votre salaire en cas de maladie dans votre contrat de travail ou dans votre règlement du personnel. En cas d'incapacité de travail prolongée due à une maladie, l'allocation journalière est normalement versée pour une durée maximale de deux ans. Par la suite, les prestations de la caisse de pension entrent en vigueur."
+      },
+      {
+        "title": "Salaire en cas d'accident",
+        "text": "Dans le cas d'une incapacité de travail prolongée à la suite d'un accident, l'allocation journalière est versée pour une durée maximale de deux ans. Par la suite, l'allocation journalière est remplacée par la rente LAA."
+      },
+      {
+        "title": "Ajouter un degré",
+        "text": "Selon votre contrat de travail, si par exemple, vous devriez recevoir le salaire complet dans les 90 premiers jours, et par la suite 80%, ajoutez un degré."
+      },
+      {
+        "title": "Calcul sommaire – déduction pour indemnité journalière en cas de maladie sur le paiement du salaire",
+        "text": "Le calcul sommaire est basé sur l'hypothèse d'une déduction salariale. Si cette déduction est présente dans le décompte salarial, 80 % du salaire est considéré comme assuré. Il s'agit toutefois d'une hypothèse. Les écarts par rapport à cette hypothèse peuvent être les suivants:<br><br>- l'employeur prend également en charge la part de la prime de l'employé/e. Dans ce cas, les prestations assurées seraient disponibles, mais elles ne seraient pas visibles dans la déduction salariale.<br><br>- la prestation assurée est de 90 % du salaire.<br><br>- il y a un délai d'attente de 3 jours, par exemple, jusqu'à l'obtention du droit aux prestations."
+      },
+      {
+        "title": "Calcul sommaire – Convention collective de travail (CCT)",
+        "text": "La liste des convention collectives de travail couverts est constamment développée. Veuillez noter qu'une convention collective de travail comprend exclusivement les prestations minimales et que votre employeur peut également fournir des prestations supplémentaires."
+      },
+      {
+        "title": "Quand l'entrée dans la société a-t-elle eu lieu?",
+        "text": "Si en cas d'incapacité de travail due à une maladie, il n'y a pas de prestations en vertu du contrat de travail, de la paie ou du CCT, les conditions-cadres réglementaires en vertu de la législation sur les obligations (OR) s'appliquent. Celles-ci sont liées à la durée de l'emploi et au canton de l'employeur. L'analyse calcule la situation la plus défavorable. Des conseillers certifiés sont à votre disposition pour toute information complémentaire."
+      }
+    ],
+
+    "noIncome": "Pas d'employeur",
+    "noIncomeMessage": "Vous avez saisi comme revenu \" pas de salaire \". Sans employeur vous ne recevez pas de prestations de la caisse de pension"
+  },
+  "view": {
+    "secondPillarTitle": "Rente de vieillesse LPP",
+    "secondPillarTitleDisability": "Rente d'invalidité LPP",
+    "secondPillarTitleUVGDisability": "Rente d'invalidité LAA",
+    "secondPillarTitleWidow": "Rente de veuf/veuve LPP",
+    "secondPillarTitleUVGWidow": "Rente de veuf/veuve LAA"
+  },
+  "dragAreaText": "Introduisez un fichier PDF ou un fichier image ici",
+  "sendBtnText": "Confirmer"
+}

@@ -1,0 +1,52 @@
+{
+  "backToDashboard": "Back",
+  "change2faAndPhoneHeader": "Change 2FA and mobile no.",
+  "currentPassword": "Current password",
+  "twofa": "2FA method",
+  "twofaTypes": [
+    "None",
+    "E-Mail",
+    "Mobile"
+  ],
+  "phone": "Mobile no.",
+  "change2faType": "Change 2FA and mobile no.",
+  "changeEmailHeader": "Change e-mail address",
+  "email": "E-Mail address",
+  "emailConfirmationText": "We have sent an e-mail to {{email}} with a verification code. Please enter the code below to complete the authentication procedure.",
+  "confirmationCode": "Verification code",
+  "changeEmail": "Change e-mail address",
+  "emailInputError": "An e-mail address is required",
+  "changePasswordHeader": "Change password",
+  "newPassword": "New password",
+  "confirmPassword": "Confirm password",
+  "changePassword": "Change password",
+  "stateChangeConfirmation": "Caution: All your data will be deleted! Then you will be logged out automatically. Do you wish to proceed?",
+  "resetStateHeader": "Reset account",
+  "resetStateText": "Please delete all the data you entered. Then you will be logged out automatically. ",
+  "resetState": "Reset",
+  "validators": {
+    "passwordValidator": "Das Feld :attribute wird benötigt",
+    "newPasswordConfirmationValidator": "Das Feld :attribute muss dem Passwort entsprechen",
+    "newEmailValidator": "Das Feld :attribute ist ungültig",
+    "newEmailValidatorRequired": "Das Feld :attribute wird benötigt"
+  },
+  "notifications": {
+    "correctMistakes": "Please correct the errors in the text fields",
+    "pwChanged": "Password changed successfully",
+    "pwInvalid": "Invalid password",
+    "emailInputError": "An e-mail address is required",
+    "emailVerificationRequired": "E-mail authentication is required",
+    "emailPasswordRejected": "Incorrect password",
+    "emailWrongCode": "Incorrect code",
+    "emailMailAlreadyExists": "E-mail address already exists",
+    "emailError": "E-mail address change failed",
+    "emailChanged": "E-mail address changed successfully",
+    "phoneAnd2faChanged": "Mobile no. and 2FA changed successfully",
+    "phoneAnd2faInputError": "All fields are required",
+    "phoneAnd2faInvalidFactors": "Authentication failed",
+    "phoneAnd2faPasswordRejected": "Incorrect password",
+    "phoneAnd2faChangeError": "Mobile no. change failed",
+    "stateResetSucceeded": "Reset successful",
+    "stateResetFailed": "Reset failed"
+  }
+}

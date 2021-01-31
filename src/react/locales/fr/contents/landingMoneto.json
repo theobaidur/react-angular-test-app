@@ -1,0 +1,34 @@
+{
+  "firstSectionHeadline": "Bienvenue sur Moneto. La plateforme suisse de premier plan pour tous les sujets financiers.",
+  "registerLabel": "inscription gratuite:",
+  "register": "CRÉER UN COMPTE",
+  "videoButtonText": "",
+  "videoButtonQuestion": "Qu'est-ce que moneto?",
+  "features": [
+    {
+      "title": "Bienvenue sur Moneto. La plateforme suisse de premier plan pour tous les sujets financiers.",
+      "background": "first"
+    },
+    {
+      "title": "De quoi vais-je vivre dans la vieillesse?",
+      "description": "Calculez vos prestations de caisse de pension et de l'AVS à un niveau d'expert. L'analyse de prévoyance est la première application de Moneto.",
+      "img": "second",
+      "background": "second"
+    },
+    {
+      "title": "Confortablement à domicile.",
+      "description": "Avec Moneto, vous disposez d'outils d'experts gratuits vous permettant de traiter rapidement vos thèmes financier à domicile, de manière autonome et indépendante.",
+      "img": "third",
+      "background": "third"
+    },
+    {
+      "title": "Moneto est votre plate-forme.",
+      "description": "Vous disposez  de vos données en tout temps et en un clin d'œil. Contrairement à la plupart des autres plateformes, Moneto n'exploite pas le commerce de données.",
+      "img": "fourth",
+      "background": "fourth"
+    }
+  ],
+  "rightSideTitile": "Partenaires publicitaires",
+  "rightSideDescription": "Les partenaires publicitaires assurent en outre le développement de la plate-forme et permettent l'utilisation gratuite de la base de Moneto.",
+  "rightSideImgs": ["first", "first", "first"]
+}

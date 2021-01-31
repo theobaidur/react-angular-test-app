@@ -1,0 +1,10 @@
+{
+  "header": {
+    "title": "Télécharger le fichier",
+    "descriptionPdf": "Téléchargez votre extrait {{templateName}} au format PDF.",
+    "descriptionImg": "Téléchargez votre extrait {{templateName}} en tant que fichier image."
+  },
+  "dragAreaText": "Faites glisser les fichiers ici ou cliquez pour sélectionner des fichiers.",
+  "waitingText": "Veuillez patienter pendant le traitement des fichiers.",
+  "sendBtnText": "Télécharger"
+}

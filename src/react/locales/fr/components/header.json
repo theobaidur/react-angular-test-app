@@ -1,0 +1,49 @@
+{
+  "loginBtn": "Connexion",
+  "registerBtn": "Créer un compte",
+  "userNameDefault": "Utilisateur",
+  "closeDossierQuestion": "Fermer le dossier actuel?",
+  "userMenu": {
+    "profile": "Profil",
+    "dashboard": "Home",
+    "account": "Compte",
+    "logOut": "Déconnecter"
+  },
+  "mainLinks": {
+    "login": "Connexion",
+    "dashboard": "Home",
+    "register": "Créer un compte",
+    "main": "Main menu",
+    "profile": "Profil",
+    "preventivePlan": "Prévoyance",
+    "more": "Plus",
+    "logOut": "Déconnexion"
+  },
+  "subLinks": {
+    "pension-plan": "Retraite",
+    "disability-plan": "Incapacité de travail",
+    "leftbehind-plan": "Décès"
+  },
+  "helpLinks": {
+    "immobilen": "IMMOBILIEN",
+    "bedienungSteuerung": "Fonctionnement & contrôle",
+    "beraterAnfordern": "Demander un consultant",
+    "finanzWiki": "Finanz-Wiki",
+    "about": "Sur moneto",
+    "partner": "partenaire",
+    "support": "Support",
+    "imprint": "Impressum"
+  },
+  "userPanel": {
+    "logOut": "Déconnexion",
+    "changePassword": "changer de mot de passe",
+    "changeEmail": "Changer e-mail",
+    "changeLogin": "Paramètres de connexion (2FA)",
+    "profileEdit": "Informations personnelles & relation",
+    "accountLinks": "Paramètres du compte",
+    "profileLinks": "Paramètres du profil",
+    "genderItems": ["", "masculin", "féminin", "autre"],
+    "answers": ["Oui", "Non"],
+    "partnerText": "Partenaire"
+  }
+}

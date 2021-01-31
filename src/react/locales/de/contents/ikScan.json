@@ -1,0 +1,27 @@
+{
+  "results": {
+    "incomeCode": " Einkommenscode",
+    "incomeYear": " Jahr",
+    "incomeAmmount": " Betrag",
+    "needVerifyIncomeCode": "Nicht eindeutig erkannt",
+    "addLine": "Nächster Eintrag",
+    "header": "Prüfen Sie das Scan-Ergebnis",
+    "helpInfo": "Nach der genauen Prüfung bestätigen Sie die Korrektheit der Daten am Formularende!",
+    "confirmText": "Die Daten werden nicht übernommen und sind nicht mehr vorhanden, wenn Sie abbrechen. Möchten Sie das Fenster trotzdem schliessen?",
+    "dataTransferBtn": "Daten übernehmen",
+    "checkBoxText": "Hiermit bestätige ich die Korrektheit der Daten",
+    "contentLabels": ["Daten vom ersten Foto", "Daten vom zweiten  Foto", "Daten vom dritten Foto"],
+    "contentLabelsDefault": "Daten vom {{value}} Foto",
+    "total": "Total",
+    "totalCalculated": "Total berechnet",
+    "totalScanned": "Total ausgelesen",
+    "matchTotalValidation": "Die Felder 'Total berechnet' und 'Total ausgelesen' müssen übereinstimmen."
+  },
+  "feedback": {
+    "title": "IK Feedback",
+    "descriptionPlaceholder": "Bemerkungen (optional)",
+    "cancel": "Überspringen ",
+    "approve": " Feedback senden"
+  },
+  "expiredTemplateMessage": "Ihr IK-Auszug ist veraltet. Bitte überprüfen Sie die Eingaben und ergänzen Sie die fehlende Jahre"
+}

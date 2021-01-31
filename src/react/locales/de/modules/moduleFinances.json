@@ -1,0 +1,30 @@
+{
+   "title": "Einkommen",
+   "card_finances_income_1": {
+      "incomeTitle" : "Lohn", 
+      "incomeType" : "Art des Lohnes",
+      "incomeTypes" : [ "Monatslohn", "Stundenlohn", "Kein Lohn" ],
+      "incomeYear" : "Einkommen pro Jahr",
+      "incomeCycle" : "Anzahl pro Jahr",
+      "incomeCycles" : [ "12", "13", "14", "andere" ],
+      "incomeCycleOther" : "Anzahl Monatslöhne",
+      "incomeHours" : "Anzahl Stunden",
+      "incomeHoursCycle" : "Zyklus",
+      "incomeHoursCycles" : ["täglich", "wöchentlich"],
+      "incomeWorkload" : "Arbeitspensum in %",
+      "incomeMore" : "Weitere Lohn erfassen",
+
+      "helpTitle": "Einkommen",
+      "helpText": "<p>Tragen Sie hier Ihren <strong>Monatslohn</strong> oder Ihren <strong>Stundenlohn</strong> ein.</p><p>Der Monats- oder Stundenlohn ist weder Brutto- noch Nettolohn, sondern Ihr \"Grundlohn\". Auf Ihrer monatlichen Lohnabrechnung sollte dieser Wert separat angegeben sein.</p><p><u>Grundlohn? Brutto? Netto?</u></p><p>Ihr <strong>Monats-</strong> oder <strong>Stundenlohn</strong> bildet die Grundlage für die Berechnung des Brutto- und Nettolohnes. Auf Ihrer monatlichen Lohnabrechnung oder dem jährlichen Lohnausweis müsste dieser Wert als \"Monatslohn\" oder \"Stundenlohn\" aufgeführt sein.</p><p>Der Bruttolohn ist Ihr Monats- oder Stundenlohn mit allen Zulagen, wie beispielsweise Kinder-/Familienzulagen oder Spesen. Brutto = \"Brutal viel\"</p><p>Nimmt man den Bruttolohn und zieht die Beiträge für AHV/IV, die Pensionskasse (BVG), usw. ab erhält man den Nettolohn. Netto = \"Net mehr so viel\"</p>",
+      "helpDropdownItems": [
+         {
+           "title": "Monatslohn",
+           "text": "<strong>Lohn pro Monat:</strong><br>Erfassen Sie Ihren Monatslohn ohne Extra-Zulagen, wie z.B. Familienzulagen und ohne Extra-Abzüge, wie z.B. Kost & Logis.<br><br><strong>Anzahl pro Jahr:</strong><br>Sollten Sie saisonal oder Teilzeit arbeiten, wählen Sie «andere» und bestimmen anschliessend die Anzahl Monate pro Jahr.<br><br><strong>Beschäftigungsgrad:</strong><br>Geben Sie den Beschäftigungsgrad in Prozent (%) an."
+         },
+         {
+           "title": "Stundenlohn",
+           "text": "<strong>Lohn pro Stunde:</strong><br>Erfassen Sie Ihren Stundenlohnansatz<br><br><strong>Zyklus:</strong><br>Sie haben die Wahl, die Anzahl Stunden täglich oder wöchentlich anzugeben.<br><br><strong>Anzahl Stunden:</strong><br>Erfassen Sie die Anzahl Ihrer Stunden (pro Tag oder pro Woche)"
+         }        
+       ]
+   }
+}

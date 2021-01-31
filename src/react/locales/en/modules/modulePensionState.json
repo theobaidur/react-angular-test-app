@@ -1,0 +1,139 @@
+{
+  "title": "State pension",
+  "dragAreaText": "Drag a PDF or a graphics file here",
+  "sendBtnText": "Confirm",
+  "card_pensionstate_base_1": {
+    "title": "AHV and IV benefits",
+    "incomeCode": " Income code",
+    "incomeYear": " Year",
+    "incomeAmmount": " Amount",
+    "detailed": "Do you have a current IK statement?",
+    "detailedItems": [
+      "Yes",
+      "No"
+    ],
+    "detailedClosedText": "IK (Individual Account) statement",
+    "quick": "Select an alternative",
+    "quickItems": [
+      "Quick calculation",
+      "Assumption"
+    ],
+    "minMedMax": "Select a pension amount",
+    "minMedMaxItems": [
+      "Minimum ({{value}})",
+      "Median value ({{value}})",
+      "Maximum ({{value}})"
+    ],
+    "firstAgeQuestion": "At what age did you start paying AHV contributions?",
+    "firstAge": "Age",
+    "missing": "Did you go {{missingFrom}} years WITHOUT paying the minimum AHV contributions?",
+    "missingFrom": "from {{age}}", 
+    "missingItems": [
+      "Yes",
+      "No"
+    ],
+    "missingYears": "Number of years",
+    "moveToNextStep": "Scan is complete. You can continue with the next step.",
+    "selectIkUploadOption": " How would you like to enter your IK statement into the system?",
+    "addLine": "Next entry",
+    "header": "Check the scan result",
+    "helpInfo": "After having checked  it carefully, please confirm the accuracy of the data at the end of the form! ",
+    "confirmText": "The data have not been saved and will no longer be available if you leave the page now. Are you sure you want to close the window?",
+    "dataTransferBtn": "Save data",
+    "checkBoxText": "I hereby confirm the accuracy of the data.",
+    "contentLabels": [
+      "Data from first photo",
+      "Data from second photo",
+      "Data from third photo"
+    ],
+    "dragPhotos": "Store the photos here...",
+    "dragSelectPhotos": "Drag some photos here or click to select them.",
+    "processingPhotos": "Please wait while the files are processed.",
+    "helpTitle": "AHV and IV benefits",
+    "helpDropdownItems": [
+      {
+        "title": "What is an IK statement?",
+        "text": "The statement from the individual account, or ‘IK statement’ for short, is your personal cash ledger at the AHV. This document lists the necessary information with which your AHV pension can be calculated.<br><br><strong>Please note:</strong><br>If you are not due to retire soon, a calculation of your AHV pension from your current IK statement is just a theoretical figure at the current juncture! It is likely that the figure that is calculated will have changed by the time you retire."
+      },
+      {
+        "title": "Ordering an IK statement",
+        "text": "You can either search for your compensation fund or order a complete statement.<br><br><0>Click here to search for your compensation fund.>></0><br><br><1>You can order all your statements / an aggregate statement here. >></1><br><br>Ordering your IK statement is free of charge.<br><br>Please note that it can take 3 - 4 weeks until the compensation fund sends you your IK statement by post. Until you receive your statement, moneto recommends that you continue using a quick calculation or assumption. When your financial security is at stake, swift action is important!",
+        "links": [
+          { 
+            "url" : "https://inforegister.zas.admin.ch/InfoWeb/", 
+            "text": "Click here to search for your compensation fund. >>"
+          },{
+            "url" : "https://www.ahv-iv.ch/de/Merkbl%C3%A4tter-Formulare/Bestellung-Kontoauszug/Schweiz",
+            "text" : "You can order all your statements / an aggregate statement here. >>"
+          }
+        ]
+      },
+      {
+        "title": "Tips for when you receive the IK statement",
+        "text": "moneto strongly recommends that you check the IK statement upon receipt for the following points:<br><br> - Are all your employers listed?<br> - Are the years (column 5) continuous or interrupted where they should not be?<br> - Are the annual incomes (column 6) consistent with the years and employers?<br><br><br><br>This is for the following reason: If data is missing or incorrect, you have 30 days after receiving the IK statement to request a correction’ from your compensation fund. After these 30 days, the IK statement is considered correct and can no longer be contested. Compensation funds recommend: Order a new IK statement every five years. Reason: If wage statements or pay slips are no longer available, it will be difficult to prove any contentious points."
+      },
+      {
+        "title": "Quick calculation",
+        "text": "The quick calculation gives you a rough estimate of how high your AHV pension might be.<br><br><strong>AHV contributions:</strong><br>Within Switzerland, most people pay their AHV contributions for the first time when they start their apprenticeship or receive their first wages.<br><br><strong>Years without AHV minimum contributions:</strong><br>The following sample situations can lead to a scenario in which a person would have years without AHV minimum contributions:<br><br> - A <strong>student</strong> pays no voluntary AHV contributions while they are studying and begins their working life at the age of 25. In this case, 4 years should be entered (calculate from age 21).<br><br>- A <strong>foreign citizen</strong>, 40 years old, takes a job in Switzerland. In this case, 19 years should be entered (calculate from age 21).<br><br>- A <strong>welfare recipient</strong> receives social welfare benefits for 3 years. Before that, the person was unemployed for 2 years. In this case, 3 years should be entered, as unemployment benefit incorporates AHV contributions.<br><br>"
+      },
+      {
+        "title": "Assumption",
+        "text": "Select the assumption of your choice. The figures generated are based on the current statutory figures taking the entire contribution period into account (no missing contribution years)."
+      }
+    ],
+    "qrcode": {
+      "title": "QR-Code",
+      "label": "QR-Code",
+      "listItems": [
+        "Scan the QR code below with your smartphone.",
+        "You will be directed to the correct website.",
+        "Photograph the IK statement with your smartphone. Done!"
+      ]
+    },
+    "email": {
+      "title": "E-Mail",
+      "label": "Send e-mail",
+      "inputLabel": "Your e-mail address",
+      "listItems": [
+        "Enter your e-mail address below and click on 'Request e-mail'",
+        "You will receive an e-mail. Open the link provided in it.",
+        "Photograph the IK statement with your smartphone. Done!"
+      ],
+      "failedReason": "An error occurred while sending the scan link.",
+      "failedGeneral": "An error occurred while sending the scan link.",
+      "succeeded": "An e-mail has been sent to you. Please check your e-mails on your smartphone.",
+      "documentTitle": "Pension ID",
+      "invalidMail": "Invalid e-mail address",
+      "button": "Request e-mail"
+    },
+    "manual": {
+      "title": "Manual entry",
+      "label": "Manual entry",
+      "listItems": [
+        "Open a browser window on your smartphone.",
+        "Enter the link below in the address line.",
+        "Photograph the IK statement with your smartphone. Done!"
+      ]
+    },
+    "photo": {
+      "title": "Photo with smartphone",
+      "label": "Photo",
+      "description": "Do you have a QR code reader or e-mail access on your smartphone?"
+    },
+    "upload": {
+      "title": "Upload file",
+      "label": "PDF upload",
+      "description": "Upload your IK statement as a graphics file or PDF."
+    },
+    "edit": {
+      "title": "Manual entry",
+      "label": "Copy data",
+      "description": "Enter the data from your IK statement manually."
+    }
+  },
+  "view": {
+    "firstPillarTitle": "AHV pension",
+    "firstPillarTitleDisability": "IV pension",
+    "firstPillarTitleWidow": "AHV widow’s / widower’s pension"
+  }
+}

@@ -1,0 +1,112 @@
+{
+    "title": "Private pension",
+
+    "card_pensionprivate_life_1" : {
+        "init" : {
+            "add": "Register life insurance",
+            "hasNoElements": "No life insurance",
+            "noMore": "No other life insurance",
+            "accept": "Continue"
+        },
+        "title": "Life insurance",
+        "name": "Designation",
+        "defaultName": "Life insurance",
+
+        "type": "Type",
+        "typeItems": ["3a (linked)", "3b (non-linked)"],
+
+        "timeFrame": "Term of life insurance",
+
+        "hasCapitalQuestion" : "Does \"{{name}}\" include an endowment sum?",
+        "hasCapital" : "Survival (maturity)",
+        "hasCapitalItems": ["Yes","No"],
+        "capitalValue": "Amount",
+        
+        "capitalType": "Is an endowment sum shown on your life insurance policy?",
+        "capitalTypeItems": ["Yes","No"],
+        "capitalOption": "Select an option",
+        "capitalOptionItems":[
+            "No amount stated",
+            "Indicate the presumed amount",
+            "Enter amount from quote"
+        ],
+        "capitalInformation": [
+            "You do not specify any endowment sum and only enter possible additional benefits such as insurance against occupational disability and death.",
+            "Every year you receive a statement for your policy giving the current status; this could serve as a reference point. Perhaps you also remember the consultation on your life insurance. Was a possible final amount mentioned?",
+            "Before you signed the life insurance contract, your insurance company will have sent you a quotation for it. This offer usually contains three different values for a 'theoretically possible' endowment sum. If you choose this option, moneto recommends that you use the lowest value as a precaution."
+        ],
+
+        "customDate" : "Deviating duration",
+
+        "hasDisabilityQuestion": "Does the \"{{name}}\" include benefits for occupational disability?",
+        "hasDisability": "Disability",
+        "hasDisabilityItems": ["Yes","No"],
+        "disabilityShortQuestion": "Are pension payments limited to a fixed number of months? limited pension)",
+        "disabilityShortItems": ["Yes","No"],
+        "disabilityShortTime": "Number of months",
+        "disabilityWait": "Waiting period (months)",
+        "disabilityModalTitle": "Disability benefit",
+        "disabilityElement": "This disability benefit",
+        "disabilityAddButton": "Add disability benefit",
+
+        "hasLeftBehindQuestion": "Does the \"{{name}}\" include benefits to survivors?",
+        "hasLeftBehind": "Death",
+        "hasLeftBehindItems": ["Yes","No"],
+        "leftBehindType": "Type of benefit",
+        "leftBehindTypeItems": ["Pension","Capital"],
+        "leftBehindModalTitle": "Death benefit",
+        "leftBehindElement": "This death benefit",
+        "leftBehindAddButton": "Add death benefit",
+
+        "subType": "Type of benefit",
+        "subTypeItems": ["Pension","Capital"],
+        "cycleItems": ["pro Jahr","pro Monat"],
+        "start": "Start of term",
+        "end": "End of term",
+        "cases": "What cases does this benefit address?",
+        "illness": "Sickness",
+        "accident": "Accident",
+        "value": "Amount",
+        
+        "optionalTitle": "Further details (optional)",
+        "removeElement": "Remove",
+
+        "helpTitle": "Lebensversicherungen",
+        "helpText": "<p>Inhalt folgt in Kürze</p>",
+        
+        "helpDropdownItems": [
+          {
+            "title": "Designation",
+            "text": "Please enter a <strong>designation</strong> for your life insurance policy here. For example, the name of the insurance company or, if you have several life insurance policies, another clear name to avoid ambiguity."       
+        },
+        {
+            "title": "Type of policy",
+            "text": "Select the <strong>type</strong> of your life insurance.<br>There are several alternatives on your life insurance policy:<br><br> - <strong>Linked pension provisions</strong>, also known as pillar <strong>3a</strong><br>or<br> - <strong>non-linked pension provisions,</strong>also known as pillar <strong>3b</strong><br><br><strong>Please note:</strong> You will often find the type of policy in the title. In some cases it is also listed separately under (for example) 'type of provision'."
+        },
+        {
+            "title": "Duration",
+            "text": "Please enter the <strong>start</strong> and the strong>end of the duration</strong> of your life insurance here.<br><br>Other terms for 'start of duration' are:<br>- Start of insurance<br>- Start of the insurance policy<br>- Start of the contract<br>Other designations or combinations of terms are possible.<br><br>Other terms for 'end of duration' are:<br>- End of insurance<br>- End of the insurance policy<br>- End of the contract<br>Other designations or combinations of terms are possible.<br><br><strong>Please note:</strong> Please make sure to enter the correct duration.<br>With life insurance policies, benefits may have different durations or be extended at different times. If this is the case with your policy, enter the different durations in the benefits under <strong>'Deviating duration'</strong>."
+        },
+        {
+            "title": "Does your life insurance include an endowment sum?",
+            "text": "Select <strong>Yes</strong> if your life insurance includes an <strong>endowment sum</strong>.<br><br>Then enter the <strong>amount</strong> of your endowment sum.<br><br>Other terms for 'endowment sum' are:<br>- Life insurance benefit<br>- Survival benefit<br>- Life insurance payout<br>Other designations or combinations of terms are possible.<br><br><strong>Is an endowment sum shown on your life insurance policy?</strong><br><br>Select <strong>Yes</strong> if your life insurance policy includes a guaranteed endowment sum. <br><br>If your endowment sum is <strong>fund-based</strong> (your premiums are invested on the stock market), there may be no amount stated here. The reason for this is that nobody can say how the stock market will perform and how much capital will be available at the time of payout.<br><br>If this applies to you, select <strong>No</strong>.<br><br><strong>Please select an option</strong><br><br><strong>No amount stated </strong> - You leave this benefit of your life insurance open, i.e. this policy will not appear in your current pension plan.<br><br><strong>Presumed amount</strong> - You estimate the possible amount of the endowment sum yourself. The statement you receive for your policy every year giving the current status can serve as a point of reference. Perhaps you also remember the consultation on your life insurance. Was a possible final sum mentioned?<br><br><strong>Enter amount from quote</strong> - Before you signed the life insurance contract, your insurance company sent you a quotation for it. This offer usually contains three different values for a 'theoretically possible' endowment sum. If you choose this option, moneto recommends that you use the lowest value as a precaution. <br><br><strong>Deviating duration</strong><br>Click on <strong>'Deviating duration'</strong> if the term of your endowment sum differs from the general contractual duration of your life insurance policy. Then enter the <strong>start</strong> and the <strong>end of the duration</strong> for your endowment sum."
+          },
+        {
+            "title": "Does your life insurance include disability benefits?",
+            "text": "Select <strong>Yes</strong> if your life insurance includes <strong>disability benefits</strong>.<br>To enter the benefits, select <strong>'Add disability benefit'</strong>.<br><br><strong>Type of benefit</strong><br>Indicate the type of benefit. In the event of disability, does your life insurance include a <strong>pension</strong> or a <strong>capital</strong> sum?<br><strong>Please note:</strong> If your life insurance policy includes a lump sum and a pension as disability benefit, enter one amount first and then add the second benefit under 'Add disability benefit'.<br><br><strong>Amount (lump sum payout)</strong><br>Please enter the <strong>amount</strong> of the benefits from your life insurance in the event of disability here. <br><br><strong>Amount (pension)</strong><br>Indicate whether the disability pension is shown as being paid monthly or yearly, and enter <strong>the amount </strong> of the benefits in the event of disability from your life insurance policy here.<br><br><strong>Deviating duration</strong><br>Click on <strong>Deviating duration</strong> if the term of your disability pension differs from the general contractual duration of your life insurance policy. Then enter the  <strong>start</strong> and the <strong>end of the duration</strong> for your disability pension.<br><br><strong>Which cases does this benefit address?</strong><br>Indicate whether disability benefits are paid in cases of sickness, accident or both. "
+          },
+        {
+            "title": "Does your life insurance policy include benefits to survivors?",
+            "text": "Select <strong>Yes</strong> if your life insurance policy includes benefits to survivors.<br>To enter the benefits, you can then select 'Benefits to survivors'.<br><br><strong>Type of benefit</strong><br>Indicate whether the benefits to survivors involve a pension or a lump-sum payout. <br>Note: If your life insurance policy for surviving dependants includes a lump sum and a pension, enter one amount first and add the second benefit under 'Add death benefit'.<br><br><strong>Amount (lump sum payout)</strong><br>Enter the amount of death benefits from your life insurance here.<br><br><strong>Amount (pension)</strong><br>Indicate whether the death benefit is shown as a monthly or yearly payment, and enter the amount of benefits in the event of death from your life insurance here.<br><br><strong>Deviating duration</strong><br>Click on <strong>Deviating duration</strong>if the term of your benefits to survivors differs from the general contractual duration of your life insurance policy. Then enter the  <strong>start</strong> and the <strong>end of the duration</strong> for the benefits to survivors.<br><br><strong>Which cases does this benefit address?</strong><br> Indicate whether disability benefits are paid in cases of sickness, accident or both."
+          }
+        ]
+    },
+    
+    "card_pensionprivate_life_1_init" :{
+        "helpTitle": "Life insurance",
+        "helpText": "Click on <strong>'Enter life insurance'</strong> in order to use the benefits of your linked (3a) or non-linked (3b) life insurance for your future planning."
+    },
+
+    "removeModalTitle": "Remove data",
+    "removeModalContent": "Do you want to remove this benefit from the Private pension section?"
+}

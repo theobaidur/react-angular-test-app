@@ -1,0 +1,1 @@
+export { StartFotoScan } from './dialogComponent';

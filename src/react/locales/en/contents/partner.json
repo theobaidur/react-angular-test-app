@@ -1,0 +1,47 @@
+{
+  "title": "Partner",
+  "overview": "Overview",
+  "overviewItems": [
+    {
+      "title": "Advertising partners",
+      "description": "moneto would like to thank all its valuable advertising partners who enable and ensure the further development of the platform. Furthermore, our advertising partners make it possible for moneto to be used free of charge."
+    },
+    {
+      "title": "Pension funds",
+      "description": "moneto is in close contact with all partners and the system is regularly updated as the need arises. Our partner pension funds make moneto's extraordinary services available to their beneficiaries (insured persons). In this way, our partners offer an exclusive service throughout Switzerland to increase financial self-reliance."
+    },
+    {
+      "title": "Pension fund management systems",
+      "description": "The pension fund administration systems form the basis for the digitalisation of pension funds. The capability to automatically transfer pension fund data at the user’s request achieves a new dimension of comprehensive digitalisation.",
+      "imgs": ["img4"]
+    },
+    {
+      "title": "Employers, associations & organisations",
+      "description": "We are delighted about the large number of organisations that provide their employees / members with our service to enhance their  financial competence."
+    },
+    {
+      "title": "Product partners",
+      "description": "Our product partners are available to ensure that individual needs are met. If you are not yet digitally networked, you can obtain more information from our certified consulting companies."
+    },
+    {
+      "title": "Certified consulting companies",
+      "link": "Consulting companies",
+      "description": "moneto focuses on the quality and neutrality of the listed consulting companies. Their quality criteria are checked annually. If they are compliant, a certificate is issued to them for the coming months.",
+      "imgs": ["img5"]
+    },
+    {
+      "title": "Quality control",
+      "description": "In order to guarantee the quality of the consulting firms’ consulting services, all consultants complete the certified course from LAS  Leadership Akademie Schweiz AG. The time-limited certificates are renewed through mandatory further training.",
+      "imgs": ["img7"]
+    },
+    {
+      "title": "Become a partner",
+      "link": "You too can become a partner",
+      "description": "Would you like to become a moneto partner? Just get in touch with us - we will be happy to send you further documentation or to arrange a meeting:",
+      "email": "Mail",
+      "emailValue": "info@moneto.ch",
+      "phone": "Phone",
+      "phoneValue": "+41 71 272 52 07"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+    "title": "Prévoyance privée",
+
+    "card_pensionprivate_life_1" : {
+        "init" : {
+            "add": "Enregistrer l'assurance-vie",
+            "hasNoElements": "Aucune assurance-vie",
+            "noMore": "Aucune assurance-vie supplémentaire",
+            "accept": "continuer"
+        },
+        "title": "Assurance-vie",
+        "name": "Désignation",
+        "defaultName": "Assurance-vie",
+
+        "type": "Type",
+        "typeItems": ["3a (liée)", "3b (libre)"],
+
+        "timeFrame": "Durée de l'assurance-vie",
+
+        "hasCapitalQuestion" : "L'assurance-vie \"{{name}}\" inclut-elle un capital en cas de vie ?",
+        "hasCapital" : "En cas de vie",
+        "hasCapitalItems": ["Oui","Non"],
+        "capitalValue": "Montant",
+        
+        "capitalType": "Un capital est-il inscrit sur votre police d'assurance-vie?",
+        "capitalTypeItems": ["Oui","Non"],
+        "capitalOption": "Sélectionnez une option",
+        "capitalOptionItems":[
+            "Aucun montant inscrit",
+            "Indiquer le montant présumé",
+            "Enregistrer le montant selon offre"
+        ],
+        "capitalInformation": [
+            "Vous ne déclarez pas de capital en cas vie et saisissez uniquement les prestations complémentaires disponibles, telles que les couvertures en cas d'incapacité de travail et de décès.",
+            "Chaque année, vous recevez un relevé de la situation actuelle, ce qui pourrait vous servir d'indication. Vous vous souvenez peut-être de l'entretien conseil sur votre assurance-vie. A-t-on mentionné une éventuelle somme finale?",
+            "Avant de signer le contrat d'assurance-vie, une offre  de votre compagnie d'assurance vous est parvenue ? Une telle offre présente généralement trois montants différents pour un capital «hypothétique» en cas de vie. Sélectionnez cette option, Moneto vous recommande d'utiliser la valeur minimale pour des raisons de sécurité."
+        ],
+
+        "customDate" : "Durée d'échéance divergente",
+
+        "hasDisabilityQuestion": "\"{{name}}\" comprend-elle des prestations en cas d'incapacité de travail ?",
+        "hasDisability": "Incapacité de travail",
+        "hasDisabilityItems": ["Oui","Non"],
+        "disabilityShortQuestion": "Les versements de rentes sont-ils limités à un nombre fixe de mois? (Rente de courte durée)",
+        "disabilityShortItems": ["Oui","Non"],
+        "disabilityShortTime": "Nombre de mois",
+        "disabilityWait": "Délai d'attente (mois)",
+        "disabilityModalTitle": "prestation en cas d'incapacité de travail",
+        "disabilityElement": "cette prestation en cas d'incapacité de travail",
+        "disabilityAddButton": "Ajouter une prestation en cas d'incapacité de travail",
+
+        "hasLeftBehindQuestion": " \"{{name}}\" inclut-elle des prestations en faveur de survivants ?",
+        "hasLeftBehind": "En cas de décès",
+        "hasLeftBehindItems": ["Oui","Non"],
+        "leftBehindType": "Type de prestation",
+        "leftBehindTypeItems": ["Rente","Capital"],
+        "leftBehindModalTitle": "prestation en cas de décès",
+        "leftBehindElement": "cette prestation en cas de décès",
+        "leftBehindAddButton": "ajouter la prestation en cas de décès",
+
+        "subType": "LType de prestation",
+        "subTypeItems": ["Rente","Capital"],
+        "cycleItems": ["annuellement","mensuellement"],
+        "start": "Début de la durée",
+        "end": "Échéance",
+        "cases": "Quels sont les cas couverts par cette prestation ?",
+        "illness": "Maladie",
+        "accident": "Accident",
+        "value": "Montant",
+        
+        "optionalTitle": "Informations complémentaires (facultatif)",
+        "removeElement": "Retirer",
+
+        "helpTitle": "Assurance-vie",
+        "helpText": "<p>Inhalt folgt in Kürze</p>",
+        
+        "helpDropdownItems": [
+          {
+            "title": "Désignation",
+            "text": "Entrez ici une <strong>désignation</strong> pour votre assurance-vie. Par exemple, le nom de l'assurance ou, si vous avez plusieurs assurances vie, une autre désignation explicite pour une désignation distincte."       
+        },
+        {
+            "title": "Type de police",
+            "text": "Sélectionnez le <strong>type</strong> de votre assurance-vie.<br>Votre police d'assurance-vie comporte les variantes suivantes:<br><br> - <strong>prévoyance liée</strong> ou pilier <strong>3a</strong><br>ou<br> - <strong>prévoyance libre</strong> ou pilier <strong>3b</strong><br><br><strong>Remarque:</strong> Fréquemment, vous identifiez déjà le type de police dans le titre. Pour certaines, il est également mentionné séparément sous (par exemple) 'type de prévoyance'."
+        },
+        {
+            "title": "Durée",
+            "text": "Entrez ici le <strong>début</strong> et le <strong>fin de la durée</strong> de leur assurance vie.<br><br>Les autres noms utilisés pour l’«échéance» sont les suivants:<br>- début de la police d'assurance<br>- début de l'assurance<br>- début du contrat<br>D'autres désignations ou combinaisons similaires sont également possibles.<br><br>Les autres noms utilisés pour l’«échéance» sont les suivants:<br>- fin de la police d'assurance<br>- fin de l'assurance<br>- fin/échéance du contrat<br>D'autres désignations ou combinaisons similaires sont également possibles.<br><br><strong>Attention:</strong> Soyez très attentif à la durée contractuelle que vous enregistrez<br>Dans le cas de l'assurance-vie, il se peut que les prestations aient des durées différentes ou qu'elles aient été prolongées à des dates différentes. Si c'est le cas avec votre police, vous devez mentionner les différentes durées des prestations sous <strong>durée différente</strong>."
+        },
+        {
+            "title": "L’assurance-vie comprend-elle une prestation en cas de vie?",
+            "text": "Sélectionnez <strong>oui</strong> si votre assurance-vie comprend un <strong>capital en cas de vie</strong>.<br><br>Ensuite, introduisez le <strong>montant</strong> de votre capital de en cas de vie.<br><br>Les autres dénominations utilisés pour les 'capitaux en cas de vie' sont les suivants:<br>- capital vie<br>- montant en cas de vie<br>- en cas de vie<br>D'autres désignations ou combinaisons similaires sont également possibles..<br><br><strong>Un capital est-il inscrit sur votre police d'assurance-vie?</strong><br><br>Sélectionnez <strong>oui</strong> si votre assurance-vie contient un capital en cas de vie garanti.<br><br>Si votre capital en cas de vie <strong>est basée en fonds</strong> (vos primes sont investies en bourse), il se peut qu'aucun ne montant soit mentionné. La raison est que personne ne peut anticiper comment la bourse évoluera et à combien s'élève le capital au moment du versement final.<br><br>Si c'est le cas, sélectionnez <strong>non</strong>.<br><br><strong>Sélectionnez une option</strong><br><br><strong>Aucun montant inscrit</strong> - vous laissez cette prestation ouverte dans votre assurance-vie, cela veut dire que cette police ne sera pas inclue dans votre planification actuelle de la retraite.<br><br><strong>Montant présumé</strong> - vous estimez vous-même le montant disponible du capital vie. vous recevrez chaque année un relevé avec l'état actuel, ceci peut vous servir d'indication. Vous vous souvenez peut-être de l'entretien conseil sur votre assurance-vie. A-t-on mentionné une éventuelle somme finale?<br><br><strong>Enregistrer le montant selon offre</strong> - avant de signer le contrat d'assurance-vie, une offre de votre compagnie d'assurance vous est-elle parvenue ? Cette offre contient généralement trois valeurs différentes pour un capital vie 'hypothétique projeté'. Si vous choisissez cette option, vous pouvez, par souci de sécurité, utiliser la plus petite valeur. <br><br><strong>Durée d'échéance divergente</strong><br>Activez une<strong>durée différente</strong> si la durée de votre capital vie diffère de la durée stipulée dans les conditions générales du contrat de votre assurance vie. Enregistrez ensuite le <strong>début</strong> et la <strong>fin de la durée</strong> pour votre capital vie."
+          },
+        {
+            "title": "L’assurance-vie comprend-elle des prestations en cas d'incapacité de gain?",
+            "text": "Sélectionnez <strong>oui</strong> si votre assurance-vie comporte<strong> des prestations d'incapacité de gain</strong>.<br>Pour enregistrer les prestations, sélectionnez ensuite <strong>ajouter une prestation d'incapacité de gain</strong>.<br><br><strong>Type de prestation</strong><br>Choisissez si le type de prestations en cas d'incapacité de gain de votre police d'assurance-vie comporte une<strong>rente</strong> ou un <strong>capital</strong>.<br><strong>Remarque:</strong> Si votre assurance-vie comporte un capital et une rente en tant que prestations d’incapacité de gain, commencez par enregistrer le montant et ajoutez la deuxième prestation par 'ajout d’une prestation d’incapacité de gain'.<br><br><strong>Montant (capital)</strong><br>Entrez ici le <strong>montant</strong> des prestations d'incapacité de gain de votre police d'assurance-vie.<br><br><strong>Montant (rente)</strong><br>Indiquez si la rente d'incapacité de gain est mensuellement ou annuellement spécifiée et indiquez ici <strong>le montant</strong> des prestations d'incapacité de gain de votre assurance-vie.<br><br><strong>Durée d'échéance divergente</strong><br>Activer <strong>durée différente</strong>, Si la durée de vos prestations d'incapacité de gain est différente de la durée dans les conditions générales du contrat de votre d'assurance-vie. Veuillez ensuite inclure le <strong> début </strong> et la <strong> fin de la durée </strong> de vos prestations d'incapacité.<br><br><strong>Quels sont les cas couverts par cette prestation?</strong><br>Indiquez si les prestations d'incapacité de gain sont versées en cas de maladie, d'accident ou dans les deux cas."
+          },
+        {
+            "title": "L’assurance-vie inclut-elle des prestations pour survivants?",
+            "text": "Sélectionnez <strong>oui</strong> si votre assurance-vie inclut des prestations pour les survivants.<br>Pour enregistrer les prestations, sélectionnez ensuite les prestations pour survivants.<br><br><strong>Type de prestation</strong><br>Choisissez si le type de prestations pour survivants comporte une rente ou un capital dans votre assurance-vie.<br>Remarque : Si votre assurance-vie comporte un capital ou une rente en faveur de survivants, commencez par enregistrer le montant et ajoutez la deuxième prestation sous 'prestation en cas de décès'.<br><br><strong>Montant (capital)</strong><br>Entrez ici le montant des prestations en cas de décès de votre police d'assurance-vie.<br><br><strong>Montant (rente)</strong><br>Indiquez si la rente en cas de décès est stipulée par mois ou par année et indiquez ici le montant des prestations en cas de décès dans votre police d'assurance-vie.<br><br><strong>Durée d'échéance divergente</strong><br>Activer <strong> la durée divergente</strong>, si la durée des prestations pour survivants diffère de la durée dans les conditions générales du contrat de votre assurance-vie. Introduisez ensuite le <strong> début </strong> et la <strong> fin de la durée </strong> pour les prestations en faveur de survivants.<br><br><strong>Quels sont les cas couverts par cette prestation?</strong><br> Indiquez si les prestations d'incapacité de gain sont versées en cas de maladie, d'accident ou dans les deux cas."
+          }
+        ]
+    },
+    
+    "card_pensionprivate_life_1_init" :{
+        "helpTitle": "Assurance-vie",
+        "helpText": "Cliquez sur <strong>enregistrer l'assurance vie</strong>pour utiliser les prestations de votre assurance vie liée (3a) ou libre (3b) pour une planification ultérieure."
+    },
+
+    "removeModalTitle": "Supprimer les données",
+    "removeModalContent": "Voulez-vous supprimer cette prestation dans la prévoyance privée?"
+}

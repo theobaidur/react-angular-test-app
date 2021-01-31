@@ -1,0 +1,55 @@
+{
+  "results": {
+    "addLine": "Next entry",
+    "header": "Check the scan result",
+    "helpInfo": "After having checked  it carefully, please confirm the accuracy of the data at the end of the form!",
+    "confirmText": "The data have not been saved and will no longer be available if you leave the page now. Are you sure you want to close the window?",
+    "dataTransferBtn": "The data have not been saved and will no longer be available if you leave the page now. Are you sure you want to close the window? ",
+    "checkBoxText": "I hereby confirm the accuracy of the data.",
+
+    "dateNameBorderLabel": "Date and foundation",
+    "date": "Date",
+    "companyName": "Foundation",
+
+    "deathCapital": "Capital",
+    "deathillness": "Sickness",
+    "deathaccident": "Accident",
+    "deathmarried": "married",
+    "deathnotmarried": "unmarried",
+    "deathBenefitBorderLabel": "Lump sum death benefit",
+    "salaryDataBorderLabel": "Wage details",
+    "incomeYear": "Declared salary",
+    "incomeInsured": "Insured salary",
+    "workload": "Employment level",
+    "pensionActivesDataBorderLabel": "Current retirement assetsn",
+    "creditTotal": "Total",
+    "creditBvg": "according to occupational benefits insurance law (BVG)",
+    "maxPayIn": "Year of service purchase",
+    "ownershipWithdrawDataBorderLabel": "Early withdrawal for home ownership",
+    "gotWef": "present",
+    "retirementBenefitsBorderLabel": "Retirement benefits",
+    "pensionAge": "Age",
+    "pensionCapital": "Capital with interest",
+    "pensionYear": "Pension / year",
+
+    "disabilityPensionBorderLabel": "Occupational disability pension",
+    "isChildAvailable": "Children's occupational disability pension should be entered individually",
+    "dischild": "Children's occupational disability pension",
+    "dischildCheck": "Accident",
+    "maxWef": "maximum",
+    "disValue": "Pension",
+    "disWait": "Waiting period (months)",
+    "disAccident": "Accident",
+    "survivorsProtectionBorderLabel": "Survivor protection",
+    "widowValue": "Widow's / widower's pension",
+    "widowAccident": "Accident",
+    "orphanValue": "Orphan’s pension",
+    "orphanAccident": "Accident"
+  },
+  "feedback": {
+    "title": "Pension fund feedback",
+    "descriptionPlaceholder": "Description (optional)",
+    "cancel": "Skip",
+    "approve": " Send feedback"
+  }
+}

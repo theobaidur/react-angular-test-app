@@ -1,0 +1,23 @@
+{
+  "moduleTitles": {
+    "profile": "Informations personnelles",
+    "finances": "Revenu",
+    "pensionState": "Prévoyance de l'État",
+    "pensionWork": "Prévoyance professionnelle",
+    "pensionPrivate": "Prévoyance privée",
+    "needs": "Besoin",
+    "wealth": "Patrimoine",
+    "need": "Mes objectifs",
+    "children": "Enfants / ex-relations",
+    "analyzerPension": "Analyse et évaluation",
+    "analyzerDisability1": "Incapacité de travail due à la maladie",
+    "analyzerDisability2": "Incapacité de travail due à un accident",
+    "analyzerLeftBehind1": "Décès par maladie",
+    "analyzerLeftBehind2": "Décès par accident"
+  },
+  "next": "Continuer",
+  "back": "Retour",
+  "backToDashboard": "Retour",
+  "return": "Continuez à utiliser",
+  "currency" : "CHF"
+}

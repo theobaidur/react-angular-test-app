@@ -1,0 +1,45 @@
+{
+  "title": "Partenaire",
+  "overview": "Vue d'ensemble",
+  "overviewItems": [
+    {
+      "title": "Partenaires publicitaires",
+      "description": "Moneto remercie tous les précieux partenaires publicitaires qui permettent et assurent le développement de la plate-forme. En outre, les partenaires publicitaires permettent l'utilisation gratuite de Moneto."
+    },
+    {
+      "title": "Caisses de pension",
+      "description": "Moneto est en étroite relation avec tous les partenaires et actualise Moneto en fonction de besoins ultérieurs. Les caisses de pension partenaires fournissent la prestation exceptionnelle de Moneto à leurs destinataires (assurés). Ainsi, les partenaires offrent dans toute la Suisse un service exclusif pour accroître la compétence financière individuelle."
+    },
+    {
+      "title": "Systèmes de gestion des caisses de pension (CP)",
+      "description": "Les systèmes de gestion des caisses de pension constituent la base de la numérisation des CP. Selon demande des utilisateurs, la possibilité de saisir automatiquement des données relatives aux caisses de pension permettra d'atteindre une nouvelle dimension dans la numérisation exhaustive.",
+      "imgs": ["img4"]
+    },
+    {
+      "title": "Employeurs, associations faîtières et organisations",
+      "description": "Nous sommes heureux du nombre d'organisations qui fournissent cette prestation d'extension de compétences financières à leurs collaborateurs / membres."
+    },
+    {
+      "title": "Partenaires en produits",
+      "description": "Nos partenaires en produits sont disponibles pour répondre aux besoins spécifiques. À moins que le réseau ne soit pas encore digitalisé, vous recevrez plus d'informations par le biais de nos sociétés de consultants certifiés."
+    },
+    {
+      "title": "Sociétés de consultants certifiés",
+      "description": "Moneto met l'accent sur la qualité et la neutralité des sociétés de consultants répertoriées. Les paramètres qualitatifs sont évalués chaque année. En cas de succès, le certificat sera délivré pour les mois consécutifs."
+    },
+    {
+      "title": "Contrôle qualitatif",
+      "description": "Afin de garantir la qualité du conseil des sociétés de consultants, tous les conseillers/conseillères suivent le cours certifié de l'Académie de Leadership Suisse AG. Les certificats à durée limitée sont renouvelés lors de formations obligatoires.",
+      "imgs": ["img7"]
+    },
+    {
+      "title": "Devenez partenaire",
+      "link": "Werden auch Sie Partner",
+      "description": "Möchten auch Sie Moneto Partner werden? Nehmen Sie mit uns Kontakt auf, wir senden Ihnen gerne weitere Unterlagen oder vereinbaren ein Meeting:",
+      "email": "mail",
+      "emailValue": "info@moneto.ch",
+      "phone": "tel",
+      "phoneValue": "+41 71 272 52 07"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "title": "Prévoyance de l'État",
+  "dragAreaText": "Introduisez un fichier PDF ou un fichier image ici",
+  "sendBtnText": "Confirmer",
+  "card_pensionstate_base_1": {
+    "title": "Prestations AVS et AI",
+    "incomeCode": " code de revenu",
+    "incomeYear": " Année",
+    "incomeAmmount": " Montant",
+    "detailed": "Extrait CI présent?",
+    "detailedItems": [
+      "Oui",
+      "Non"
+    ],
+    "detailedClosedText": "Extrait CI",
+    "quick": "Sélectionnez une alternative",
+    "quickItems": [
+      "Calcul sommaire",
+      "Hypothèse"
+    ],
+    "minMedMax": "Sélectionnez un niveau",
+    "minMedMaxItems": [
+      "Minimal ({{value}})",
+      "Moyen ({{value}})",
+      "Mmaximal ({{value}})"
+    ],
+    "firstAgeQuestion": "À partir de quel âge avez-vous cotisé pour la première fois aux contributions de l'AVS?",
+    "firstAge": "Âge",
+    "missing": "Avez-vous {{missingFrom}} des années SANS avoir payé les cotisations minimales de l'AVS?",
+    "missingFrom": "à partir de {{age}}", 
+    "missingItems": [
+      "Oui",
+      "Non"
+    ],
+    "missingYears": "Nombre d'années",
+    "moveToNextStep": "La numérisation est terminée. Vous pouvez procéder à l'étape suivante",
+    "selectIkUploadOption": " Comment souhaitez-vous saisir votre extrait CI dans le système?",
+    "addLine": "Entrée suivante",
+    "header": "Vérifier le résultat de la numérisation",
+    "helpInfo": "Une fois que vous avez vérifié l'exactitude, vous confirmez vos données à la fin du formulaire!",
+    "confirmText": "Si vous annulez, les données ne seront pas acquises et ne seront plus présentes. Voulez-vous quand même fermer la fenêtre?",
+    "dataTransferBtn": "Reprendre les données",
+    "checkBoxText": "Je confirme par la présente l'exactitude des données",
+    "contentLabels": [
+      "Données de la première photo",
+      "Données de la deuxième photo",
+      "Données de la troisième photo"
+    ],
+    "dragPhotos": "Mettez les photos ici ...",
+    "dragSelectPhotos": "Faites glisser certaines photos ici ou cliquez pour les sélectionner",
+    "processingPhotos": "Veuillez patienter jusqu'à ce que les photos soient traitées ...",
+    "helpTitle": "Prestations AVS et AI",
+    "helpDropdownItems": [
+      {
+        "title": "Extrait CI - De quoi s'agit-il?",
+        "text": "L'extrait du compte individuel, ou extrait IC, est pour ainsi dire votre 'livre de caisse' personnel à l'AVS. Ce document répertorie les données relatives au calcul de la rente AVS.<br><br><strong>Attention:</strong><br>Si vous n'êtes pas au seuil de la retraite, le calcul de la rente AVS de votre extrait actuel CI  indique seulement une valeur théorique à l'heure actuelle! Il est probable que la pension calculée changera jusqu'à votre retraite."
+      },
+      {
+        "title": "Commander un extrait CI",
+        "text": "Vous pouvez soit rechercher votre caisse de compensation, soit commander un extrait total.<br><br><0>Cliquez ici pour rechercher votre caisse de compensation >></0><br><br><1>Commandez ici tous les extraits / extrait total >></1><br><br>La commande de votre extrait CI est gratuite.<br><br>Veuillez noter que cela peut prendre 3 à 4 semaines, pour que la caisse de compensation vous envoie l'extrait CI par a poste. Nous vous recommandons de continuer jusqu'à la réception de l'extrait CI avec un calcul sommaire ou une acceptation. Lorsqu'il s'agit de votre sécurité financière, il est important d'agir dans le temps!",
+        "links": [
+          { 
+            "url" : "https://inforegister.zas.admin.ch/InfoWeb/", 
+            "text": "Cliquez ici pour rechercher votre caisse de compensation >>"
+          },{
+            "url" : "https://www.ahv-iv.ch/de/Merkbl%C3%A4tter-Formulare/Bestellung-Kontoauszug/Schweiz",
+            "text" : "Commandez ici tous les extraits / extrait total >>"
+          }
+        ]
+      },
+      {
+        "title": "Extrait CI - Conseils après réception",
+        "text": "Moneto vous recommande vivement de vérifier avec précision l'extrait CI après réception pour les points suivants:<br><br> - tous vos employeurs sont-ils répertoriés?<br> - les chiffres annuels (colonne 5) sont-ils complets, ou interrompus, interrompus où ils ne devraient pas être?<br> - les revenus (annuels) (colonne 6) sont-ils conformes aux années et aux employeurs?<br><br><br><br>Raisons du contrôle : Si les données ne sont pas disponibles ou ne sont pas correctes, vous aurez 30 jours pour demander un ajustement à votre caisse de compensation après réception de l'extrait CI. À l'expiration de ces 30 jours, l'état de l'extrait de la CI est considéré comme correct et n'est plus passible de mesures compensatoires. Recommandation de la Caisse de compensation: Commandez l'extrait CI actuel tous les 5 ans. Raisons : si les attestations ou décomptes de salaire ne sont plus disponibles, la preuve s'avère difficile."
+      },
+      {
+        "title": "Calcul sommaire",
+        "text": "Le calcul sommaire vous donne une estimation approximative du montant de votre rente AVS.<br><br><strong>Contributions AVS:</strong><br>La plupart des personnes payent pour la première fois des cotisations AVS au début de l'apprentissage ou dès réception du premier salaire, en Suisse.<br><br><strong>Années sans contributions minimales de l'AVS:</strong><br>Les exemples suivants peuvent conduire à des années sans cotisations minimales de l'AVS:<br><br> - un <strong>étudiant</strong> ne paie pas de contributions volontaires de l'AVS pendant la période d'étude et commence sa vie professionnelle à l'âge de 25 ans. Dans ce cas, quatre ans doivent être enregistrés. (à compter à partir de 21 ans)<br><br>- un <strong>ressortissant étranger</strong> âgé de 40 ans trouve un emploi en Suisse. Dans ce cas, 19 ans doivent être enregistrés. (à compter à partir de 21 ans)<br><br>- un <strong>bénéficiaire de l'aide sociale</strong> obtient 3 ans d'aide sociale. Avant cela, la personne était au chômage pendant 2 ans. Dans ce cas, 3 ans doivent être inscrits, car les allocations de chômage comprennent des cotisations de l'AVS.<br><br>"
+      },
+      {
+        "title": "Acceptation",
+        "text": "Faites une acceptation de votre choix. Les chiffres indiqués sont basés sur les valeurs légales actuelles en prenant en compte la période de cotisation complète (sans années de cotisation manquantes)."
+      }
+    ],
+    "qrcode": {
+      "title": "Code QR",
+      "label": "Code QR",
+      "listItems": [
+        "Numérisez le code QR ci-dessous à l'aide de votre smart phone",
+        "Vous serez dirigé vers le site Internet correct",
+        "Photographiez l'extrait CI avec votre smart phone. Terminé!"
+      ]
+    },
+    "email": {
+      "title": "E-Mail",
+      "label": "Envoyer un e-mail",
+      "inputLabel": "Votre adresse e-mail",
+      "listItems": [
+        "Saisissez votre E-mail ci-dessous et appuyez sur 'demander un e-mail'",
+        "Vous recevrez un E-mail. Ouvrez le lien qui y est indiqué.",
+        "Photographiez l'extrait CI avec votre smart phone. Terminé!"
+      ],
+      "failedReason": "Une erreur s'est produite lors de l'envoi du lien de numérisation",
+      "failedGeneral": "Une erreur s'est produite lors de l'envoi du lien de numérisation. Veuillez vérifier l'adresse e-mail fournie et réessayer.",
+      "succeeded": "Un e-mail a été envoyé. Vérifiez vos e-mails sur votre smartphone.",
+      "documentTitle": "Attestation de prévoyance",
+      "invalidMail": "Adresse e-mail non valide",
+      "button": "Demander un e-mail"
+    },
+    "manual": {
+      "title": "Manuel",
+      "label": "Manuel",
+      "listItems": [
+        "Sur votre smart phone, ouvrez un navigateur.",
+        "Saisissez le lien ci-dessous dans la ligne d'adresse.",
+        "Photographiez le extrait CI avec votre smartphone. Terminé !"
+      ]
+    },
+    "photo": {
+      "title": "Photo avec smartphone",
+      "label": "Photo",
+      "description": "Avez-vous un lecteur de code QR ou un accès e-mail sur votre smartphone ?"
+    },
+    "upload": {
+      "title": "Télécharger le fichier",
+      "label": "Téléchargement PDF",
+      "description": "Téléchargez votre extrait CI en tant que fichier image ou PDF."
+    },
+    "edit": {
+      "title": "Saisie manuelle",
+      "label": "Reproduction",
+      "description": "Saisissez manuellement les données de votre extrait CI."
+    }
+  },
+  "view": {
+    "firstPillarTitle": "Rente de AVS",
+    "firstPillarTitleDisability": "Rente de AI",
+    "firstPillarTitleWidow": "Rente de veuf/veuve"
+  }
+}

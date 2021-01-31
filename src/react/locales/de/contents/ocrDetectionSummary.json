@@ -1,0 +1,45 @@
+{
+  "generalSummary": "Leider konnte keine passende Vorlage zu Ihren gescannten Dokumenten gefunden werden.",
+  "summary": {
+    "SUCCESS": { "title": "", "message": "", "button": "", "link": "" },
+    "UNKNOWN_TEMPLATE": {
+      "title": "Fehlende Daten: Unbekannte Vorlage?",
+      "message": "Wir arbeiten daran stets aktuelle Vorlagen der verbreiteten Pensionskassen zu unterstützen. Leider kann es sein, dass dieses keine uns bekannten entspricht. Helfen Sie uns das zu verbessern und melden Sie es uns.",
+      "button": "Vorlage melden",
+      "link": "Weitere mögliche Ursachen..."
+    },
+    "MISSING_PAGES": {
+      "title": "Fehlende Daten: Seiten fehlen?",
+      "message": "Pensionskassen-Ausweis können mehrere Seiten lang sein. Eventuell wurden nicht alle Seiten gescannt. Bitte überprüfen Sie, ob alle Seiten vorhanden sind. Falls Seiten fehlen bitte scannen Sie nochmals ein.",
+      "button": "Nochmals scannen",
+      "link": "Weitere mögliche Ursachen..."
+    },
+    "BAD_IMAGE_QUALITY": {
+      "title": "Fehlende Daten: Ungenügende Bildqualität?",
+      "message": "Die Bildqualität erlaubt leider keine befriedigende Erkennung der Daten. Überprüfen Sie, ob die aufgenommenen Seiten nicht zu dunkel oder zu hell, vollständig im Bildrahmen und nicht schräg sind. Um diese zu verbessern versuchen Sie nochmals zu scannen.",
+      "button": "Nochmals scannen",
+      "link": "Weitere mögliche Ursachen..."
+    }
+  },
+  "detailsDialog": {
+    "title": "Vorlage melden",
+    "subTitle": "",
+    "text": [
+      "Damit wir in Zukunft ihren Pensionskassen-Ausweis noch besser einlesen können, bitten wir Sie Ihre gescannten Dokumente zur Verfügung zu stellen.",
+      "Diese werden nur für die Weiterentwicklung verwendet und vertraulich behandelt. Nur so können wir sicherstellen, dass in Zukunft Ihre Daten möglichst einfach und vollständig eingelesen werden können.",
+      "Vielen Dank für Ihre Unterstützung."
+    ],
+    "buttons": { "cancel": "Abbrechen", "ok": "Einverstanden" }
+  },
+  "linkDialog": {
+    "title": "Mögliche Ursachen bei ungenügende Daten",
+    "subTitle": "",
+    "header": ["Ubenkannte Vorlage", "Seiten Fehlen", "Ungenügende Bildqualität"],
+    "text": [
+      "Wir arbeiten daran stets aktuelle Vorlagen der verbreiteten Pensionskassen zu unterstützen. Leider kann es sein, dass dieses keine uns bekannten entspricht. Helfen Sie uns das zu verbessern und melden Sie es uns.",
+      "Pensionskassen-Ausweis können mehrere Seiten lang sein. Eventuell wurden nicht alle Seiten gescannt. Bitte überprüfen Sie, ob alle Seiten vorhanden sind. Falls Seiten fehlen bitte scannen Sie nochmals ein.",
+      "Die Buildqualität erlaubt leider keine befriedigende Erkennung der Daten. Überprüfen Sie, ob die aufgenommen Seiten nicht zu dunkel oder zu hell, vollständig im Bildrahmen und nicht schräg sind. Um diese zu verbessern versuchen Sie nochmals zu scannen."
+    ],
+    "buttons": { "report": "Scan Melden", "retry": "Nochmals Scannen", "close": "Schliessen" }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "title": "Support",
+  "back": "Retour",
+  "items": [
+    {
+      "title": "Connexion",
+      "subItems": [
+        {
+          "title": "Mot de passe oublié",
+          "description": "1) Cliquez sur « mot de passe oublié 'sous le logo de connexion' (Login)<br />2) Ensuite, indiquez votre adresse e-mail et cliquez sur 'Réinitialiser le mot de passe'<br />3) Vous recevrez un e-mail de Moneto. Ouvrez cet e-mail et cliquez sur le lien qu'il contient pour réinitialiser votre mot de passe<br/>4) Définissez votre nouveau mot de passe "
+        },
+        {
+          "title": "Accès perdu à mon e-mail",
+          "description": "<strong>Si vous avez enregistré votre numéro de téléphone mobile :</strong> <br />1.ouvrez la page de connexion<br />2) Cliquez sur 'aucun accès à l'e-mail' sous le bouton de connexion (Login)<br />3) Entrez votre adresse e-mail enregistrée et votre numéro de téléphone mobile enregistré<br />4) Cliquez sur 'ENVOYER LE CODE'<br />5) Vous recevrez un code à six chiffres sur votre mobile<br />6) Introduisez ce code et déterminez une nouvelle adresse e-mail. Cliquez sur 'VÉRIFIER E-MAIL'<br />7) Vous recevrez un e-mail de Moneto. Cliquez sur le lien inclus pour vérifier votre nouvelle adresse e-mail.<br />8) Définissez votre nouveau mot de passe.<strong>Si vous n'avez pas déposé de numéro de téléphone mobile :</strong><br/> Contactez l'assistance téléphonique : +41 71 272 52 08"
+        },
+        {
+          "title": "Accès perdu avec mon smart phone",
+          "description": "Contactez l'assistance téléphonique : +41 71 272 52 08 "
+        },
+        {
+          "title": "Personnaliser/désactiver l'authentification à deux facteurs (e-mail ou SMS)",
+          "description": "<strong>Recommandation:</strong><br/>Pour votre sécurité, il est recommandé de ne pas désactiver l'authentification à deux facteurs (A2F) !<br /> <br/><strong>Modifier/désactiver l'A2F :</strong><br/>La modification ou désactivation de l'A2F ne peut être effectuée que si vous êtes connecté. <br/>1) Cliquez sur votre nom d'utilisateur en haut à droite<br/>2.sélectionnez « paramètres de connexion (A2F) » dans le menu latéral<br/>3.sélectionnez la méthode A2F que vous souhaitez utiliser. SMS offre la sécurité la plus élevée."
+        }
+      ]
+    },
+    {
+      "title": "Compte",
+      "subItems": [
+        {
+          "title": "Personnaliser mon profil et mes relations",
+          "description": "Pour les paramètres de votre profil, vous pouvez modifier vos informations personnelles, telles que votre prénom, votre nom ou votre anniversaire. En outre, vous pouvez y saisir vos partenaires.<br/>1) Cliquez sur votre nom d'utilisateur en haut à droite<br/>2) Sélectionnez 'informations personnelles et relations' dans le menu latéral<br/><strong>Important :</strong><br/>Si vous désactivez le partenaire enregistré, toutes les données enregistrées par le partenaire seront perdues. À l'avenir, il sera possible de créer un compte pour le partenaire afin qu'il puisse continuer à utiliser ses données."
+        },
+        {
+          "title": "Attention : En cas de séparation du partenaire enregistré",
+          "description": "Si vous désactivez le partenaire enregistré, toutes les données enregistrées par le partenaire seront perdues. À l'avenir, il sera possible de créer un compte pour le partenaire afin qu'il puisse continuer à utiliser ses données. "
+        },
+        {
+          "title": "Supprimer le compte",
+          "description": "Nous acceptons avec regret votre décision et nous vous remercions d'avoir utilisé Moneto. Après avoir cliqué sur « supprimer complètement le compte », la minuterie de suppression sera activée après la déconnexion. <br/>Remarque :<br/> - pour votre sécurité, toutes les données seront intégralement supprimées de notre base de données seulement après l'expiration de 90 jours. <br/> - chaque connexion à Moneto, dans ces 90 jours, enclenche un arrêt instantané du minuteur et une annulation de la commande de 'l'ordre de suppression'.<br/> - si vous avez acheté un produit ou conclu un contrat à partir de vos données de Moneto, il nous est impossible, en raison de dispositions légales, de nous soumettre à l'ordre de suppression. Pour ce faire, vérifiez nos conditions générales (CG). "
+        }
+      ]
+    },
+    {
+      "title": "Problèmes de représentation",
+      "subItems": [
+        {
+          "title": "Navigateurs Internet recommandés",
+          "description": "L'utilisation de divers navigateurs Internet peut poser des problèmes de représentation. Pour obtenir les meilleurs résultats, utilisez les navigateurs suivants : <br/>Mozilla Firefox:<br/><0>Downloadlink Mozilla Firefox</0><0>(https://www.mozilla.org/de/firefox/new/)</0><br/>Google Chrome:<br/><1>Downloadlink Google Chrom</1><1>(https://www.google.com/intl/de/chrome/)</1><br /> Java script' ne doit pas être bloqué. "
+        },
+        {
+          "title": "Moneto et très lent à charger",
+          "description": "Moneto a besoin d'une connexion Internet stable et persistante au serveur Moneto pour traiter vos données et exécuter les calculs qui s'imposent. <br />Pour améliorer les performances, fermez toutes les fenêtres de navigateur ou tous les onglets inactifs ainsi que les programmes inutilisés. Si vous avez des téléchargements actifs en arrière-plan, vous devez également les mettre en pause. <br />Si vous utilisez le <strong>Wi-Fi</strong> , vérifiez la puissance du signal. Si l'émetteur Wi-Fi est situé dans une autre pièce, ou dans un autre étage, la puissance du signal peut être améliorée en essayant de réduire la distance. Les pièces de bâtiment, telles que les murs et les sols, peuvent sensiblement affecter la puissance du Wi-Fi. <br />En cas de difficultés de connexion, contactez votre fournisseur Internet (par ex. Swisscom, Cablecom, Sunrise, etc.)"
+        }
+      ]
+    },
+    {
+      "title": "Extrait CI",
+      "subItems": [
+        {
+          "title": "Qu'est-ce qu'un extrait CI ?",
+          "description": "L'extrait du compte individuel, ou extrait CI, est votre 'livre de caisse' personnel à l'AVS. Ce document répertorie les informations nécessaires pour calculer votre rente AVS."
+        },
+        {
+          "title": "Où puis-je obtenir un extrait CI ?",
+          "description": "Vous pouvez soit rechercher votre <2>caisse de compensation</2>, soit commander un <3>extrait intégral</3>. Pour cela, vous n'avez besoin que de votre carte AVS, la commande de votre extrait CI est toujours gratuite.<br />          Beachten Sie bitte, dass es 3 - 4 Wochen dauern kann bis die Ausgleichskasse Ihnen den IK-Auszug per Post zusendet."
+        },
+        {
+          "title": "Conseils après avoir reçu l'extrait CI",
+          "description": "Après réception, Moneto vous recommande vivement de vérifier avec précision l'extrait CI sur les points suivants.<br/>- tous vos employeurs sont-ils répertoriés?<br/>- les chiffres annuels (colonne 5) sont-ils consécutifs, ou interrompus, où ils ne devraient pas être?<br/>- les revenus (annuels) (colonne 6) correspondent-ils aux années et aux employeurs?<br/> Raison : Si les données sont incomplètes ou incorrectes, vous avez 30 jours, après réception de l'extrait CI, pour exiger une 'correction' à votre caisse de compensation. Après expiration des 30 jours, l'état de l'extrait de la CI est considéré comme approuvé et n'est plus passible de mesures compensatoires."
+        }
+      ]
+    },
+    {
+      "title": "Certificat de prévoyance (caisse de pension)",
+      "url": "pk-ausweis",
+      "subItems": [
+        {
+          "title": "Qu'est-ce qu'un certificat de prévoyance?",
+          "description": "Le certificat de prévoyance correspond à un relevé de compte personnel de la caisse de pension auquel votre employeur est inscrit. Une fois par an, généralement en janvier ou février, un nouveau certificat vous parviendra avec les chiffres actuels.<br/>Vous y trouvez entre autre votre salaire actuel (assuré) et le montant actuel d'épargne, ainsi que les prestations (par exemple les rentes de vieillesse et d'invalidité) que vous pouvez obtenir de la caisse de pension."
+        },
+        {
+          "title": "Comment puis-je obtenir une nouveau certificat de prévoyance ?",
+          "description": "Il y a deux façons de recevoir un nouveau certificat de prévoyance (certificat CP).<br/> <br/><br/>A. Contactez votre employeur ou les ressources humaines de votre entreprise et demandez la commande d'un certificat de prévoyance.<br/>B. Contactez directement votre caisse de pension. En plus de la ligne d'assistance client ou du contact par e-mail, de nombreuses caisses de pension offrent à leurs clients une connexion sur leur page Web qui leur permet de commander un nouveau certificat de prévoyance ou même de le télécharger directement.<br/><br/>Quelle que soit la voie que vous choisissez, votre caisse de pension vous fournira le nouveau certificat de prévoyance par la poste.<br/><br/>Si vous êtes actuellement sans emploi (au chômage), vos fonds de pension peuvent être mis en stationnement sur un compte de libre-circulation à l'Association supplétive: <4>https://web.aeis.ch/</4> <br/><strong> Note:</strong><br/><br/>    Lorsqu'un employé quitte une entreprise sans rentrer ensuite dans un nouvel emploi, la caisse de pension compétente doit transférer les fonds à l'Association supplétive dans un délai maximal de 6 mois."
+        }
+      ]
+    },
+    {
+      "title": "Conseiller",
+      "subItems": [
+        {
+          "title": "Contacter un conseiller",
+          "description": "La planification de la prévoyance prévoit la possibilité à la fin de chaque thème, la retraite, l'incapacité de travail et le décès, de consulter un conseiller.<br/>1) En cliquant sur 'contacter le conseiller', la page de contact s'ouvre<br/>2) Sélectionnez les sujets pour lesquels vous souhaitez des conseils personnalisés<br/>3) Déterminez le moment où le conseiller doit vous contacter<br/>4) Si vous êtes satisfait de la sélection, vous pouvez envoyer la demande en cliquant sur « confirmer ».<br/>5) Moneto va chercher un conseiller approprié pour vous dès que possible (24h)"
+        },
+        {
+          "title": "Recommander un conseiller",
+          "description": "Êtes-vous satisfait de votre conseiller ? Pour les conseillers de Moneto, le plus grand compliment est une recommandation à l'intention d'amis et de connaissances.<br/>Si vous souhaitez recommander votre conseiller, procédez comme suit :<br/>1) Cliquez sur le logo Moneto en haut à gauche pour accéder à la zone d'accueil<br/>2) En haut à droite de l'écran, cliquez sur l'image du profil de votre conseiller actuel<br/>3) Un autre clic sur 'recommander' vous donne le lien de référence que vous pouvez partager avec vos amis et vos connaissances.<br/>4) Une fois que vos amis et parents s'inscrivent avec ce lien, vous recevrez le même service du consultant sélectionné"
+        },
+        {
+          "title": "Changer de conseiller",
+          "description": "Si vous êtes insatisfait de votre conseiller ou si vous voulez quelqu'un avec d'autres compétences, suivez la procédure ci-dessous.<br/>1) Cliquez sur le logo Moneto en haut à gauche pour accéder à la zone d'accueil<br/>2) En haut à droite de l'écran, vous trouverez l'image de profil de votre conseiller actuel et en un clic au-dessus, ouvrez la vue d'ensemble du consultant<br/>3) En cliquant sur 'changer de conseiller', Moneto va vous chercher un autre conseiller (24h)<br/>Jusqu'à ce que Moneto ait trouvé un nouveau conseiller pour vous, l'image du profil de votre conseiller actuel sera toujours affichée."
+        },
+        {
+          "title": "Effacer le conseiller",
+          "description": "Si vous n'êtes pas satisfait de votre conseiller ou si vous n'avez pas besoin d'une consultation personnelle, vous avez la possibilité d'effacer votre conseiller actuel.<br/>1) Cliquez sur le logo Moneto en haut à gauche pour accéder à la zone d'accueil<br/>2) En haut à droite de l'écran, vous trouverez l'image de profil de votre conseiller actuel et en un clic au-dessus, ouvrez la vue d'ensemble du consultant<br/>3) Un autre clic sur « effacer le conseiller » élimine ce dernier de votre profil<br />La suppression prive votre conseiller actuel de l'accès à vos données."
+        }
+      ]
+    }
+  ]
+}

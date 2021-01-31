@@ -1,0 +1,12 @@
+{
+  "scanExceptions": {
+    "ConnectionIssues": "Prüfen Sie Ihre Internetverbindung und versuchen Sie es erneut.",
+    "AuthIssues": "Dieser Scan-Link ist abgelaufen! Bitte kehren Sie zu moneto zurück und generieren Sie einen neuen Link.",
+    "Unspecified": "Da ist etwas schiefgelaufen, bitte versuchen Sie es erneut.",
+    "UnsupportedFileType": "Die Datei {{values.0}} des Typs {{values.1}} wird nicht unterstützt.",
+    "UnrecognisedTemplate": "Es konnte keine passende Vorlage gefunden werden.",
+    "ImageDimensionsLimit": "Die Auflösung ist zu gross! moneto unterstützt Auflösungen bis maximal: {{values.0}}x{{values.1}}.",
+    "PdfPageLimit": "Ihr PDF hat zu viele Seiten! Reduzieren Sie die Seitenzahl auf maximal {{values.0}}.",
+    "PdfTimedOut": "Das Auslesen der PDF-Datei hat zu lange gedauert, bitte versuchen Sie es erneut."
+  }
+}

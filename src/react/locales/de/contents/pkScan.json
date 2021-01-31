@@ -1,0 +1,55 @@
+{
+  "results": {
+    "addLine": "Nächster Eintrag",
+    "header": "Prüfen Sie das Scan-Ergebnis",
+    "helpInfo": "Nach der genauen Prüfung bestätigen Sie die Korrektheit der Daten am Formularende!",
+    "confirmText": "Die Daten wurden nicht übernommen und sind nicht mehr vorhanden, wenn Sie abbrechen. Möchten Sie das Fenster trotzdem schliessen?",
+    "dataTransferBtn": "Daten übernehmen",
+    "checkBoxText": "Hiermit bestätige ich die Korrektheit der Daten",
+
+    "dateNameBorderLabel": "Datum und Stiftung",
+    "date": "Datum",
+    "companyName": "Stiftung",
+
+    "deathCapital": "Kapital",
+    "deathillness": "Krankheit",
+    "deathaccident": "Unfall",
+    "deathmarried": "verheiratet",
+    "deathnotmarried": "unverheiratet",
+    "deathBenefitBorderLabel": "Todesfallkapital",
+    "salaryDataBorderLabel": "Angaben zum Lohn",
+    "incomeYear": "gemeldeter Lohn",
+    "incomeInsured": "versicherter Lohn",
+    "workload": "Beschäftigungsgrad",
+    "pensionActivesDataBorderLabel": "Aktuelles Altersguthaben",
+    "creditTotal": "Total",
+    "creditBvg": "gemäss BVG",
+    "maxPayIn": "Dienstjahreseinkauf",
+    "ownershipWithdrawDataBorderLabel": "Vorbezug für Wohneigentum",
+    "gotWef": "vorhanden",
+    "retirementBenefitsBorderLabel": "Altersleistungen",
+    "pensionAge": "Alter",
+    "pensionCapital": "Kapital mit Zins",
+    "pensionYear": "Rente / Jahr",
+
+    "disabilityPensionBorderLabel": "Erwerbsunfähigkeitsrente",
+    "isChildAvailable": "Kinder-Erwerbsunfähigkeitsrente individuell eintragen",
+    "dischild": "Kinder-EU-Rente",
+    "dischildCheck": "Unfall",
+    "maxWef": "maximal",
+    "disValue": "Rente",
+    "disWait": "Wartefrist (Monate)",
+    "disAccident": "Unfall",
+    "survivorsProtectionBorderLabel": "Hinterlassenen-Schutz ",
+    "widowValue": "Witwen-/Witwer-Rente",
+    "widowAccident": "Unfall",
+    "orphanValue": "Waisen-Rente",
+    "orphanAccident": "Unfall"
+  },
+  "feedback": {
+    "title": "PK Feedback",
+    "descriptionPlaceholder": "Description (optional)",
+    "cancel": "Überspringen",
+    "approve": " Feedback senden"
+  }
+}

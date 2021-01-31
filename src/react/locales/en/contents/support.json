@@ -1,0 +1,109 @@
+{
+  "title": "Support",
+  "back": "Back",
+  "items": [
+    {
+      "title": "Login",
+      "subItems": [
+        {
+          "title": "Forgot password",
+          "description": "1. Click on ‘Forgot password’ under the login button. <br />2. Then enter your e-mail address and click on ‘Reset password’.<br />3. You will receive an e-mail from moneto. Open this e-mail and click on the link provided to reset your password<br/>4. Set your new password"
+        },
+        {
+          "title": "Lost access to my e-mail",
+          "description": "<strong>When you have entered your mobile number:</strong> <br />1. Open the login page.<br />2. Click on ‘No access to e-mail’ under the login button.<br />3. Enter your registered e-mail address and your registered mobile number.<br />4. Click on ‘SEND CODE’.<br />5. You will receive a six-digit code on your mobile.<br />6. Enter this code and specify a new e-mail address. Click on 'VERIFY E-MAIL'.<br />7. You will receive an e-mail from moneto. Click on the link provided to verify your new e-mail address.<br />8. Set your new password. <strong>If you have not stored a mobile number:</strong><br/>Contact our hotline on +41 71 272 52 08"
+        },
+        {
+          "title": "Lost access to my smartphone",
+          "description": "Contact our hotline on +41 71 272 52 08"
+        },
+        {
+          "title": "Customise / deactivate two-factor authentication (e-mail or SMS)",
+          "description": "<strong>Recommendation:</strong><br/>For your security, you are generally advised not to deactivate two-factor authentication (2FA)!<br /> <br/><strong>Customising / deactivating 2FA:</strong><br/>You can only adjust or deactivate 2FA if you are logged in. <br/>1. Click on your user name in the upper right-hand corner.<br/>2. Select ‘Login settings (2FA)’ from the side menu.<br/>3. Select your desired 2FA method. SMS offers the highest level of security."
+        }
+      ]
+    },
+    {
+      "title": "Account",
+      "subItems": [
+        {
+          "title": "Customise my profile & relationships",
+          "description": "In your profile settings you can customise your personal information such as first name, last name or birthday. You can also enter your partner.<br/>1. Click on your user name in the upper right-hand corner.<br/>2. Select ‘Personal details & relationship’ from the side menu.<br/><strong>Important:</strong><br/>If you deactivate your registered partner, all data entered for your partner will be lost. In the future, you will be able to create an account for your partner so that they can continue to use their own data."
+        },
+        {
+          "title": "Please note: In case of separation of the registered partner",
+          "description": "If you deactivate your registered partner, all data entered for your partner will be lost. In the future, you will be able to create an account for your partner so that they can continue to use their own data."
+        },
+        {
+          "title": "Delete account",
+          "description": "We regret that you have chosen to leave us and thank you for using moneto. After clicking on ‘Delete account completely’, the deletion timer will start after you log out. <br/>Please note:<br/> - For your security, all data will not be completely removed from our database until 90 days have elapsed. <br/> - Any login to moneto within these 90 days will immediately stop the timer and cancel the delete request.<br/> - If you have purchased a product or concluded a contract based on your data from moneto, we are not able to comply with the deletion order due to legal regulations. Please check our General terms and conditions of business on this point."
+        }
+      ]
+    },
+    {
+      "title": "Display problems",
+      "subItems": [
+        {
+          "title": "Recommended internet browsers",
+          "description": "The use of some internet browsers can cause display problems. You will achieve the best results with the following browsers:<br/>Mozilla Firefox:<br/><0>Downloadlink Mozilla Firefox</0><0>(https://www.mozilla.org/de/firefox/new/)</0><br/>Google Chrome:<br/><1>Downloadlink Google Chrom</1><1>(https://www.google.com/intl/de/chrome/)</1><br /> Javascript must not be blocked. "
+        },
+        {
+          "title": "moneto loads very slowly",
+          "description": "moneto requires a permanent and stable internet connection to the moneto server in order to process your information and perform the necessary calculations.<br />To improve performance, close all unused browser windows or tabs and unused programs. If you have active downloads in the background, they should also be paused. <br />If you use a <strong>WLan</strong>, please check the signal strength. If the wifi transmitter is in another room, on another floor or further away, the signal strength can be improved by trying to shorten the distance. Parts of the building, such as walls and floors, can greatly affect the strength of the WLAN. <br />If you are still experiencing difficulties with the connection, contact your Internet provider (e.g. Swisscom, Cablecom, Sunrise etc.)."
+        }
+      ]
+    },
+    {
+      "title": "IK (Individual Account) statement",
+      "subItems": [
+        {
+          "title": "What is an IK statement?",
+          "description": "The statement from the individual account, or ‘IK statement’ for short, is your personal cash ledger at the AHV. This document lists the necessary information with which your AHV pension can be calculated."
+        },
+        {
+          "title": "Where can I get an IK statement?",
+          "description": "You can either search for your compensation fund or order a complete statement. All you need is your AHV card. In any case, ordering your IK statement is free of charge.<br />          Please note that it may take 3 - 4 weeks for the compensation fund to send you the IK statement by post."
+        },
+        {
+          "title": "Tips for when you receive the IK statement",
+          "description": "moneto strongly recommends that you check the IK statement upon receipt for the following points.<br/>- Are all your employers listed?<br/>- Are the years (column 5) continuous or interrupted where they should not be?<br/>- Are the annual incomes (column 6) consistent with the years and employers?<br/> This is for the following reason: If data is missing or incorrect, you have 30 days after receiving the IK statement to request a ‘correction’ from your compensation fund. After these 30 days, the IK statement is considered correct and can no longer be contested."
+        }
+      ]
+    },
+    {
+      "title": "PF (pension fund) certificate",
+      "url": "PF certificate",
+      "subItems": [
+        {
+          "title": "What is a pension certificate?",
+          "description": "The pension certificate card is your personal account statement from the pension fund with which your employer is registered. Once a year, usually in January or February, you will be sent a new certificate with the current figures.<br/>Among other things, it shows your current salary and how much you have saved so far, as well as the benefits (e.g. pensions on retirement and disability) you can currently expect from the pension fund."
+        },
+        {
+          "title": "How do I get a new pension certificate?",
+          "description": "There are two ways of obtaining a pension certificate (PF certificate).<br/> <br/><br/>A. Contact your employer or your company's Human Resources department and ask them to order a PF certificate for you.<br/>B. Go straight to your pension fund. In addition to a customer hotline or e-mail contact, many pension funds offer their customers a login facility on their website where you can order a new ID or even download it directly.<br/><br/>Regardless of which method you choose, your pension fund will send you the new ID by post.<br/><br/>If you are currently out of work (unemployed), it is possible that your pension fund sums are parked in a vested benefits account with the ‘Stiftung Auffangeinrichtung’ (Pension Entitlements Holding Foundation): see <4>https://web.aeis.ch/</4> <br/><strong> Note:</strong><br/><br/> If an employee leaves a company without subsequently taking up a new position, the competent pension fund must transfer the money to the ‘Stiftung Auffangeinrichtung’ [Pension Entitlements Holding Foundation] within 6 months at the latest."
+        }
+      ]
+    },
+    {
+      "title": "Consultants",
+      "subItems": [
+        {
+          "title": "Contacting a consultant",
+          "description": " The option to request a consultant is offered in pension planning at the end of each section (retirement, disability and death).<br/>1. Click on ‘Contact a consultant’ to open the contact page.<br/>2. Select the topics on which you wish to receive personal advice.<br/>3. Determine the time when the consultant should contact you.<br/>4. If you are satisfied with the selection, you can send the request by finally clicking on ‘Confirm’.<br/>5. moneto will find a suitable consultant for you as soon as possible (within 24 hours)."
+        },
+        {
+          "title": "Recommending a consultant",
+          "description": "Are you satisfied with your consultant? The highest praise for  consultants at moneto is a recommendation to friends and acquaintances.<br/>If you would like to recommend your consultant, please proceed as follows:<br/>1. Click on the moneto logo in the top left-hand corner to go to the Home page<br/>2. Click on the profile picture of your current consultant on the upper right-hand edge of the screen.<br/>3. When you then click on ‘Recommend’ you will be sent a reference link which you can pass on to your friends and acquaintances.<br/>4. As soon as your friends and relatives register with this link, they will receive the same service from the selected consultant."
+        },
+        {
+          "title": "Changing consultant",
+          "description": "If you are dissatisfied with your consultant or would like someone with different skills, please proceed as follows:<br/>1. Click on the moneto logo in the top left-hand corner to go to the Home page.<br/>2. On the upper right-hand edge of the screen you will find the profile picture of your current consultant. By clicking on it, you can open the consultant overview.<br/>3. When you then click  on 'Change consultant', moneto will look for a new consultant for you (within 24 hours).<br/>Until moneto has found a new consultant for you, the profile picture of your current consultant will continue to be displayed."
+        },
+        {
+          "title": "Removing a consultant",
+          "description": "If you are dissatisfied with your consultant or do not need a personal consultation, you have the option of removing your current consultant.<br/>1. Click on the moneto logo in the top left-hand corner to go to the Home page.<br/>2. On the upper right-hand edge of the screen you will find the profile picture of your current consultant. By clicking on it, you can open the consultant overview.<br/>3. When you then click on ‘Remove consultant’, this consultant will be removed from your profile.<br />As a result, your current consultant will no longer be able to access your data."
+        }
+      ]
+    }
+  ]
+}

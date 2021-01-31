@@ -1,0 +1,35 @@
+{
+  "title": "Vermögen",
+  
+   "card_wealth_person_1": {
+      "title" : "Vermögen {{name}}",
+      "hasWealthQuestion" : "Haben Sie Vermögen?",
+      "hasWealthAnswers" : ["Ja", "Nein"],
+      "wealthBase" : "Pauschal Betrag",
+      "wealthUse": "davon bereits verwendet:",
+      "wealthUseInfo": "{{value}} CHF in {{app}}",
+      "helpTitle": "Vermögen",    
+      "helpDropdownItems": [
+        {
+          "title": "Vermögen",
+          "text": "<strong>Achtung: Wohneigentum oder Immobilien werden hier nicht erfasst!</strong><br><br>Tragen Sie hier pauschal die Höhe Ihres <strong>persönlichen Vermögens</strong> ein.<br>Sollten Sie die Höhe des Vermögens nicht genau kennen, ist eine Schätzung ausreichend. Setzen Sie bitte eher einen zu tiefen, als zu hohen Betrag ein.<br><br>Begriffserklärung: Pauschal bedeutet “nicht aufgeteilt”.Tragen Sie die Summe Ihres persönlichen Vermögens ein (Bargeld, Bankkonto, Aktien, etc.)."
+         }     
+      ]
+   },
+
+   "card_wealth_connection_1": {
+      "title" : "Vermögen {{name1}} & {{name2}}",
+      "hasWealthQuestion" : "Haben Sie gemeinsames Vermögen?",
+      "hasWealthAnswers" : ["Ja", "Nein"],
+      "wealthBase" : "Pauschal Betrag",
+      "wealthUse": "davon bereits verwendet:",
+      "wealthUseInfo": "{{value}} CHF in {{app}}",
+      "helpTitle": "Gemeinsames Vermögen",    
+      "helpDropdownItems": [
+        {
+          "title": "Gemeinsames Vermögen",
+          "text": "<strong>Achtung: Wohneigentum oder Immobilien werden hier nicht erfasst!</strong><br><br>Tragen Sie hier pauschal die Höhe des Vermögens ein, welches Sie mit Ihrem Partner oder Ihrer Partnerin <strong>gemeinsam besitzen.</strong><br>Sollten Sie die Höhe des Vermögens nicht genau kennen, ist eine Schätzung ausreichend. Setzen Sie bitte eher einen zu tiefen, als zu hohen Betrag ein.<br><br>Begriffserklärung: Pauschal bedeutet “nicht aufgeteilt”.Tragen Sie die Summe Ihrer gemeinsamen Vermögen ein (Bargeld, Bankkonto, Aktien, etc.)."          
+         }     
+      ] 
+   }
+}

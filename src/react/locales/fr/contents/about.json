@@ -1,0 +1,102 @@
+{
+  "title": "rien de plus simple !",
+  "subTitle": "les thèmes financiers sont faciles à traiter",
+  "registerAccount": "Créer un compte",
+  "iconWithText": [
+    {
+      "iconName": "cup",
+      "title": "AVANTAGES ",
+      "subTitle": "moneto est indépendant, gratuit et facile à utiliser. Examinez d'autres avantages..."
+    },
+    {
+      "iconName": "starFilled",
+      "title": "MON MONETO",
+      "subTitle": "Vous avez accès à vos données à tout moment. Moneto ne transmet pas vos données sans votre consentement!"
+    },
+    {
+      "iconName": "mount",
+      "title": "A PROPOS DE MONETO",
+      "subTitle": "Moneto est financé par des recettes publicitaires et peut ainsi vous fournir gratuitement cette prestation."
+    }
+  ],
+  "advantagesTitle": "Avantages de moneto",
+  "advantages": [
+    {
+      "imgSrc": "1",
+      "title": "Calculs de votre rente AVS, de votre rente de la caisse de pension, de votre rente AI, etc.",
+      "text": "Combien de CHF pouvez-vous obtenir de l'AVS et quelles sont les prestations de votre caisse de pension? À combien s'élève la rente AI en cas d'incapacité de travail? <br/> <br/>Avec moneto, vous évaluez avec succès votre situation de prévoyance intégralement et (important!) Moneto vous transmet de précieuses recommandations pour optimiser votre situation."
+    },
+
+    {
+      "imgSrc": "2",
+      "title": "De nombreuses vidéos et textes d'aide",
+      "text": "Des vidéos et des textes d'aide sont à votre disposition. L'utilisation s'avère simple et les sujets complexes sont faciles à expliquer. En raison des informations que vous avez enregistrées, vous recevrez des notifications concernant votre situation personnelle. <br /> <br />Vous avez la possibilité de consulter à tout moment des consultants professionnels certifiés par Leadership Academy Schweiz AG."
+    },
+    {
+      "imgSrc": "3",
+      "title": "Gratuit et personnalisé",
+      "text": "Moneto est gratuitement disponible pour vous. La plateforme en ligne Moneto vous offre des outils de calcul utilisés quotidiennement par des experts financiers. <br/> <br/>      Personnalisez votre profil, même avec une photo personnelle si vous le souhaitez. Dans les préférences d'utilisateur, vous pouvez ajuster Moneto selon vos besoins. "
+    },
+    {
+      "imgSrc": "4",
+      "title": "Technologie et expertise ",
+      "text": "Grâce à la numérisation OCR, vous pouvez télécharger votre certificat de prévoyance et votre extrait CI (AVS) dans le système par photo. Les données adéquates vous sont automatiquement transmises. <br /> <br />La programmation intelligente de moneto répond à vos besoins individuels et vous montre des données adéquates "
+    }
+  ],
+  "myMonetoTitle": "mon moneto",
+  "myMoneto": [
+    {
+      "imgSrc": "5",
+      "title": "Vos données - votre décision",
+      "text": "Moneto est une plateforme pour tous ceux qui désirent optimiser leur situation financière. Vous décidez si vous voulez mettre vos données ou une partie de celles-ci à la disposition des experts tels que des notaires, des planificateurs financiers, des experts fiscaux, etc."
+    },
+    {
+      "imgSrc": "6",
+      "title": "Utilisation de vos données",
+      "text": "Moneto utilise vos données exclusivement pour analyser votre situation financière personnelle. Moneto garantit que vous avez la souveraineté sur les données et que vous pouvez supprimer ces données à tout moment."
+    },
+    {
+      "imgSrc": "7",
+      "title": "Sécurité des données ",
+      "text": "moneto est une application Web. Nous sommes très conscients de la confidentialité, car, en plus des informations générales, les données financières et éventuellement les données sur la santé peuvent également être saisies. Les données sont sauvegardées sur un serveur en Suisse. Les recommandations de la FINMA (Autorité fédérale de surveillance des marchés financiers) sur les serveurs (Cloud) sont obligatoires et des mesures de sécurité approfondies sont intégrées. Nous effectuons régulièrement des tests par des pirates informatiques professionnels (Hackers) appelés « White-Hat ».<br /> <br /> En outre, Moneto est protégé par une authentification à double facteur (2FA). "
+    },
+    {
+      "imgSrc": "8",
+      "title": "Votre archive centralisée",
+      "text": "Moneto vous servira à l'avenir de banque de données centralisée. Vous pouvez ainsi créer votre dossier d'assurance et de financement numérique, si vous le souhaitez, y déposer en toute sécurité d'autres documents. Tous les documents sont sauvegardés et peuvent être consultés plusieurs années plus tard."
+    },
+    {
+      "imgSrc": "9",
+      "title": "Variété de services",
+      "text": "Moneto vous rappelle des dates et des faits importants. Voici quelques exemples :<br /><br />- Avec la saisie de  votre arbre généalogique, Moneto vérifie si vous obtenez toutes les allocations familiales ou s'il y a une autre possibilité d'octroi. <br /><br />- Deux mois avant le 16ème anniversaire de l'enfant, vous obtiendrez de Moneto l'information que vous pouvez, le cas échéant,  solliciter des allocations de formation. <br/><br />- 30 mois avant l'âge ordinaire de la retraite, Moneto vous informe de la possibilité de percevoir une retraite anticipée AVS."
+    }
+  ],
+  "aboutMonetoTitle": "a propos de moneto",
+  "aboutMoneto": [
+    {
+      "imgSrc": "10",
+      "title": "Philosophie ",
+      "text": "Nous offrons à toutes les personnes vivant en Suisse la possibilité d'accroître leur autonomie financière. "
+    },
+    {
+      "imgSrc": "11",
+      "title": "Transparence ",
+      "text": "Sur la plate-forme neutre de Moneto, vous avez toujours le même aperçu des données que les fournisseurs de prestations que vous avez habilités, comme les notaires, les spécialistes financiers, etc."
+    },
+    {
+      "imgSrc": "12",
+      "title": "Perspectives ",
+      "text": "Moneto est continuellement en développement. Nous vous informerons sur d'autres applications telles que « assurance auto digitalisée », mariage (régime matrimonial) / calculateur de succession, évaluation de biens immobiliers, etc. Au cours des mois et des années à venir, le moneto constituera la mise en réseau de tous les thèmes de la vie financière. Notre devise : simple, rapide, claire, compétente, tournée vers l'avenir."
+    }
+  ],
+  "registerButton": {
+    "title": "Allez-y, testez-le !",
+    "subTitle": "Créez votre compte gratuit :",
+    "buttonText": "Créer un compte"
+  },
+  "anotherButton": {
+    "title": "recommander moneto ",
+    "subTitle": "Invitez vos amis et connaissances : ",
+    "buttonText": "Envoyer une invitation"
+  }
+}

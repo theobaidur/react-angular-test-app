@@ -1,0 +1,55 @@
+{
+   "title": "Mes objectifs",
+   "totalIncome": "Aujourd'hui, vous avez {{inclusive}} un revenu total de{{value}} par mois.",
+   "totalIncomeInclusive": "(y compris {{value}} mois)",
+   "totalIncomeAll": "(y compris tous les salaires mensuels)",
+   "noIncome": "Aujourd'hui, vous ne disposez pas de revenu.",
+
+   "card_need_pension_1": {
+      "title": "Retraite",
+      "retirementStartQuestion": "À quel âge souhaitez-vous prendre votre retraite?",
+      "totalIncomeQuestion": "Combien de revenus avez-vous besoin pendant votre retraite pour maintenir votre niveau de vie habituel?",
+      "retirementNeed": "CHF",
+      "needAdvice": "Proposition : {{recommend}} = 90 %",
+      "closedText" : "Retraite à partir de {{start}}, mensuel {{need}}",
+      "helpTitle": "Mes objectifs - Thème retraite",    
+      "helpDropdownItems": [
+        {
+          "title": "Début de la retraite - Conseils",
+          "text": "Déterminez le moment où vous souhaitez prendre votre retraite.<br><br><strong>Attention:</strong><br>Plus tôt vous prenez votre retraite, plus vous devez économiser du capital  pour atteindre votre revenu escompté."
+        },
+        {
+          "title": "Revenu escompté",
+          "text": "En principe, un montant d'au moins 80% de votre revenu actuel est recommandé comme base de revenu escompté. Des montants plus élevés sont possibles si les actifs sont suffisants.<br><br><strong>Recommandation:</strong><br>Recommandation : Si possible, ne pas descendre en dessous de 80%, car pendant la retraite, on dispose en principe de plus de temps libre que dans la vie professionnelle."
+        }        
+      ]
+   },
+   "card_need_disability_1": {
+      "title": "Incapacité de travail",
+      "totalIncomeQuestion": "Si vous ne pouvez pas travailler pour des raisons de santé, quel revenu de remplacement souhaitez-vous?",
+      "disabilityNeed": "CHF",
+      "needAdvice": "Proposition : {{recommend}} = 90 %",
+      "closedText" : "Besoin mensuel {{need}}",
+      "helpTitle": "Mes objectifs - La question de l'incapacité de travail",    
+      "helpDropdownItems": [
+        {
+          "title": "Revenu de remplacement plus élevé - Conseils",
+          "text": "Le montant du revenu de remplacement doit faire l'objet de plusieurs considérations. Si aujourd'hui l'ensemble des revenus à la subsistance est nécessaire, il n'y a guère de raisons d'avoir moins d'argent disponible en cas d'incapacité de travail. Cependant, si vous êtes en êtes convaincu, considérez auxquels agréments vous pouvez renoncer. Exemple: Pas de voiture, appartement meilleur marché, pas de vacances, etc.<br><br>Sur le plan financier, la libération du paiement des primes de la caisse de pension et d'autres assurances a un effet positif en cas d'incapacité de travail. En retour, les allocations pour enfants/ et de formation sont exclues. Par conséquent, notre recommandation est de définir au moins 90 % comme objectif."
+        }     
+      ]
+   },
+   "card_need_leftbehind_1": {
+      "title": "En cas de décès",
+      "totalIncomeQuestion": "Quel revenu de remplacement souhaitez-vous assurer à vos survivants?",
+      "leftBehindNeed": "CHF",
+      "needAdvice": "Proposition: {{recommend}} = 80%",
+      "closedText" : "Besoin mensuel {{need}}",
+      "helpTitle": "Mes objectifs - Thème décès",    
+      "helpDropdownItems": [
+        {
+          "title": "Pour un revenu supérieur - conseil",
+          "text": "Le montant financier mis à disposition des personnes survivantes dépendent d'une perception individuelle . Si aucune hypothèque ou autre dette ne peut être remboursée et peu de fortune subsiste, nous recommandons de s'assurer que 80% au moins du salaire actuel est sécurisé dans une famille avec des enfants d'âge préscolaire ou scolaire. Il peut être tenu compte du temps écoulé jusqu'à la fin de la formation de l'enfant le plus jeune. Des conseillers certifiés sont à votre disposition sur demande."
+        }     
+      ]
+   }
+}

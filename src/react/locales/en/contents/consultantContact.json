@@ -1,0 +1,36 @@
+{
+  "contactTabHeader": "CONTACT A CONSULTANT",
+  "plzQuestion": "Where do you live?",
+  "plzLabel": "Postcode",
+  "ortLabel": "City / town",
+  "contactMethodQuestion": "How would you like to be contacted?",
+  "contactMethodLabel": "",
+  "contactMethods": ["Phone", "E-mail"],
+  "phoneQuestion": "Your telephone number",
+  "phoneLabel": "No.",
+  "callTimeQuestion": "When can you be reached by phone?",
+  "calltimeOptionLabel": "",
+  "calltimeoptions": ["At any time", "Date"],
+  "calltimedateLabel": "Date",
+  "calltimehourLabel": "Time",
+  "emailQuestion": "Your e-mail address",
+
+  "textToS0": "I have read the",
+  "textToSPrivacy": " Privacy policy, ",
+  "textToSFirstLink": " Terms and conditions of use ",
+  "textToS1": "and the",
+  "textToSSecondLink": " General terms and conditions of business ",
+  "textToS2": "pertaining to data transmission and I agree with them",
+
+  "contactButton": "Send contact request",
+  "validators": {
+    "required": "The field :attribute is invalid"
+  },
+  "RequestAlreadyPresent": "A request has already been sent",
+  "SpecialistNotContacted": "Consultant contact failed",
+  "SpecialistContacted": "Consultant was contacted",
+  "SuccessText": " We are identifying a consultant from your region! You will be contacted by the consultant in accordance with your contact details",
+  "BackButtonText": "Back to Home",
+  "OptInText": "I would like to contact the linked consultant and I consent to granting him/her access to the data I have entered.",
+  "OptInButtonText": "Contact consultant"
+}

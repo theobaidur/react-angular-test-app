@@ -1,0 +1,10 @@
+{
+  "title": "Notifications",
+  "new": "New",
+  "readed": "Read",
+  "buttonText": "OK",
+  "type1": "Message",
+  "type2": "Feedback",
+  "type3": "Update",
+  "type4": "Error"
+}

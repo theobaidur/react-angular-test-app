@@ -1,0 +1,53 @@
+{
+  "moduleTitles": {
+    "quickCheckForm": "Schnell-Check Vorsorge",
+    "quickCheckAnalysis": "Auswertung"
+  },
+
+  "common": {
+    "circa": "ca.",
+    "buttonRegister": "Account erstellen",
+    "buttonAdvantage": "Vorteile prüfen"
+  },
+
+  "form": {
+    "gender": "Geschlecht",
+    "genderItems": ["männlich", "weiblich", "anderes"],
+    "birthYear": "Geburtsjahr",
+    "firstYear": "In welchem Jahr haben Sie das erste Mal AHV-Beiträge bezahlt?",
+    "firstYearLabel": "Erste Jahr",
+    "firstYearSuggestion": "Pflichtig ab",
+    "income": "Einkommen pro Jahr",
+    "next": "Weiter"
+  },
+  "drawer": {
+    "firstHeading": "What is Lorem Ipsum?",
+    "firstText": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been theindustry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap intoelectronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release ofLetraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been theindustry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap intoelectronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release ofLetraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been theindustry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap intoelectronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release ofLetraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been theindustry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap intoelectronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release ofLetraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "secondHeading": "Why do we use it",
+    "secondText": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been theindustry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap intoelectronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release ofLetraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+  },
+  "analysis": {
+    "mode1": "Pensionierung",
+    "mode2": "Erwerbsunfähigkeit durch Unfall",
+    "mode3": "Erwerbsunfähigkeit durch Krankheit",
+
+    "warning": "Die Ergebnisse sind nur Schätzungen und können stark von Ihrer tatsächlichen Situation abweichen",
+
+    "less": "weniger pro Monat",
+
+    "resultEstimate": "Schätzung",
+    "resultFrom1": "AHV & Pensionkasse Leistungen",
+    "resultFrom2": "IV & UVG-Invalidenrente",
+    "resultFrom3": "IV & BVG-Invalidenrente",
+
+    "legendIncome": "Einkommen heute",
+    "legend1a": "AHV",
+    "legend1b": "BVG",
+    "legend2a": "IV",
+    "legend2b": "UVG",
+    "legend3a": "IV",
+    "legend3b": "KTG & BVG",
+
+    "convince": "Mit einem <strong>kostenfreien Account erhalten Sie exakte Resultate</strong>. Erfahren Sie mehr über Ihre Vorteile ihres persönlichen Accounts oder erstellen Sie gleich einen:"
+  }
+}

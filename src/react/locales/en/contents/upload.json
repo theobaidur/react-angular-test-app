@@ -1,0 +1,10 @@
+{
+  "header": {
+    "title": "Upload file",
+    "descriptionPdf": "Upload your {{templateName}} extract as a pdf.",
+    "descriptionImg": "Upload your {{templateName}} extract as a graphics file."
+  },
+  "dragAreaText": "Drag files here, or click to select a file.",
+  "waitingText": "Please wait while the files are processed.",
+  "sendBtnText": "Upload"
+}

@@ -1,0 +1,42 @@
+{
+    "dashboard": "/tableau-de-bord",
+    "profile": "/profil",
+    "about": "/sur-moneto",
+    "pension-plan": "/planification-de-la-retraite",
+    "disability-plan": "/incapacite-de-travail",
+    "leftbehind-plan": "/deces",
+    "quick-check": "/verification-rapide",
+    "more": "/plus",
+    "account": "/compte",
+    "scan": "/scan",
+    "consultant-contact": "/conseiller-contact",
+    "contact": "/contact",
+    "support": "/support",
+    "terms-of-use": "/conditions-d_utilisation",
+    "terms-and-conditions": "/conditions-commerciales",
+    "privacy-policy": "/declaration-de-la-confidentialite-des-donnees",
+    "partner": "/partenaire",
+    "imprint": "/impressum",
+    "style-guide": "/style-guide",
+    "logout": "/deconnexion",
+    "login": "/connexion",
+    "register": "/inscription",
+    "reset-password": "/reinitialiser-le-mot-de-passe",
+    
+    "Conditions d_utilisation" : "Conditions d'utilisation",
+    "Incapacite de travail": "D'incapacité de travail",
+    "Reinitialiser le mot de passe": "Réinitialiser le mot de passe",
+    "Declaration de la confidentialite des donnees": "Déclaration de la confidentialité des données",
+  
+    "DossierDataExpired-question": "Vous avez ouvert moneto dans un autre navigateur ou onglet. Voulez-vous utiliser l'onglet navigateur actuel ? (Les liens à l'autre onglet du navigateur sont déconnectées)",
+    "DossierOpenedByAnotherUser-question": "Votre compte a encouru une erreur sérieuse qui ne peut pas être résolue par le système lui-même. Veuillez contacter immédiatement le support Moneto ! Téléphone : +41 71 272 52 08, courriel: support@moneto.ch",
+    "DossierOpenedByUser-question": "Ce dossier est en cours de traitement par votre client. Voulez-vous recharger le dossier et réessayer?",
+    "DossierOpenedByConsultant-question": "Vos données partagées sont actuellement consultées par votre conseiller. Voulez-vous recharger moneto et réessayer?",
+    "DossierOpenedByAnotherConsultant-question": "Un autre conseiller, suppléant ou spécialiste, est entrain de traiter ce dossier. Voulez-vous recharger le dossier et réessayer?",
+    "IdleTimeout-question": "Vous étiez inactif pendant une longue période. Pour des raisons de sécurité, votre connexion au serveur Moneto a été déconnectée. Voulez-vous rétablir la connexion?",
+  
+    "cookieMessage": "Nous utilisons les cookies et Google Analytics pour rendre ce site aussi intéressant que possible pour vous. Êtes-vous d'accord?",
+    "allowCookiesButton": "Oui, volontiers",
+    "declineCookiesButton": "Non, merci"
+  }
+  

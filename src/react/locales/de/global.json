@@ -1,0 +1,19 @@
+{
+  "loading": "Wird geladen",
+  "approve": "Bestätigen",
+  "consultPage": "Berater anfordern",
+  "moreText": "Mehr",
+  "showResult": "Ergebnis {{name}} anzeigen",
+  "date": {
+    "year": "Jahr",
+    "month": "Monat",
+    "day": "Tag",
+    "monthsShort": ["Jan", "Feb", "Mär", "Apr", "Mai", "Jun", "Jul", "Aug", "Sept", "Okt", "Nov", "Dez"]
+  },
+  "DossierDataExpired-question": "Sie haben moneto noch in einem anderen Fenster oder Browser geöffnet. Möchten Sie das aktuelle Fenster nutzen? Dadurch wird die Verbindung zum anderen Fenster getrennt.",
+  "DossierOpenedByAnotherUser-question": "Dieses Dossier wird derzeit von einem anderen Benutzer bearbeitet. Möchten Sie sich neu verbinden?",
+  "DossierOpenedByUser-question": "Dieses Dossier wird derzeit von einem Benutzer bearbeitet. Möchten Sie sich neu verbinden?",
+  "DossierOpenedByConsultant-question": "Dieses Konto wird derzeit von einem Berater bearbeitet. Möchten Sie sich erneut verbinden?",
+  "DossierOpenedByAnotherConsultant-question": "Dieses Dossier wird derzeit von einem anderen Berater bearbeitet. Möchten Sie sich erneut verbinden?",
+  "IdleTimeout-question": "Sie waren für längere Zei inaktiv. Ihre Verbindung zum moneto Server wurde getrennt. Möchten Sie die Verbindung wiederherstellen?"
+}

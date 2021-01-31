@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto%20Condensed:300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+@import url('./reset.css');
+@import url('./animations.css');
+
+@font-face {
+  font-family: 'leinero';
+  src: url('../assets/fonts/leinero.woff') format('woff');
+  /* Pretty Modern Browsers */
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  font-family: 'Roboto Condensed', sans-serif !important;
+  font-size: 16px;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+title {
+  font-size: 24px;
+}
+
+nav {
+  list-style: none;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 36px;
+}
+
+fieldset {
+  border: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.desktop {
+  display: block !important;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.mobile {
+  display: none !important;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+.overflow-hidden::-webkit-scrollbar {
+  visibility: hidden;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  title {
+    font-size: 16px;
+  }
+
+  section {
+    padding: 50px 20px;
+  }
+
+  .desktop,
+  .d-flex {
+    display: none !important;
+  }
+
+  .mobile {
+    display: block !important;
+  }
+}
+
+hr {
+  border-top: 0;
+  border-color: #cedae0;
+}
+
+.autofillFix:-webkit-autofill,
+.autofillFix:-webkit-autofill:hover,
+.autofillFix:-webkit-autofill:focus,
+.autofillFix:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-box-shadow: 0 0 0px 1000px #303435 inset;
+  -webkit-text-fill-color: #e5e8ea;
+  border-bottom: #dddddd solid 1px;
+}
+
+input:invalid,
+input:-moz-ui-invalid {
+  border: 0;
+  outline: none;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}

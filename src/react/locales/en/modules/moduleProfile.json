@@ -1,0 +1,75 @@
+{
+  "title": "Personal details",
+  "card_profile_personal_1": {
+    "firstName": "First name",
+    "lastName": "Last name",
+    "birthDate": "Date of birth",
+    "gender": "Gender",
+    "genderItems": ["male", "female", "other"],
+
+    "helpTitle": "Personal details",
+    "helpText": "<p>Your <strong>date of birth</strong> and your <strong>gender</strong> are crucial for various calculations. Your <strong>first name and surname</strong> are required if you wish to benefit from our products.</p><p><u>Why all this information about me?</u></p><p>Your exact <strong>date of birth</strong> is relevant for various calculations in the state pension (AHV/IV) and occupational pension (BVG) schemes.</p><p>Your <strong>gender</strong> makes a difference to your AHV retirement age, the number of AHV contribution years and whether and for how long a widow's/widower's pension will continue to be paid. If you would rather specify </strong> 'other' <strong>in preference to<strong> 'male' <strong>or</strong> 'female', </strong> you may choose this option. However, since the Pensions Act only offers calculation bases for male and female, to be on the safe side we use the slightly worse-off male basis for those defining themselves as other.</p><p>Your real <strong>first name and surname</strong> are required, for example, if you would like to make an appointment with a consultant for a detailed consultation at your home or at a location of your choice.</p><p>Would you like to learn more about moneto’s privacy policy?<a href='#'>On this page</a> you can find everything you need to know!</p>",
+    "helpDropdownItems": [
+      {
+        "title": "First name / surname",
+        "text": "Tragen Sie hier Ihren Vor- und Nachnamen ein. Bei Kontaktaufnahme mit einem Berater oder wenn Sie ein Produkt über moneto erwerben, müssen zwingend wahrheitsgetreue Angaben gemacht werden.Enter your first name and surname here. When contacting a consultant or when you purchase a product via moneto, it is imperative that you provide truthful information."
+      },
+      {
+        "title": "Date of birth",
+        "text": "Your date of birth makes a difference to various calculations."
+      },
+      {
+        "title": "Gender",
+        "text": "Your gender has an effect on various calculations. The gender 'other' uses the same calculation bases  as 'male' in social insurance schemes."
+      }
+    ]
+  },
+  "card_profile_partner_1": {
+    "question": "Do you have a partner?",
+    "answers": ["Yes", "No"],
+    "closedText": "Partner",
+    "disablePartnerQuestion": "Are you sure you want to delete your partner?",
+    "helpTitle": "Partner",
+    "helpText": "<p>Enter your cohabiting, married or registered  <strong>partner/strong> here.</p><p><u>Why does my partner have to be entered?</u></p><p>Entering your <strong>partner</strong> provides considerable added value.</p><p>For couples in general and families in particular, it is advisable to analyse the joint financial situation in old age, in the event of loss of earnings or the death of a partner.</p><p>Information about cohabiting may be found <a href='#'>here on the moneto Wiki.</a>.</p>",
+    "helpDropdownItems": [
+        {
+          "title": "Partner Yes/No?",
+          "text": "Please answer the question with <strong>YES</strong>, if one of the following applies to you:<br><br> - married<br> - joint residence (cohabiting)<br> - registered partnership (same sex)<br><br><br>Answer the question with <strong>NO</strong>, if one of the following applies to you:<br><br> - divorced and without a new partner<br> - uncommitted relationship, not living together<br> - single<br><br><br>Entering your partner offers great advantages: You save time and get an insight into your joint financial situation."
+        },
+        {
+          "title": "Change/remove partner",
+          "text": "<strong>Please note:</strong><br>If you remove your registered partner, his/her data will be lost! In the future moneto will offer you the possibility of generating an own account for your partner so that their data can continue to be used."
+        }        
+      ]
+  },
+  "card_profile_connection_1": {
+    "mode": "Nature of the relationship",
+    "modeItems1": ["Married", "Cohabiting", "Other"],
+    "modeItems2": ["Registered partnership", "Cohabiting", "Other"],
+    "modeStart": "In a relationship since",
+    "modeStart1": "Civil marriage",
+    "modeStart2": "Moved in together",
+    "modeStart3": "In a relationship since",
+    "closedText": "{{mode}} since {{start}}",
+    "helpTitle": "Relationship",
+    "helpText": "<p>The distinction between the <strong>types of relationship</strong> married, registered partnership or cohabiting is necessary because they are treated differently in law.</p><p>Likewise, the <strong>duration</strong> of the relationship has an effect on the calculations.</p><p><u>Why the distinction?</u></p><p>Cohabiting couples do not have the same advantages as <strong>married couples</strong> or <strong>registered partnerships,</strong> who in most cases have much better financial security.</p><p>Information about cohabiting may be found at <a href='#'>here on the moneto Wiki.</a>.</p>",
+    "helpDropdownItems": [
+      {
+        "title": "Married",
+        "text": "Enter the date of your <strong>civil marriage</strong>."
+      },
+      {
+        "title": "Gemeinsamer Wohnsitz (Konkubinat)",
+        "text": "Enter the date when you moved in together."
+      },
+      {
+        "title": "Registered partnership",
+        "text": "Enter the date of your <strong>civil marriage</strong>."
+      },
+      {
+        "title": "Other",
+        "text": "<strong>No dates</strong> are relevant for the calculations here."
+      }
+    ]
+  }
+}

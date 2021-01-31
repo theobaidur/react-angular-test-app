@@ -1,0 +1,75 @@
+{
+  "title": "Persönliche Angaben",
+  "card_profile_personal_1": {
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "birthDate": "Geburtsdatum",
+    "gender": "Geschlecht",
+    "genderItems": ["männlich", "weiblich", "anderes"],
+
+    "helpTitle": "Persönliche Angaben",
+    "helpText": "<p>Ihr <strong>Geburtsdatum</strong> und Ihr <strong>Geschlecht</strong> sind entscheidend für diverse Berechnungen! Ihr <strong>Vor- und Nachname</strong> wird benötigt, wenn Sie von Produkten profitieren möchten.</p><p><u>Weshalb die vielen Infos zu meiner Person?</u></p><p>Ihr genaues <strong>Geburtsdatum</strong> ist für verschiedene Berechnungen in der staatlichen Vorsorge (AHV/IV) und der betrieblichen Vorsorge (BVG) relevant.</p><p>Das <strong>Geschlecht</strong> entscheidet über das AHV-Pensionsalter, die Anzahl der AHV-Beitragsjahre, sowie ob und wie lange eine Witwen-Rente ausbezahlt wird. Sollten Sie <strong>andere</strong>, anstelle von <strong>männlich</strong> oder <strong>weiblich</strong> bevorzugen, steht Ihnen auch diese Möglichkeit zur Wahl. Da das Vorsorgegesetz jedoch nur Berechnungsgrundlagen für männlich und weiblich bietet, verwenden wir sicherheitshalber für andere, die etwas schlechter gestellte Grundlage der Männer.</p><p>Ihr echter <strong>Vor- und Nachname</strong> wird benötigt, wenn Sie beispielsweise mit einem Berater einen Termin für eine ausführliche Beratung bei sich Zuhause oder an einem von Ihnen gewünschten Ort ausmachen möchten.</p><p>Möchten Sie mehr über die Datenschutzbestimmungen von moneto erfahren? <a href='#'>Auf dieser Seite</a> finden Sie alles Wissenswerte!</p>",
+    "helpDropdownItems": [
+      {
+        "title": "Vorname / Name",
+        "text": "Tragen Sie hier Ihren Vor- und Nachnamen ein. Bei Kontaktaufnahme mit einem Berater oder wenn Sie ein Produkt über moneto erwerben, müssen zwingend wahrheitsgetreue Angaben gemacht werden."
+      },
+      {
+        "title": "Geburtsdatum",
+        "text": "Ihr Geburtsdatum hat Einfluss auf diverse Berechnungen."
+      },
+      {
+        "title": "Geschlecht",
+        "text": "Ihr Geschlecht hat Einfluss auf diverse Berechnungen. Das Geschlecht «Andere» verwendet in den Sozialversicherungen die gleichen Berechnungsgrundlagen wie «männlich»."
+      }
+    ]
+  },
+  "card_profile_partner_1": {
+    "question": "Haben Sie eine Partnerin oder einen Partner?",
+    "answers": ["Ja", "Nein"],
+    "closedText": "Partner/In",
+    "disablePartnerQuestion": "Sind Sie sicher, dass Sie Ihren Partner löschen möchten?",
+    "helpTitle": "Partner",
+    "helpText": "<p>Erfassen Sie hier ihre Konkubinats-, Ehe- oder eingetragene <strong>Partnerin</strong> oder <strong>Partner</strong>.</p><p><u>Warum den/die Partner/in erfassen?</u></p><p>Die Erfassung einer <strong>Partnerin</strong> oder eines <strong>Partners</strong> bietet grossen Mehrwert.</p><p>Für Paare allgemein und Familien im Besonderen ist es ratsam, die gemeinsamen finanziellen Situationen im Alter, bei Erwerbsausfall oder dem Ableben eines Partners zu analysieren.</p><p>Infos zum Konkubinat finden Sie <a href='#'>hier im moneto-Wiki</a>.</p>",
+    "helpDropdownItems": [
+        {
+          "title": "Partner Ja/Nein?",
+          "text": "Beantworten Sie die Frage mit <strong>«JA»</strong>, wenn einer der folgenden Punkte auf Sie zutrifft:<br><br> - verheiratet<br> - gemeinsamer Wohnsitz (Konkubinat)<br> - eingetragene Partnerschaft (gleichgeschlechtlich)<br><br><br>Beantworten Sie die Frage mit <strong>«NEIN»</strong>, wenn einer der folgenden Punkte auf Sie zutrifft:<br><br> - geschieden und ohne neue/n Partner/in<br> - unverbindliche Beziehung ohne gemeinsamen Wohnsitz<br> - Single<br><br><br>Das Erfassen des Partners bietet grosse Vorteile: Sie sparen Zeit und haben Einblick in Ihre gemeinsame finanzielle Situation."
+        },
+        {
+          "title": "Partner ändern/entfernen",
+          "text": "<strong>Achtung:</strong><br>Wenn Sie Ihren erfassten Partner entfernen, gehen dessen Daten verloren! In Zukunft wird moneto Ihnen die Möglichkeit bieten, für den Partner einen eigenen Account zu generieren, dass dieser seine Daten weiter verwenden kann."
+        }        
+      ]
+  },
+  "card_profile_connection_1": {
+    "mode": "Art der Beziehung",
+    "modeItems1": ["Verheiratet", "Konkubinat", "Andere"],
+    "modeItems2": ["Eingetragene Partnerschaft", "Konkubinat", "Andere"],
+    "modeStart": "Beziehung seit",
+    "modeStart1": "Zivile Trauung",
+    "modeStart2": "Zusammenzug",
+    "modeStart3": "Beziehung seit",
+    "closedText": "{{mode}} seit {{start}}",
+    "helpTitle": "Beziehung",
+    "helpText": "<p>Die Unterscheidung der <strong>Beziehungsarten</strong> verheiratet, eingetragene Partnerschaft oder Konkubinat sind notwendig, weil sie vom Gesetz her anders behandelt werden.</p><p>Die <strong>Dauer</strong> der Beziehung hat ebenfalls Einfluss auf die Berechnungen.</p><p><u>Warum die Unterscheidung?</u></p><p>Konkubinats-Paare haben nicht dieselben Vorteile wie <strong>verheiratete</strong> oder in <strong>eingetragenen Partnerschaften</strong> lebende Personen, die in den meisten Fällen deutlich besser abgesichert sind.</p><p>Infos zum Konkubinat finden Sie <a href='#'>hier im moneto-Wiki</a>.</p>",
+    "helpDropdownItems": [
+      {
+        "title": "Verheiratet",
+        "text": "Tragen Sie das Datum Ihrer <strong>zivilen Trauung</strong> ein."
+      },
+      {
+        "title": "Gemeinsamer Wohnsitz (Konkubinat)",
+        "text": "Tragen Sie das Datum Ihres Zusammenzugs ein."
+      },
+      {
+        "title": "Eingetragene Partnerschaft",
+        "text": "Tragen Sie das Datum Ihrer <strong>zivilen Trauung</strong> ein."
+      },
+      {
+        "title": "Andere",
+        "text": "Hier ist <strong>kein Datum</strong> für Berechnungen relevant."
+      }
+    ]
+  }
+}

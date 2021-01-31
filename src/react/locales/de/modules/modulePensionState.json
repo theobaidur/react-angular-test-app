@@ -1,0 +1,139 @@
+{
+  "title": "Staatliche Vorsorge",
+  "dragAreaText": "Ziehen Sie ein PDF oder eine Bilddatei hier her",
+  "sendBtnText": "Bestätigen",
+  "card_pensionstate_base_1": {
+    "title": "Leistungen der AHV und IV",
+    "incomeCode": " Einkommenscode",
+    "incomeYear": " Jahr",
+    "incomeAmmount": " Betrag",
+    "detailed": "Haben Sie einen aktuellen IK-Auszug?",
+    "detailedItems": [
+      "Ja",
+      "Nein"
+    ],
+    "detailedClosedText": "IK-Auszug",
+    "quick": "Wählen Sie eine Alternative aus",
+    "quickItems": [
+      "Schnellberechnung",
+      "Annahme"
+    ],
+    "minMedMax": "Wählen Sie eine Rentenhöhe aus",
+    "minMedMaxItems": [
+      "Minimum ({{value}})",
+      "Mittelwert ({{value}})",
+      "Maximum ({{value}})"
+    ],
+    "firstAgeQuestion": "Ab welchem Alter haben Sie das erste Mal AHV-Beiträge bezahlt?",
+    "firstAge": "Alter",
+    "missing": "Hatten Sie {{missingFrom}} Jahre OHNE die Bezahlung der AHV-Mindestbeiträge?",
+    "missingFrom": "ab {{age}}", 
+    "missingItems": [
+      "Ja",
+      "Nein"
+    ],
+    "missingYears": "Anzahl Jahre",
+    "moveToNextStep": "Scan ist fertig. Sie können mit dem nächsten Schritt fortfahren",
+    "selectIkUploadOption": " Wie möchten Sie Ihren IK-Auszug im System erfassen?",
+    "addLine": "Nächster Eintrag",
+    "header": "Prüfen Sie das Scan-Ergebnis",
+    "helpInfo": "Nach der genauen Prüfung bestätigen Sie die Korrektheit der Daten am Formularende!",
+    "confirmText": "Wenn Sie abbrechen, werden die Daten nicht übernommen und sind nicht mehr vorhanden. Möchten Sie das Fenster trotzdem schliessen?",
+    "dataTransferBtn": "Daten übernehmen",
+    "checkBoxText": "Hiermit bestätige ich die Korrektheit der Daten",
+    "contentLabels": [
+      "Daten vom ersten Foto",
+      "Daten vom zweiten  Foto",
+      "Daten vom dritten Foto"
+    ],
+    "dragPhotos": "Legen Sie die Fotos hier ab ...",
+    "dragSelectPhotos": "Ziehen Sie einige Fotos hierher oder klicken Sie, um sie auszuwählen",
+    "processingPhotos": "Bitte warten Sie, bis die Fotos verarbeitet wurden ...",
+    "helpTitle": "Leistungen der AHV / IV",
+    "helpDropdownItems": [
+      {
+        "title": "IK-Auszug - was ist das?",
+        "text": "Der Auszug aus dem Individuellen Konto, kurz IK-Auszug, ist sozusagen Ihr persönliches Kassenbuch bei der AHV. Auf diesem Dokument sind die Angaben zur Berechnung der AHV-Rente aufgelistet.<br><br><strong>Achtung:</strong><br>Wenn Sie nicht unmittelbar vor der Pensionierung stehen, ist die Berechnung der AHV-Rente aus Ihrem aktuellen IK-Auszug, nur ein theoretischer Wert zum momentanen Zeitpunkt! Es ist wahrscheinlich, dass sich die berechnete Rente bis zu Ihrer Pensionierung verändern wird."
+      },
+      {
+        "title": "IK-Auszug bestellen",
+        "text": "Sie können entweder Ihre Ausgleichskasse suchen oder einen Gesamt-Auszug bestellen.<br><br><0>Klicken Sie hier um Ihre Ausgleichkasse zu suchen >></0><br><br><1>Bestellen Sie hier sämtliche Auszüge / Gesamtauszug >></1><br><br>Die Bestellung Ihres IK-Auszugs ist kostenfrei.<br><br>Beachten Sie bitte, dass es 3 - 4 Wochen dauern kann, bis die Ausgleichskasse Ihnen den IK-Auszug per Post zusendet. moneto empfiehlt Ihnen bis zum Erhalt des Auszugs mit einer Schnellberechnung oder Annahme weiterzufahren. Wenn es um Ihre finanzielle Sicherheit geht, ist zeitnahes Handeln wichtig!",
+        "links": [
+          { 
+            "url" : "https://inforegister.zas.admin.ch/InfoWeb/", 
+            "text": "Klicken Sie hier um Ihre Ausgleichkasse zu suchen >>"
+          },{
+            "url" : "https://www.ahv-iv.ch/de/Merkbl%C3%A4tter-Formulare/Bestellung-Kontoauszug/Schweiz",
+            "text" : "Bestellen Sie hier sämtliche Auszüge / Gesamtauszug >>"
+          }
+        ]
+      },
+      {
+        "title": "IK-Auszug - Tipps nach Erhalt",
+        "text": "Moneto empfiehlt Ihnen dringend den IK-Auszug nach Erhalt, auf folgende Punkte genau zu überprüfen:<br><br> - Sind alle Ihre Arbeitgeber aufgeführt?<br> - Sind die Jahreszahlen (Spalte 5) zusammenhängend, bzw. unterbrochen, wo sie nicht sein sollten?<br> - Stimmen die (Jahres-) Einkommen (Spalte 6) mit den Jahren und Arbeitgeber überein?<br><br><br><br>Grund dafür: Sollten Daten Fehlen oder nicht stimmen, haben Sie nach Erhalt des IK-Auszuges 30 Tage Zeit um bei Ihrer Ausgleichskasse eine Berichtigung zu verlangen. Nach Ablauf dieser 30 Tage, gilt der Stand des IK-Auszugs als korrekt und ist nicht mehr anfechtbar. Empfehlung Ausgleichskasse: Bestellen Sie alle 5 Jahre den aktuellen IK-Auszug. Grund: wenn Lohnausweise oder Lohnabrechnungen nicht mehr vorhanden sind, wird der Beweis schwierig."
+      },
+      {
+        "title": "Schnellberechnung",
+        "text": "Mit der Schnellberechnung erhalten Sie eine grobe Schätzung, wie hoch Ihre AHV-Rente sein könnte.<br><br><strong>AHV-Beiträge:</strong><br>Die meisten Personen bezahlen zum ersten Mal Ihre AHV-Beiträge zu Beginn Ihrer Lehre oder nach Erhalt des ersten Lohnes, innerhalb der Schweiz.<br><br><strong>Jahre ohne AHV-Mindestbeiträge:</strong><br>Folgende Beispiel-Situationen können dazu führen, dass man Jahre ohne AHV-Mindestbeiträge hat:<br><br> - Ein <strong>Student</strong> bezahlt während der Studienzeit keine freiwilligen AHV-Beiträge und beginnt sein Arbeitsleben mit 25 Jahren. In diesem Fall sind 4 Jahre einzutragen. (ab 21 zu rechnen)<br><br>- Ein <strong>ausländischer Staatsbürger</strong>, 40 Jahre alt, findet eine Arbeitsstelle in der Schweiz. In diesem Fall sind 19 Jahre einzutragen. (ab 21 zu rechnen)<br><br>- Ein <strong>Sozialhilfeempfänger</strong> erhält 3 Jahre Sozialhilfe. Davor war die Person 2 Jahre arbeitslos. In diesem Fall sind 3 Jahre einzutragen, da die Arbeitslosengelder AHV-Beiträge beinhalten.<br><br>"
+      },
+      {
+        "title": "Annahme",
+        "text": "Treffen Sie eine Annahme Ihrer Wahl. Die ausgewiesenen Zahlen basieren auf den aktuellen gesetzlichen Werten unter Anrechnung der vollen Beitragsdauer (Keine fehlenden Beitragsjahre)."
+      }
+    ],
+    "qrcode": {
+      "title": "QR-Code",
+      "label": "QR-Code",
+      "listItems": [
+        "Scannen Sie den untenstehenden QR-Code mit Ihrem Smartphone",
+        "Sie werden auf die korrekte Website geleitet",
+        "Fotografieren Sie den IK-Auszug mit Ihrem Smartphone. Fertig!"
+      ]
+    },
+    "email": {
+      "title": "E-Mail",
+      "label": "E-Mail senden",
+      "inputLabel": "Ihre E-Mail-Adresse",
+      "listItems": [
+        "Geben Sie unten Ihre E-Mail ein und drucken Sie auf `E-Mail anfordern`",
+        "Sie erhalten eine E-Mail. Öffnen Sie den darin angegebenen Link.",
+        "Fotografieren Sie den IK-Auszug mit Ihrem Smartphone. Fertig!"
+      ],
+      "failedReason": "Beim Versenden des Scan-Links ist ein Fehler aufgetreten.",
+      "failedGeneral": "Beim Versenden des Scan-Links ist ein Fehler aufgetreten.",
+      "succeeded": "Eine E-Mail wurde gesendet. Bitte überprüfen Sie Ihre E-Mails auf dem Smartphone.",
+      "documentTitle": "Vorsorgeausweis",
+      "invalidMail": "Ungültige E-Mail-Adresse",
+      "button": "E-Mail anfordern"
+    },
+    "manual": {
+      "title": "Manuell",
+      "label": "Manuell",
+      "listItems": [
+        "Öffnen Sie auf Ihtrem Smartphone einen Browser.",
+        "Geben Sie den untenstehenden Link in der Adresszeile ein.",
+        "Fotografieren Sie den IK-Auszug mit Ihrem Smartphone. Fertig!"
+      ]
+    },
+    "photo": {
+      "title": "Foto mit Smartphone",
+      "label": "Foto",
+      "description": "Haben Sie auf Ihrem Smartphone einen QR-Code-Reader oder einen E-Mail-Zugang?"
+    },
+    "upload": {
+      "title": "Datei hochladen",
+      "label": "PDF upload",
+      "description": "Laden Sie Ihren IK-Auszug als Bilddatei oder PDF hoch."
+    },
+    "edit": {
+      "title": "Manuelle Eingabe",
+      "label": "abschreiben",
+      "description": "Geben Sie die Daten aus Ihrem IK-Auszug manuell ein."
+    }
+  },
+  "view": {
+    "firstPillarTitle": "AHV-Rente",
+    "firstPillarTitleDisability": "IV-Rente",
+    "firstPillarTitleWidow": "AHV Witwe/r-Rente"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "stepper": {
+    "tipps": "Tipps:",
+    "photos": "Fotos:",
+    "processing": "Processing:",
+    "complete": "Complete:",
+    "invalid": "Invalid code:",
+    "previewStep": {
+      "default": [
+        "Legen Sie die erste Seite Ihres PK-Ausweises auf eine freie Fläche.",
+        "Zum fotografieren gehen Sie mit dem Smartphone moglichst nahe an den Ausweis heran, achten Sie darauf, dass die Seitenränder im Bild sind."
+      ],
+      "IK": [
+        "Legen Sie die erste Seite Ihres IK-Ausweises auf eine freie Fläche.",
+        "Zum fotografieren gehen Sie mit dem Smartphone moglichst nahe an den Ausweis heran, achten Sie darauf, dass die Seitenränder im Bild sind."
+      ]
+    },
+    "pageName": "Seite",
+    "processingText": "Die Fotos werden nun verarbeitet. Bitte warten, dies kann einige Momente dauern...",
+    "searchingText": "moneto verarbeitet Ihre Anfrage...",
+    "waitingText": "Bitte schließen Sie dieses Fenster nicht. moneto wird Ihnen hier mitteilen ob der Prozess erfolgreich war...",
+    "completeText": "Daten wurden erflogreich gescannt! <br />Auf Moneto geht's weiter. <br />Auf wiedersehen!",
+    "invalidText": "Aus Sicherheitsgründen wird der Code nach einem Versuch ungültig. Für einen weiteren Versuch klicken Sie bitte auf 'neuen Code anfordern'",
+    "understandBtn": "Verstanden, los GEHT's!",
+    "oneMorePageBtn": "NÄCHSTE SEITE",
+    "startPhotoBtn": "START FOTO",
+    "sendToServerBtn": "KEINE WEITEREN SEITEN!",
+    "addImageFirst": "Fügen Sie zuerst eine Bilddatei oder ein PDF hinzu"
+  },
+  "common": {
+    "stop": "Abbrechen",
+    "withoutASmartphone": "Ohne Smartphone weiter",
+    "uploadingData": "Daten übernehmen",
+    "onSmartphoneDone": "Auf Smartphone erledigt",
+    "soHoItsDone": "so gehts",
+    "dataIsCorrect": "Hiermit bestätige ich die Korrektheit der Daten",
+    "rescan": "Neu Erfassen"
+  },
+  "header": {
+    "titleText": "Dokument einlesen",
+    "titleSubText": "Vorsorgeausweis",
+    "photoWithSmartphone": "Foto mit Smartphone"
+  },
+  "dialog": {
+    "description": "Haben Sie auf Ihrem Smartphone einen QR-Code-Reader",
+    "descriptionEmailSuffix": " oder einen E-Mail-Zugang",
+    "help": "Hilfe",
+    "qrCode": "QR-Code",
+    "scanQRCodeBelow": "Scannen Sie den untenstehenden QR Code mit Ihrem Smartphone.",
+    "youWillBeRedirected": "Sie werden auf die korrekte Website geleitet.",
+    "takeAPhotoOfThePKBadge": "Fotografieren Sie den IK-Auszug mit Ihrem Smartphone. Fertig!",
+    "email": "E-Mail",
+    "emailStep1": "Geben Sie unten Ihre E-Mail ein und drücken Sie auf 'E-Mail anfordern'.",
+    "emailStep2": "Sie erhalten eine E-Mail. Öffnen Sie den darin angegebenen Link.",
+    "emailStep3": "Fotografieren Sie den IK-Auszug mit Ihrem Smartphone. Fertig!",
+    "manual": "Manuell",
+    "manualStep1": "Öffnen Sie auf Ihrem Smartphone einen Browser.",
+    "manualStep2": "Geben Sie den untenstehenden Link in der Adresszeile ein.",
+    "manualStep3": "Fotografieren Sie den IK-Auszug mit Ihrem Smartphone. Fertig!",
+    "manualUrlLabel": "Link URL",
+    "openManual": "manuelle Website öffnen",
+    "installQRCode": "QR-Code-Leser installieren",
+    "helpAndTips": "Hilfe & Tipps zu Erfassung & Qualität"
+  },
+  "content": {
+    "information": {
+      "takePhoto": "Bitte fotografieren Sie alle Seiten des Vorsorgeausweises.",
+      "isVisibleFrame": "Beachten Sie dabei, dass die Seite vollständig im Rahmen ersichtlich ist.",
+      "isAllSidescaptured": "Alle Seiten fotografiert? Dann hier klicken. -->",
+      "dataReadFromDocument": "Die Daten werden aus dem Dokument ausgelesen.",
+      "pleaseWait": "Bitte einen Moment warten…",
+      "successfullyScanned": "Daten erfolgreich gescannt!",
+      "onMonetoGoOn": "Auf Moneto gehts weiter!",
+      "goodBye": "Aufwiedersehen!"
+    }
+  },
+  "progress": {
+    "step1": "Daten hochladen",
+    "step2": "Daten analysieren",
+    "step3": "Daten verarbeiten",
+    "ready": "fertig!"
+  }
+}

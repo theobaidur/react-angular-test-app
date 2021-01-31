@@ -1,0 +1,52 @@
+{
+  "backToDashboard": "Retour",
+  "change2faAndPhoneHeader": "Modifier l'A2F et le N° de portable",
+  "currentPassword": "Mot de passe actuel",
+  "twofa": "Méthode 2AF",
+  "twofaTypes": [
+    "aucun",
+    "E-Mail",
+    "Portable"
+  ],
+  "phone": "N° de portable",
+  "change2faType": "Modifier l'A2F et le N° de portable",
+  "changeEmailHeader": "Modifier l'e-mail",
+  "email": "Adresse e-mail",
+  "emailConfirmationText": "Vous avez reçu un e-mail à {{email}} avec un code de vérification. Veuillez inscrire le code ci-dessous pour valider le processus de vérification.",
+  "confirmationCode": "Code de vérification",
+  "changeEmail": "Modifier l'e-mail",
+  "emailInputError": "L'e-mail est requis",
+  "changePasswordHeader": "Modifier le mot de passe",
+  "newPassword": "Nouveau mot de passe",
+  "confirmPassword": "Confirmer le mot de passe",
+  "changePassword": "Modifier le mot de passe",
+  "stateChangeConfirmation": "Attention : toutes vos données seront supprimées ! Ensuite, vous êtes automatiquement déconnecté. Voulez-vous continuer ?",
+  "resetStateHeader": "Réinitialiser le compte",
+  "resetStateText": "Supprimez toutes vos données collectées. Ensuite, vous êtes automatiquement déconnecté.",
+  "resetState": "réinitialiser",
+  "validators": {
+    "passwordValidator": "Le champ :attribute est requis",
+    "newPasswordConfirmationValidator": "Le champ :attribute doit correspondre au mot de passe",
+    "newEmailValidator": "Le champ :attribute n'est pas valide",
+    "newEmailValidatorRequired": "Le champ :attribute est requis"
+  },
+  "notifications": {
+    "correctMistakes": "Corrigez les erreurs dans les champs de texte",
+    "pwChanged": "Le mot de passe a été modifié",
+    "pwInvalid": "Mot de passe non valide",
+    "emailInputError": "L'e-mail est requis",
+    "emailVerificationRequired": "La vérification par e-mail est requise",
+    "emailPasswordRejected": "Mot de passe incorrect",
+    "emailWrongCode": "Code incorrect",
+    "emailMailAlreadyExists": "L'e-mail existe déjà",
+    "emailError": "Échec de la modification de l'e-mail",
+    "emailChanged": "La modification de l'e-mail a réussi",
+    "phoneAnd2faChanged": "Numéro mobile et d'A2F modifiés avec succès",
+    "phoneAnd2faInputError": "Tous les champs sont requis",
+    "phoneAnd2faInvalidFactors": "L'authentification a échoué",
+    "phoneAnd2faPasswordRejected": "Mot de passe incorrect",
+    "phoneAnd2faChangeError": "La modification du N° de portable a échoué",
+    "stateResetSucceeded": "Réinitialisation réussie",
+    "stateResetFailed": "Échec de la réinitialisation"
+  }
+}

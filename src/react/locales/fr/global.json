@@ -1,0 +1,20 @@
+{
+    "loading": "Chargement",
+    "approve": "Confirmer",
+    "consultPage": "Requérir un conseiller",
+    "moreText": "Plus",
+    "showResult": "Afficher le résultat {{name}}",
+    "date": {
+      "year": "Année",
+      "month": "Mois",
+      "day": "Jour",
+      "monthsShort": ["Jan", "Fév", "Mar", "Avr", "Mai", "Juin", "Juil", "Août", "Sept", "Oct", "Nov", "Déz"]
+    },
+    "DossierDataExpired-question": "Moneto est encore ouvert dans une autre fenêtre ou navigateur. Voulez-vous utiliser la fenêtre actuelle ? Cette opération déconnecte l'autre fenêtre.",
+    "DossierOpenedByAnotherUser-question": "Ce dossier est en cours de modification par un autre utilisateur. Voulez-vous vous reconnecter?",
+    "DossierOpenedByUser-question": "Ce dossier est en cours de modification par un utilisateur. Voulez-vous vous reconnecter?",
+    "DossierOpenedByConsultant-question": "Ce compte est actuellement en traitement par un conseiller. Voulez-vous vous reconnecter?",
+    "DossierOpenedByAnotherConsultant-question": "Ce compte est actuellement en traitement par un conseiller. Voulez-vous vous reconnecter?",
+    "IdleTimeout-question": "Vous étiez inactif pendant une longue période. Votre lien au serveur Moneto a été déconnectée. Voulez-vous rétablir la connexion?"
+  }
+  

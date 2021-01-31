@@ -1,0 +1,23 @@
+{
+  "moduleTitles": {
+    "profile": "Personal details",
+    "finances": "Income",
+    "pensionState": "State pension",
+    "pensionWork": "Occupational pension",
+    "pensionPrivate": "Private pension",
+    "needs": "Needs",
+    "wealth": "Assets",
+    "need": "My goals",
+    "children": "Children / former relationships",
+    "analyzerPension": "Analysis & evaluation",
+    "analyzerDisability1": "Occupational disability (sickness)",
+    "analyzerDisability2": "Occupational disabiity (accident)",
+    "analyzerLeftBehind1": "Death (sickness)",
+    "analyzerLeftBehind2": "Death (accident)"
+  },
+  "next": "Continue",
+  "back": "Back",
+  "backToDashboard": "Back",
+  "return": "Continue to application",
+  "currency" : "CHF"
+}

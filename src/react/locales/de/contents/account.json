@@ -1,0 +1,52 @@
+{
+  "backToDashboard": "Zurück",
+  "change2faAndPhoneHeader": "2FA und Mobile Nr. ändern",
+  "currentPassword": "Aktuelles Passwort",
+  "twofa": "2FA Methode",
+  "twofaTypes": [
+    "Keine",
+    "E-Mail",
+    "Mobile"
+  ],
+  "phone": "Mobile Nr.",
+  "change2faType": "2FA und Mobile Nr. ändern",
+  "changeEmailHeader": "E-Mail ändern",
+  "email": "E-Mail Adresse",
+  "emailConfirmationText": "Sie haben eine E-Mail an {{email}} erhalten mit einem Verifizierungs-Code. Bitte tragen Sie den Code unten ein, um den Verifizierungsprozess abzuschliessen.",
+  "confirmationCode": "Verifizierungs-Code",
+  "changeEmail": "E-Mail ändern",
+  "emailInputError": "E-Mail ist erforderlich",
+  "changePasswordHeader": "Passwort ändern",
+  "newPassword": "Neues Passwort",
+  "confirmPassword": "Passwort bestätigen",
+  "changePassword": "Passwort ändern",
+  "stateChangeConfirmation": "Achtung: alle Ihre Daten werden gelöscht! Anschliessend werden Sie automatisch ausgeloggt. Möchten Sie fortfahren?",
+  "resetStateHeader": "Account zurücksetzen",
+  "resetStateText": "Entfernen Sie alle Ihre erfassten Daten. Anschliessend werden Sie automatisch ausgeloggt.",
+  "resetState": "zurücksetzen",
+  "validators": {
+    "passwordValidator": "Das Feld :attribute wird benötigt",
+    "newPasswordConfirmationValidator": "Das Feld :attribute muss dem Passwort entsprechen",
+    "newEmailValidator": "Das Feld :attribute ist ungültig",
+    "newEmailValidatorRequired": "Das Feld :attribute wird benötigt"
+  },
+  "notifications": {
+    "correctMistakes": "Korrigieren Sie Fehler in den Textfeldern",
+    "pwChanged": "Passwort erfolgreich geändert",
+    "pwInvalid": "Password ungültig",
+    "emailInputError": "E-Mail wird benötigt",
+    "emailVerificationRequired": "E-Mail Verifizierung wird benötigt",
+    "emailPasswordRejected": "falsches Passwort",
+    "emailWrongCode": "falscher Code",
+    "emailMailAlreadyExists": "E-Mail bereits vorhanden",
+    "emailError": "E-Mail Änderung fehlgeschlagen",
+    "emailChanged": "E-Mail Änderung erfolgreich",
+    "phoneAnd2faChanged": "Mobile Nr. und 2FA erfolgreich geändert",
+    "phoneAnd2faInputError": "Alle Felder werden benötigt",
+    "phoneAnd2faInvalidFactors": "Authentifizierung fehlgeschlagen",
+    "phoneAnd2faPasswordRejected": "Passwort falsch",
+    "phoneAnd2faChangeError": "Mobile Nr. Änderung fehlgeschlagen",
+    "stateResetSucceeded": "Zurücksetzen erfolgreich",
+    "stateResetFailed": "Zurücksetzen fehlgeschlagen"
+  }
+}

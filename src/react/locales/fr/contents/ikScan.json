@@ -1,0 +1,27 @@
+{
+  "results": {
+    "incomeCode": " Code du revenu",
+    "incomeYear": " Année",
+    "incomeAmmount": " Montant",
+    "needVerifyIncomeCode": "Indéterminé",
+    "addLine": "Entrée suivante",
+    "header": "Vérifier le résultat de la numérisation",
+    "helpInfo": "Une fois une vérification exacte effectuée, vous confirmez l'exactitude des données à la fin du formulaire !",
+    "confirmText": "Les données ne sont pas validées et ne seront plus présentes lorsque vous annulez. Voulez-vous quand même fermer la fenêtre ?",
+    "dataTransferBtn": "Saisir les données",
+    "checkBoxText": "Par la présente, je confirme l'exactitude des données",
+    "contentLabels": ["Données de la première photo", "Données de la deuxième photo", "Données de la troisième photo"],
+    "contentLabelsDefault": "Données au {{value}} photo",
+    "total": "Total",
+    "totalCalculated": "Total calculé",
+    "totalScanned": "Total saisi",
+    "matchTotalValidation": "Les champs 'Total calculé' et 'Total saisi' doivent correspondre."
+  },
+  "feedback": {
+    "title": "Commentaires CI",
+    "descriptionPlaceholder": "Remarques (facultatif)",
+    "cancel": "Ignorer ",
+    "approve": " Envoyer des commentaires"
+  },
+  "expiredTemplateMessage": "Votre extrait de compte CI est périmé. Veuillez vérifier les entrées et compléter les années manquantes"
+}

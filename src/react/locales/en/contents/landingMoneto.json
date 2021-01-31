@@ -1,0 +1,34 @@
+{
+  "firstSectionHeadline": "Welcome to moneto. Die führende schweizer Plattform für alle finanziellen Themen.",
+  "registerLabel": "Register free of charge:",
+  "register": "CREATE AN ACCOUNT",
+  "videoButtonText": "",
+  "videoButtonQuestion": "What is moneto?",
+  "features": [
+    {
+      "title": "Herzlich Willkommen auf moneto. Die führende schweizer Plattform für alle finanziellen Themen.",
+      "background": "first"
+    },
+    {
+      "title": "What will I be living off in my old age? ",
+      "description": "Calculate your AHV & pension fund benefits at expert level. Pension analysis is the first application in moneto.",
+      "img": "second",
+      "background": "second"
+    },
+    {
+      "title": "You can do it conveniently from home. ",
+      "description": "With moneto, you receive expert tools free of charge so that you can quickly and independently deal with your financial issues from the comfort of your own home.",
+      "img": "third",
+      "background": "third"
+    },
+    {
+      "title": "moneto is your platform.",
+      "description": "You always have your data under control. In contrast to most other platforms, moneto does not trade data. ",
+      "img": "fourth",
+      "background": "fourth"
+    }
+  ],
+  "rightSideTitile": "Advertising partners",
+  "rightSideDescription": "Our advertising partners help to ensure the further development of the platform and enable the free basic use of moneto.",
+  "rightSideImgs": ["first", "first", "first"]
+}

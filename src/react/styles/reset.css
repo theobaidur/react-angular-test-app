@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+    /* TODO: replace by internal prefixer */
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* fixed reset */
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0px solid transparent;
+    font-weight: normal;
+    font-style: normal;
+    line-height: inherit;
+    word-wrap: break-word;
+    text-decoration: none;
+
+    /* inheritable */
+    font-size: inherit;
+    font-family: inherit;
+    cursor: inherit;
+    touch-action: inherit;
+    pointer-events: inherit;
+
+    user-select: inherit;
+    -moz-user-select: inherit;
+    -ms-user-select: inherit;
+    -webkit-user-select: inherit;
+}
+
+*::before,
+*::after {
+    width: 0;
+    height: 0;
+}
+
+/* Appearance disable */
+* {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/* Firefox appearance fix */
+* {
+    text-indent: 1px;
+    text-overflow: "";
+}

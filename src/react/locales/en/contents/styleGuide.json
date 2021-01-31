@@ -1,0 +1,15 @@
+{
+  "check": "Test checkboxes",
+  "checkItems": ["Hello", "Bye world", "Where am I?"],
+  "radio": "Test radiobuttons",
+  "radioItems": ["Hello", "Bye world", "Where am I?"],
+  "date": "My datepicker",
+  "numberInput": "My input for numbers only",
+  "textInput": "My text input",
+  "select": "My select control",
+  "selectItems": [
+    "HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHello",
+    "Bye world HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHello",
+    "Where am I?"
+  ]
+}

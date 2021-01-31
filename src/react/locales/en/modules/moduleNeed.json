@@ -1,0 +1,55 @@
+{
+   "title": "My goals",
+   "totalIncome": "Today you have a total {{inclusive}} income of {{value}} per month.",
+   "totalIncomeInclusive": "(including. {{value}} per month)",
+   "totalIncomeAll": "(including all monthly wages)",
+   "noIncome": "Today you have no income.",
+
+   "card_need_pension_1": {
+      "title": "Retirement",
+      "retirementStartQuestion": "At what age would you like to retire?",
+      "totalIncomeQuestion": "How much income do you need during your retirement to maintain the same standard of living?",
+      "retirementNeed": "CHF",
+      "needAdvice": "Recommended: {{recommend}} = 90%",
+      "closedText" : "Retirement from {{start}}, monthly requirement {{need}}",
+      "helpTitle": "My goals - the question of retirement",    
+      "helpDropdownItems": [
+        {
+          "title": "Start of retirement - tips",
+          "text": "State the time at which you would like to retire.<br><br><strong>Please note:</strong><br>The earlier you retire, the more capital you will need to save in order to achieve your desired income."
+        },
+        {
+          "title": "Desired income",
+          "text": "Basically, a level of at least 80% of your current income is recommended for your desired income. Higher amounts are possible if you have sufficient assets.<br><br><strong>Recommendation:</strong><br>If possible, do not go below 80%, as there is generally more free time available during retirement than during working life."
+        }        
+      ]
+   },
+   "card_need_disability_1": {
+      "title": "Disability",
+      "totalIncomeQuestion": "How much replacement income would you like to receive if you cannot work for health reasons?",
+      "disabilityNeed": "CHF",
+      "needAdvice": "Recommended: {{recommend}} = 90%",
+      "closedText" : "Monthly requirement {{need}}",
+      "helpTitle": "My goals - the question of occupational disability-",    
+      "helpDropdownItems": [
+        {
+          "title": "Replacement income - tips",
+          "text": "The amount of replacement income required needs to be considered from several angles. If your entire income today is needed for subsistence, there are hardly any reasons that you would have less money available in the event of disability. If you are nevertheless convinced of this, please consider what amenities you can do without. For example: no car, cheaper apartment, fewer holidays, etc.<br><br>In the event of disability, the discontinuance of premiums to the pension fund and other insurance companies has a positive financial effect. At the same time, child / education allowances are no longer received.That is why we would recommend you to define at least 90% as a target."
+        }     
+      ]
+   },
+   "card_need_leftbehind_1": {
+      "title": "Death",
+      "totalIncomeQuestion": "How much replacement income would you like to provide for your survivors?",
+      "leftBehindNeed": "CHF",
+      "needAdvice": "Recommended: {{recommend}} = 80%",
+      "closedText" : "Monthly requirement {{need}}",
+      "helpTitle": "My goals - the question of death",    
+      "helpDropdownItems": [
+        {
+          "title": "Replacement income - tips",
+          "text": "How well surviving dependents should be financially provided for is a matter of individual judgment. If no mortgages or other debts have to be repaid and there are few assets available, we recommend securing at least 80% of your current salary for a family with children of pre-school or school age. The time period up to the end of the youngest child’s education should be considered. Our certified consultants will be happy to assist you on request."
+        }     
+      ]
+   }
+}

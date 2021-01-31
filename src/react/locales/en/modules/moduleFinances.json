@@ -1,0 +1,30 @@
+{
+   "title": "Income",
+   "card_finances_income_1": {
+      "incomeTitle" : "Wages", 
+      "incomeType" : "Wage type",
+      "incomeTypes" : [ "Monthly wage", "hourly wage", "other" ],
+      "incomeYear" : "Income per year",
+      "incomeCycle" : "Number of payments per year",
+      "incomeCycles" : [ "12", "13", "other" ],
+      "incomeCycleOther" : "Number of monthly wages",
+      "incomeHours" : "Number of hours",
+      "incomeHoursCycle" : "Frequency",
+      "incomeHoursCycles" : ["daily", "weekly"],
+      "incomeWorkload" : "Employment level",
+      "incomeMore" : "Record additional wages",
+
+      "helpTitle": "Income",
+      "helpText": "<p>Please enter your <strong>monthly wage</strong> or your <strong>hourly wage</strong> here.</p><p>The monthly or hourly wage is neither gross nor net, but is your \"basic wage\". This figure should be shown separately on your monthly pay slip.</p><p><u>Basic wage - gross or net?</u></p><p>Your <strong>monthly</strong> or <strong>hourly wage</strong> forms the basis for calculating your gross and net wage. On your monthly pay slip or annual wage statement, this figure should be listed as \"monthly wage\" or \"hourly wage\".</p><p>The gross wage is your monthly or hourly wage with all allowances, such as child / family allowances or expenses. Gross means  = \"a large amount\"</p><p>If you take the gross wage and deduct the contributions for AHV/IV, the occupational pension fund (BVG), etc., you are left with the net wage. Net means  \"not quite as much\", i.e. after deductions.</p>",
+      "helpDropdownItems": [
+         {
+           "title": "Monthly wage",
+           "text": "<strong>Monthly wage:</strong><br>Enter your monthly wage without extra allowances, such as family allowances, and without extra deductions, such as room and board.<br><br><strong>Number of months per year:</strong><br>If you work seasonally or part-time, select 'other' and then stipulate the number of months per year.<br><br><strong>Employment level:</strong><br>State your level of employment as a percentage ( % )."
+         },
+         {
+           "title": "Hourly wage:",
+           "text": "<strong>Wage per hour:</strong><br>Enter your hourly rate.<br><br><strong>Frequency:</strong><br>You have the choice of stating the number of hours you work per day or per week.<br><br><strong>Number of hours:</strong><br>Enter the number of hours (per day or per week)."
+         }        
+       ]
+   }
+}

@@ -1,0 +1,225 @@
+{
+  "title": "Occupational pension",
+  "card_pensionwork_base_1": {
+    "title": "Pension fund benefits (occupational pension)",
+    "detailed": "Do you have a pension certificate?",
+    "detailedItems": [
+      "Yes",
+      "No"
+    ],
+    "detailedClosedText": "PF (pension fund) certificate",
+    "quick": "Select an alternative",
+    "quickItems": [
+      "Quick calculation",
+      "Enter no benefits at this time"
+    ],
+    "quickYearQuestion": "From what calendar year are you insured?",
+    "firstAgeQuestion": "From what age are you insured?",
+    "quickYear": "Year",
+    "firstAge": "Age",
+    "moveToNextStep": "Scan is complete. You can continue with the next step.",
+    "selectIkUploadOption": " How would you like to enter your PF certificate into the system?",
+    "addLine": "Next entry",
+    "header": "Check the scan result",
+    "helpInfo": "After having checked  it carefully, please confirm the accuracy of the data at the end of the form! ",
+    "confirmText": "The data have not been saved and will no longer be available if you leave the page now. Are you sure you want to close the window?",
+    "dataTransferBtn": "Save data",
+    "checkBoxText": "I hereby confirm the accuracy of the data.",
+    "dateNameBorderLabel": "Date and foundation",
+    "date": "Date",
+    "companyName": "Foundation",
+    "deathCapital": "Capital",
+    "deathillness": "Sickness",
+    "deathaccident": "Accident",
+    "deathmarried": "married",
+    "deathnotmarried": "unmarried",
+    "deathBenefitBorderLabel": "Death benefit",
+    "salaryDataBorderLabel": "Wage details",
+    "incomeYear": "Salary details",
+    "incomeInsured": "Declared salary",
+    "workload": "Employment level",
+    "pensionActivesDataBorderLabel": "Current retirement assets",
+    "creditTotal": "Total",
+    "creditBvg": "according to occupational benefits insurance law (BVG)",
+    "maxPayIn": "Year of service purchase",
+    "ownershipWithdrawDataBorderLabel": "Early withdrawal for home ownership",
+    "gotWef": "present",
+    "retirementBenefitsBorderLabel": "Retirement benefits",
+    "pensionAge": "Age",
+    "pensionCapital": "Capital with interest",
+    "pensionYear": "Pension / year",
+    "disabilityPensionBorderLabel": "Occupational disability pension",
+    "isChildAvailable": "Children's occupational disability pension should be entered individually",
+    "dischild": "Children's occupational disability pension ",
+    "dischildCheck": "Accident",
+    "maxWef": "maximum",
+    "disValue": "Pension",
+    "disWait": "Waiting period (months)",
+    "disAccident": "Accident",
+    "survivorsProtectionBorderLabel": "Survivor protection",
+    "widowValue": "Widow's / widower's pension",
+    "widowAccident": "Accident",
+    "orphanValue": "Orphan’s pension",
+    "orphanAccident": "Accident",
+    "lifePartner": "Life partner's pension has been entered",
+    "dragPhotos": "Legen Sie die Fotos hier ab ...",
+    "dragSelectPhotos": "Drag some photos here or click to select them.",
+    "processingPhotos": "Please wait while the files are processed ...",
+    "helpTitle": "Pension fund benefits (occupational pension)",
+    "helpDropdownItems": [
+      {
+        "title": "Pension fund - who is insured?",
+        "text": "All employees with an annual salary of at least CHF 21,330 (as of 2019) are obliged to contribute to the pension fund. It begins on 1 January after the person's 17th birthday and ends on reaching the AHV retirement age."
+      },
+      {
+        "title": "Pension certificate - what is it?",
+        "text": "The pension certificate contains your personal benefits from the pension fund with which your employer is registered. At least once a year, usually in January or February, you will be sent a new certificate with the current figures. Among other things, it shows your current salary and how much you have saved up to now, as well as the benefits in the event of retirement, disability, death, etc."
+      },
+      {
+        "title": "Ordering a pension certificate",
+        "text": "There are two ways of obtaining a pension certificate:<br><br>- Contact your employer or the personnel department of your company and ask them to order a pension certificate for you.<br> - Go straight to your pension fund. In addition to a customer hotline or e-mail contact, many pension funds offer their customers a login facility on their website where you can order a new ID or even download it directly.<br><br><br>Regardless of which way you choose, your pension fund will send you the new ID by post.<br><br>If you are currently out of work (unemployed), it is possible that your pension fund sums are parked in a vested benefits account with the ‘Stiftung Auffangeinrichtung’ [Pension Entitlements Holding Foundation]: see https://web.aeis.ch/"
+      },
+      {
+        "title": "Quick calculation",
+        "text": "The obligation to contribute to the pension fund generally begins when the employee takes up his or her first job and at the earliest when he or she reaches the age of 17. Since 2019, the salary must amount to at least CHF 21,330 per year or CHF 1,777.50 per month."
+      }
+    ],
+    "qrcode": {
+      "label": "QR-Code",
+      "title": "QR-Code",
+      "listItems": [
+        "Scan the QR code below with your smartphone.",
+        "You will be directed to the correct website.",
+        "Photograph the PF certificate with your smartphone. Done!"
+      ]
+    },
+    "email": {
+      "title": "E-Mail",
+      "label": "Send e-mail",
+      "inputLabel": "Your e-mail address",
+      "listItems": [
+        "Enter your e-mail address below and click on 'Request e-mail'",
+        "You will receive an e-mail. Open the link provided in it.",
+        "Photograph the PF certificate with your smartphone. Done!"
+      ],
+      "failedReason": "An error occurred while sending the scan link.",
+      "failedGeneral": "An error occurred while sending the scan link.",
+      "succeeded": "An e-mail has been sent to you. Please check your e-mails on your smartphone.",
+      "documentTitle": "Pension ID",
+      "invalidMail": "Invalid e-mail address",
+      "button": "Request e-mail"
+    },
+    "manual": {
+      "title": "Manual entry",
+      "label": "Manual entry",
+      "listItems": [
+        "Open a browser window on your smartphone.",
+        "Enter the link below in the address line.",
+        "Photograph the PF certificate with your smartphone. Done!"
+      ]
+    },
+    "photo": {
+      "title": "Photo with smartphone",
+      "label": "Photo",
+      "description": "Do you have a QR code reader or e-mail access on your smartphone?"
+    },
+    "upload": {
+      "title": "Upload file",
+      "label": "PDF upload",
+      "description": "Upload your PF certificate as a graphics file or PDF."
+    },
+    "edit": {
+      "title": "Manual entry",
+      "label": "Copy data",
+      "description": "Enter the data from your PF certificate manually."
+    },
+
+    "noIncome": "No employer",
+    "noIncomeMessage": "You have entered \"None\" under 'Income'. Without an employer you cannot receive pension fund benefits."
+  },
+  "card_pensionwork_uvg_1": {
+    "title": "Wage continuation pay in the event of illness / accident",
+    "detailed": "How do you want to calculate your UVG [accidental disability insurance] benefits and wage continuation pay?",
+    "detailedItems": [
+      "Registered in accordance with details of employment contract",
+      "Quick calculation",
+      "Enter no benefits at this time"
+    ],
+    "cut": "Does your pay slip include a deduction for daily sickness benefit?",
+    "cutItems": [
+      "Yes",
+      "No"
+    ],
+    "contract": "Is there a collective bargaining agreement for your industry?",
+    "contractItems": [
+      "Yes",
+      "No"
+    ],
+    "branch": "Industry",
+    "branchItems": [
+      "Primary construction industry",
+      "Carpenters",
+      "Electrical & telecommunications",
+      "Temporary staffing services",
+      "Brick and tile industry",
+      "Hairdressers",
+      "Painters & plasterers",
+      "Hospitality industry",
+      "Bodywork mechanics",
+      "Forestry",
+      "Contact & call centre",
+      "Timber construction industry",
+      "Allpura (cleaning)"
+    ],
+    "start": "When did you join the company?",
+    "startDate": "Date",
+    "detailedQuestion": "Wage continuation pay in the event of accident or illness up to 720 days",
+    "illness": "Sickness",
+    "accident": "Accident",
+    "disablity": "Disability pension in the event of accident from 720 days",
+    "disablityMessage": "Based on accident insurance law, you are insured appropriately. The statutory minimum benefits willl be included in the planning.",
+    "from": "From",
+    "till": "Until",
+    "percent": "Percent",
+    "add": "Add gradation",
+    "helpTitle": "Wage continuation pay in the event of illness / accident",
+    "helpDropdownItems": [
+      {
+        "title": "Wage continuation pay in the event of illness",
+        "text": "You will find the details of your wage continuation pay in the event of illness in your employment contract or in your company's HR Code. In the event of long-term incapacity to work due to illness, the daily allowance is generally paid for a maximum of two years. After this period, the pension fund benefits come into effect."
+      },
+      {
+        "title": "Continued payment of wages in the event of an accident",
+        "text": "In the event of long-term incapacity to work due to an accident, the daily allowance is paid for a maximum of two years. After this period, the daily allowance is replaced by the UVG (accidental disability insurance) pension."
+      },
+      {
+        "title": "Add gradation",
+        "text": "For example, if your employment contract stipulates that you should receive the full salary for the first 90 days and 80% thereafter, add a gradation."
+      },
+      {
+        "title": "Fast calculation - deduction for daily sickness benefit on pay slip",
+        "text": "The quick calculation is based on the assumption of wage deduction. If this deduction is present on your pay slip, 80% of the salary is assumed to be insured. However, this is only an assumption. There may be deviations from this assumption in the following cases:<br><br>- The employer also pays the employee's share of the premium. In this case, insured benefits would exist, but would not be visible in the wage deduction.<br><br>- The insured benefit comes to 90% of salary.<br><br>- There is a waiting period of, for example, 3 days before entitlement to benefits."
+      },
+      {
+        "title": "Fast calculation - collective bargaining agreement",
+        "text": "The list of collective bargaining agreements registered is being continuously expanded. Please note that a collective bargaining agreement only contains the minimum benefits and that your employer may offer benefits in addition to these."
+      },
+      {
+        "title": "When did you join the company?",
+        "text": "If there are no benefits according to the employment contract, payroll or collective bargaining agreement in the event of incapacity to work due to illness, the legal framework conditions according to the Swiss Code of Obligations (OR) apply. These are related to the length of employment and the canton of the employer. In the analysis, the weakest situation is calculated. Certified consultants will be happy to provide you with further information."
+      }
+    ],
+
+    "noIncome": "No employer",
+    "noIncomeMessage": "You have entered \"None\" under 'Income'. Without an employer you cannot receive pension fund benefits."
+  },
+  "view": {
+    "secondPillarTitle": "BVG retirement pension",
+    "secondPillarTitleDisability": "BVG disability pension",
+    "secondPillarTitleUVGDisability": "UVG disability pension",
+    "secondPillarTitleWidow": "BVG widow’s / widower’s pension",
+    "secondPillarTitleUVGWidow": "UVG widow’s / widower’s pension"
+  },
+  "dragAreaText": "Drag a PDF or a graphics file here",
+  "sendBtnText": "Confirm"
+}

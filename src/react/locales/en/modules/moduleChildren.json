@@ -1,0 +1,100 @@
+{
+   "moduleTitles": {
+      "children": "Children / former relationships"
+   },  
+   "general": {
+      "children": "Register children",
+      "addChildren": "Add child",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "birthDate": "Date of birth",
+      "gender": "Gender",
+      "genderItems": ["male", "female", "other"]
+   },
+   
+   "card_children_base_1": {
+      "title" : "Do you have ({{value}}) children in common?",
+      "question" : "",
+      "answers" : ["Yes", "No"],
+
+      "children": "Register children",
+      "addChildren": "Add child",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "birthDate": "Date of birth",
+      "gender": "Gender",
+      "genderItems": ["male", "female", "other"],
+
+      "closedText" : "Children in common",
+
+      "helpTitle": "Children in common",
+      "helpText": "<p>Please enter your joint and adopted <strong>children</strong> from your current relationship here</p><p>Please state the <strong>date of birth</strong> of your child/children.</p><p><u>A child is a child, right?</u></p><p>Basically it is a matter of custody. Please enter the <strong>children</strong> for whom you and your partner have custody here.</p><p><u>Why is a child's age important?</u></p><p>If you have children, we can tell you in what situation you may be entitled to further benefits. Based on the <strong>date of birth</strong> of the child, moneto can also tell you how long you or the child will have a claim to these benefits.</p>",
+      "helpDropdownItems": [
+         {
+           "title": "Children in common",
+           "text": "- Please enter your joint biological children here<br>- Children for whom you have joint custody<br>- joint adopted children<br><br><strong>Important:</strong><br>Children with one biological parent as an ex-partner or for whom the ex-partner has joint custody will be <strong>registered under point 2 or 3!</strong><br><br>The exact representation of your family situation will influence various calculations."
+         },
+         {
+           "title": "First name",
+           "text": "Please enter  the child's first name here."
+         },
+         {
+           "title": "Date of birth",
+           "text": "The date of birth will influence various calculations."
+         },
+         {
+           "title": "Gender",
+           "text": "Please enter the gender of the child here."
+         }
+       ]
+   },
+
+   "card_children_ex_1":{
+      "title": "Have you ever been divorced? Do you have children from former relationships?",
+      "question" : "",
+      "answers" : ["Yes", "No"],
+
+      "exes": "Details of the former relationship",
+      "exData": "Details of the ex-partner",
+      "addExes": "Add another former relationship",
+
+      "modeStart": "Relationship from",
+      "modeStart1": "Civil marriage",
+      "modeStart2": "Registered since",
+      "modeStart3": "Joint residence",
+      "modeStart4": "Relationship from",
+      "modeEnd": "Relationship until",
+      "modeEnd1": "Date of divorce",
+      "modeEnd2": "Date of divorce",
+      "modeEnd3": "Separated since",
+      "modeEnd4": "Relationship until",
+      "mode": "Former type of relationship",
+      "modeItems": ["married", "registered partnership", "Cohabiting", "other"],
+
+      "closedText" : "Former relationships",
+
+      "helpTitle": "Ex-spouses/partners / children from former relationships",      
+      "helpDropdownItems": [
+         {
+           "title": "Why are these details needed?",
+           "text": "Because divorced ex-partners, or children from former relationships, can have a decisive influence on the benefits paid by your social insurance (AHV, BVG)."
+         },
+         {
+           "title": "Divorced or children from former relationships",
+           "text": "Answer the question with <strong>«YES»</strong> if any of the following applies to you:<br><br> - You have been married before<br> - You have children from other relationships"
+         },
+         {
+           "title": "Former type of relationship",
+           "text": "<strong>Married:</strong><br>Please enter the date of your civil marriage and the date of the divorce.<br><br><strong>Cohabiting:</strong><br>The dates do not make any difference to the calculation here.<br><br><strong>Registered partnership:</strong><br>Please enter the date of your civil marriage and the date of the divorce.<br><br><strong>Other:</strong><br>The dates do not make any difference to the calculation here."
+         },
+         {
+           "title": "Date of birth",
+           "text": "The date of birth will influence various calculations. "
+         },
+         {
+           "title": "Gender",
+           "text": "Please enter the gender of the child here."
+         }
+       ]
+   }
+}

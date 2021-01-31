@@ -1,0 +1,30 @@
+{
+   "title": "Revenu",
+   "card_finances_income_1": {
+      "incomeTitle" : "Salaire", 
+      "incomeType" : "Type de salaire",
+      "incomeTypes" : [ "Salaire mensuel", "Salaire horaire", "pas de salaire" ],
+      "incomeYear" : "Revenu annuel",
+      "incomeCycle" : "Nombre par année",
+      "incomeCycles" : [ "12", "13", "14", "autres" ],
+      "incomeCycleOther" : "Fréquence par année",
+      "incomeHours" : "Nombre d'heures",
+      "incomeHoursCycle" : "Cycle",
+      "incomeHoursCycles" : ["journalier", "hebdomadaire"],
+      "incomeWorkload" : "Taux d'emploi en %",
+      "incomeMore" : "Enregistrer un salaire supplémentaire",
+
+      "helpTitle": "Revenu",
+      "helpText": "<p>Entrez ici votre <strong>salaire mensuel</strong> ou votre <strong>salaire horaire</strong>.</p><p>Le salaire mensuel ou horaire n'est ni brut ni net, mais correspond à votre \" salaire de base\". Cette valeur doit être indiquée séparément sur votre relevé de paie mensuel.</p><p><u>Salaire de base? Brut ? Net ?</u></p><p>Votre <strong>mois- </strong> ou <strong>salaire horaire</strong> constitue la base du calcul du salaire brut et net. Sur votre relevé de paie mensuel ou sur votre fiche de paie annuelle, cette valeur devrait être indiquée comme \"salaire mensuel\" ou \"salaire horaire\".</p><p>Le salaire brut correspond à votre salaire mensuel ou horaire avec toutes les indemnités, comme les allocations familiales ou familiales ou les frais. Brut = \"brutalement élevé\"</p><p>Si l'on prend le salaire brut et que l'on retire les cotisations AVS/AI, à la caisse de pension (LPP), etc. on obtient le salaire net. Net = \"nettement moindre\"</p>",
+      "helpDropdownItems": [
+         {
+           "title": "Salaire mensuel",
+           "text": "<strong>Salaire mensuel:</strong><br>Enregistrez votre salaire mensuel sans supplément, comme les allocations familiales et sans déductions supplémentaires, par exemple, coûts & logis.<br><br><strong>Fréquence annuelle :</strong><br>Si vous travaillez à temps partiel ou de manière saisonnière, sélectionnez 'autre' et déterminez ensuite le nombre de mois par an.<br><br><strong>Degré d'occupation:</strong><br>Indiquez le taux d'occupation en pourcentage (%)."
+         },
+         {
+           "title": "Salaire horaire",
+           "text": "<strong>Salaire par heure:</strong><br>Saisir votre tarif de salaire horaire<br><br><strong>Cycle:</strong><br>Vous avez le choix d'indiquer le nombre d'heures par jour ou par semaine.<br><br><strong>Nombre d'heures:</strong><br>Saisir le nombre d'heures (par jour ou par semaine)"
+         }        
+       ]
+   }
+}

@@ -1,0 +1,100 @@
+{
+   "moduleTitles": {
+      "children": "Kinder / Ex-Beziehungen"
+   },  
+   "general": {
+      "children": "Kinder erfassen",
+      "addChildren": "Kind hinzufügen",
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "birthDate": "Geburtsdatum",
+      "gender": "Geschlecht",
+      "genderItems": ["männlich", "weiblich", "anderes"]
+   },
+   
+   "card_children_base_1": {
+      "title" : "Haben Sie ({{value}}) gemeinsame Kinder?",
+      "question" : "",
+      "answers" : ["Ja", "Nein"],
+
+      "children": "Kinder erfassen",
+      "addChildren": "Kind hinzufügen",
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "birthDate": "Geburtsdatum",
+      "gender": "Geschlecht",
+      "genderItems": ["männlich", "weiblich", "anderes"],
+
+      "closedText" : "Gemeinsame Kinder",
+
+      "helpTitle": "Gemeinsame Kinder",
+      "helpText": "<p>Erfassen Sie hier Ihre gemeinsame und adoptierte <strong>Kinder</strong> aus Ihre jetztige Beziehung.</p><p>Geben Sie bitte das <strong>Geburtsdatum</strong> Ihres Kindes/Ihrer Kinder an.</p><p><u>Kind ist Kind, oder?</u></p><p>Im Grunde geht es um das Sorgerecht. Erfassen Sie hier Ihre <strong>Kinder</strong>, bei denen Sie und Ihr Partner/Ihre Partnerin das Sorgerecht haben.</p><p><u>Warum ist das Alter wichtig?</u></p><p>Wenn Sie Kinder haben, können wir Ihnen sagen in welcher Situation, welche Leistung hinzukommt. Mit dem <strong>Geburtsdatum</strong> des Kindes, kann moento Ihnen auch sagen, wie lange Sie/das Kind Anspruch auf diese Leistungen haben.</p>",
+      "helpDropdownItems": [
+         {
+           "title": "Gemeinsame Kinder",
+           "text": "- Erfassen Sie hier Ihre gemeinsamen leiblichen Kinder<br> - Kinder von denen Sie das gemeinsame Sorgerecht haben<br> - gemeinsame Adoptivkinder<br><br><strong>Wichtig:</strong><br>Kinder, bei denen ein leiblicher Elternteil, oder ein Teil des Sorgerechts, bei einem Ex-Partner ist, werden <strong>bei Punkt 2 oder 3 erfasst!</strong><br><br>Die exakt dargestellte Familiensituation hat Einfluss auf diverse Berechnungen."
+         },
+         {
+           "title": "Vorname",
+           "text": "Tragen Sie hier den Vornamen des Kindes ein."
+         },
+         {
+           "title": "Geburtsdatum",
+           "text": "Das Geburtsdatum hat Einfluss auf diverse Berechnungen."
+         },
+         {
+           "title": "Geschlecht",
+           "text": "Tragen Sie hier das Geschlecht Ihres Kindes ein."
+         }
+       ]
+   },
+
+   "card_children_ex_1":{
+      "title": "Wurden Sie schon mal geschieden? Haben Sie Kinder aus Ex-Beziehungen?",
+      "question" : "",
+      "answers" : ["Ja", "Nein"],
+
+      "exes": "Angaben zur Ex-Beziehung",
+      "exData": "Angaben zur Ex-Partner/In",
+      "addExes": "Weitere Ex-Beziehung hinzufügen",
+
+      "modeStart": "Beziehung ab",
+      "modeStart1": "Zivile Trauung",
+      "modeStart2": "Eingetragen seit",
+      "modeStart3": "Gemeinsame Wohnsitz",
+      "modeStart4": "Beziehung ab",
+      "modeEnd": "Beziehung bis",
+      "modeEnd1": "Scheidungsdatum",
+      "modeEnd2": "Scheidungsdatum",
+      "modeEnd3": "Getrennt seit",
+      "modeEnd4": "Beziehung bis",
+      "mode": "Ehemalige Beziehungsart",
+      "modeItems": ["verheiratet", "eingetragene Partnerschaft", "Konkubinat", "andere"],
+
+      "closedText" : "Ex-Beziehungen",
+
+      "helpTitle": "Ex-Ehe-Partner / Kinder aus Ex-Beziehungen",      
+      "helpDropdownItems": [
+         {
+           "title": "Weshalb diese Angaben?",
+           "text": "Weil geschiedene Ex-Partner, oder Kinder aus Ex-Beziehungen, einen massgebenden Einfluss auf die Leistungen Ihre Sozialversicherungen (AHV, BVG) haben können."
+         },
+         {
+           "title": "Geschieden oder Kinder aus Ex-Beziehungen",
+           "text": "Beantworten Sie die Frage mit <strong>«JA»</strong>, wenn einer der folgenden Punkt auf Sie zutrifft:<br><br> - Sie waren schon einmal verheiratet<br> - Sie haben Kinder aus anderen Beziehungen"
+         },
+         {
+           "title": "Ehemalige Beziehungsart",
+           "text": "<strong>Verheiratet:</strong><br>Tragen Sie das Datum der zivilen Trauung und das Scheidungsdatum ein.<br><br><strong>Konkubinat:</strong><br>Hier ist kein Datum für Berechnungen relevant.<br><br><strong>Eingetragene Partnerschaft:</strong><br>Tragen Sie das Datum der «zivilen Trauung» und das Scheidungsdatum ein.<br><br><strong>Andere:</strong><br>Hier ist kein Datum für Berechnungen relevant."
+         },
+         {
+           "title": "Geburtsdatum",
+           "text": "Das Geburtsdatum hat Einfluss auf diverse Berechnungen."
+         },
+         {
+           "title": "Geschlecht",
+           "text": "Tragen Sie hier das Geschlecht Ihres Kindes ein."
+         }
+       ]
+   }
+}

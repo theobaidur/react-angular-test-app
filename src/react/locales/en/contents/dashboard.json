@@ -1,0 +1,105 @@
+{
+  "title": "Welcome to moneto",
+  "communicationButton": "Communication",
+  "tipsButton": "Tips & help",
+  "consultantButtonAssigned": "Consultant",
+  "consultantButtonContacted": "Identifying a consultant",
+  "dossierFor": "Dossier",
+  "menuItems": [
+    {
+      "menuName": "Pensions",
+      "fullName": "Pension analysis",
+      "description": "What topics are you interested in?",
+      "applications": [
+        {
+          "name": "Retirement (leisure time)",
+          "linkName": "pensionPlaning",
+          "description": "How much money will I get from <strong>AHV and the pension fund?</strong>",
+          "buttonText": "Let’s go!",
+          "done": "Done:",
+          "chart": "ahvPk",
+          "logo": "boat",
+          "progress": 100,
+          "url": "pension-plan"
+        },
+        {
+          "name": "Disability",
+          "description": "How much money will <strong>IV (disability insurance) & KTG (occupational short-term disability insurance)</strong> pay me if I can no longer work?",
+          "linkName": "disabilityPlaning",
+          "buttonText": "Let’s go!",
+          "done": "Done:",
+          "progress": 75,
+          "chart": "ivKtg",
+          "logo": "doctor",
+          "url": "disability-plan"
+        },
+        {
+          "name": "Death",
+          "description": "How are surviving dependants covered in the event of death?",
+          "linkName": "leftBehindPlaning",
+          "buttonText": "Let's go!",
+          "done": "Done:",
+          "progress": 35,
+          "chart": "q",
+          "logo": "candle",
+          "url": "leftbehind-plan"
+        }
+      ]
+    },
+    {
+      "menuName": "More",
+      "fullName": "Was für Sie noch kommen wird?",
+      "description": "Diese und weitere Themen werden für Sie entwickelt",
+      "applications": [
+        {
+          "name": "Krankenkasse",
+          "description": "Welche Zusatzversicherungen benötige ich? Finden Sie es selber heraus.",
+          "iconName": "building8",
+          "background": "#ACE3CC",
+          "color": "#6193D4"
+        },
+        {
+          "name": "Erbvertrag & Testament",
+          "description": "Was geschieht wenn jemand aus meinem Familienkreis stirbt? Wie kann man den Erbgang beeinflussen und steuerliche Fehltritte vermeiden?",
+          "iconName": "document",
+          "background": "#FFBFC2",
+          "color": "#FA7268"
+        },
+        {
+          "name": "Autoversicherung",
+          "description": "Welche Versicherungen sind sinnvoll für mich? Wo erhalte ich die günstigsten Angebote?",
+          "iconName": "car1",
+          "background": "#FA7268",
+          "color": "#ACE3CC"
+        },
+        {
+          "name": "Patientenverfügung",
+          "description": "Erstellen Sie Ihre digitale Patientenverfügung auf die Sie jederzeit Zugriff haben, im Gegensatz zu herkömmlichen Methoden",
+          "iconName": "docHeart",
+          "background": "#ffd285",
+          "color": "#FA7268"
+        },
+        {
+          "name": "Scheidung",
+          "description": "Was kann ich tun, wenn ich in einer Scheidung bin? Was kann ich im Voraus tun, um finanzielle Risiken einer zukünftigen Scheidung zu minimieren?",
+          "iconName": "book1",
+          "background": "#FA7268",
+          "color": "#ffd285"
+        },
+        {
+          "name": "Hausrat",
+          "description": "Hausrat selber konfigurieren und Geld sparen.",
+          "iconName": "building",
+          "background": "#ACE3CC",
+          "color": "#6193D4"
+        }
+      ]
+    }
+  ],
+
+  "browserWarning": {
+    "title": "Warnung!",
+    "text": "Ihr Browser (Internet Explorer) wird von moneto.ch nicht vollständig unterstützt. Um das beste Erlebnis und die volle Funktionalität zu geniessen, empfiehlt Ihnen moneto mit einem anderen Browser fortzufahren. Auf der <0>Support-Seite</0><0>(https://moneto.ch/support)</0> finden Sie die gängigste Browser.",
+    "accept": "Alles Klar" 
+  }
+}

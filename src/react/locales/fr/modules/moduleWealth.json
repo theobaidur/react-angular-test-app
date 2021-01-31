@@ -1,0 +1,35 @@
+{
+  "title": "Fortune",
+  
+   "card_wealth_person_1": {
+      "title" : "Fortune {{name}}",
+      "hasWealthQuestion" : "Avez-vous des actifs ?",
+      "hasWealthAnswers" : ["Oui", "Non"],
+      "wealthBase" : "Montant forfaitaire",
+      "wealthUse": "dont déjà utilisé:",
+      "wealthUseInfo": "{{value}} CHF à {{app}}",
+      "helpTitle": "Fortune",    
+      "helpDropdownItems": [
+        {
+          "title": "Fortune",
+          "text": "<strong>Attention: La propriété résidentielle ou l'immeuble ne sont pas concernés ici!</strong><br><br>Ici, vous pouvez introduire le montant <strong>forfaitaire de vos biens personnels.</strong><br>Si vous ne connaissez pas exactement le montant de la fortune, une estimation suffit. SVP, utilisez un montant inférieur, plutôt que trop élevé.<br><br>Explication de la notion: Le terme « forfaitaire» signifie « non divisé ». Inscrivez la somme de vos actifs communs (argent comptant, compte bancaire, actions, etc.)."
+         }     
+      ]
+   },
+
+   "card_wealth_connection_1": {
+      "title" : "Fortune {{name1}} & {{name2}}",
+      "hasWealthQuestion" : "Avez-vous des actifs communs ?",
+      "hasWealthAnswers" : ["Oui", "Non"],
+      "wealthBase" : "Montant forfaitaire",
+      "wealthUse": "dont déjà utilisé:",
+      "wealthUseInfo": "{{value}} CHF à {{app}}",
+      "helpTitle": "Patrimoine commun",    
+      "helpDropdownItems": [
+        {
+          "title": "Patrimoine commun",
+          "text": "<strong>Attention: La propriété résidentielle ou l'immeuble ne sont pas concernés ici!</strong><br><br>Ici, vous pouvez introduire le montant <strong>forfaitaire de la richesse que vous possédez en commun</strong> avec votre partenaire.</strong><br>Si vous ne connaissez pas exactement le montant de la fortune, une estimation suffit. SVP, utilisez un montant inférieur, plutôt que trop élevé.<br><br>Explication de la notion : Le terme « forfaitaire» signifie « non divisé ». Inscrivez la somme de vos actifs communs (argent comptant, compte bancaire, actions, etc.)."          
+         }     
+      ] 
+   }
+}

@@ -1,0 +1,115 @@
+{
+  "diagramHeading": "Result",
+
+  "diagramTutorial": "Explain diagram",
+  "editNeeds": "Customise goals",
+  "editWealth": "Use assets",
+  "editPensionPrivate": "Private pension",
+  "cancel": "Cancel",
+  "approve": "Accept",
+  "need": {
+    "title": "Goals {{name}}",
+    "slider": "Start of retirement",
+    "month": "Income per month",
+    "currency": "CHF"
+  },
+  "wealth": {
+    "title": "Use assets {{name}}",
+    "person": "Own assets {{name}}",
+    "personLabel": "Amount",
+    "personUsed": "already used",
+    "personAvailable": "maximum available: ",
+    "connection": "Joint assets",
+    "connectionLabel": "Amount",
+    "connectionUsed": "already used",
+    "connectionAvailable": "maximum available: "
+  },
+  "pensionPrivate":{
+    "title": "Private pension {{name}}",
+    "left": "Survivor’s benefit",
+    "cap": "Endowment sum",
+    "dis": "Occupational disability capital",
+    "use": "Amount",
+    "available": "available: "
+  },
+  "facts": {
+    "title": "Facts",
+    "saveTitle": "Shortfall found",
+    "saveText": "A shortfall (red) has been found. To close the gap, you should save a monthly amount of ca. {{month}}, starting from now, in order to have a monthly amount of {{need}} available in your retirement.",
+    "insureTitle": "Shortfall found",
+    "insureText": "In order to meet your goals and have a monthly amount of  {{need}} avaiable, we recommend that you take out an appropriate insurance policy.",
+    "checkTitle": "Congratulations!",
+    "checkText": "Based on your entries, you have achieved your goal of  {{need}} per month."
+  },
+
+  "suggestions": {
+    "title": "Solutions",
+    "goalsTitle": "Adjust my goals",
+    "goalsText": "Would you like to adjust the time of your retirement? Or would you like to forego parts of your income? Then click here.",
+    "goalsText1": "Would you like to adjust the time of your retirement? Or would you like to forego parts of your income? Then click here.",
+    "goalsText2": "Would you like to adjust your desired income in the event of disability? What costs could you reduce or what could you do without?",
+    "goalsText3": "Would you like to adjust the benefits for your survivors? What costs could your loved ones reduce?",
+    "consultTitle": "Ask a consultant",
+    "consultText": "A professional consultant may be able to reduce the level of monthly savings with good investments and thus better ensure the achievement of your goals.",
+    "consultText1": "A professional consultant may be able to reduce the level of monthly savings with good investments and thus better ensure the achievement of your goals.",
+    "consultText2": "A professional consultant can suggest optimum solutions with the best cost-benefit ratio. Would you like to contact a consultant?",
+    "consultText3": "A professional consultant can suggest optimum solutions with the best cost-benefit ratio. Would you like to contact a consultant?",
+    "consultantToContact": "{{name}} contact",
+    "consultantPhone": "Tel: ",
+    "consultantMail": "E-mail: "
+  },
+
+  "warning": {
+    "title": "Warning!",
+    "message": "Some of your details are still missing. Please go back and complete your information. Afterwards your complete evaluation will be displayed here."
+  },
+
+  "labels": {
+    "type1a": "AHV",
+    "type1b": "IV",
+    "type2": "BVG",
+    "type3": "UVG",
+    "type4": "KTG",
+    "type5": "Private pension",
+    "type23": "Income",
+    "type42": "Shortfall",
+    "type50": "Life insurance",
+    "type51": "Life insurance",
+    "type88": "Assets",
+
+    "type1_pension_main": "AHV retirement pension",
+    "type1_pension_child": "AHV child pension",
+    "type1_dis_main": "IV disability pension",
+    "type1_dis_child": "IV child disability pension",
+    "type1_left_main": "AHV widow’s / widower’s pension",
+    "type1_left_child": "AHV orphan’s pension",
+
+    "type2_pension_main": "BVG retirement pension",
+    "type2_pension_child": "BVG child pension",
+    "type2_dis_main": "BVG disability pension",
+    "type2_dis_child": "BVG child disability pension",
+    "type2_left_main": "BVG widow’s / widower’s pension",
+    "type2_left_child": "BVG orphan’s pension",
+    "type2_left_cap": "BVG lump-sum death benefit",
+
+    "type3_dis_main": "UVG disability pension",
+    "type3_dis_child": "UVG child disability pension",
+    "type3_dis_day": "UVG wage continuation pay",
+    "type3_left_main": "UVG widow’s / widower’s pension",
+    "type3_left_child": "UVG orphan’s pension",
+    "type4_dis_day": "KTG occupational short-term disability insurance",
+
+    "type50_cap": "Life insurance endowment sum",
+    "type50_dis" : "Life insurance occupational disability capital",
+    "type50_left" : "Life insurance lump sum death benefit",
+    "type51_dis": "Life insurance occupational disability pension",
+    "type51_left" : "Life insurance death pension",
+
+    "type88_person": "Assets (own)",
+    "type88_con": "Assets (joint)"
+  },
+
+  "labelMonth" : "monthly",
+  "labelValue" : "Total",
+  "labelTime" : "Months"
+}

@@ -1,0 +1,55 @@
+{
+   "title": "Meine Ziele",
+   "totalIncome": "Heute haben Sie {{inclusive}} ein Einkommen von Total {{value}} pro Monat.",
+   "totalIncomeInclusive": "(inkl. {{value}} Monat)",
+   "totalIncomeAll": "(inkl. alle Monatslöhne)",
+   "noIncome": "Heute haben Sie kein Einkommen.",
+
+   "card_need_pension_1": {
+      "title": "Pensionierung",
+      "retirementStartQuestion": "In welchem Alter möchten Sie in Rente gehen?",
+      "totalIncomeQuestion": "Wieviel Einkommen benötigen Sie während Ihrer Pensionierung, um Ihren gewohnten Lebensstandard zu erhalten?",
+      "retirementNeed": "CHF",
+      "needAdvice": "Vorschlag: {{recommend}} = 90%",
+      "closedText" : "Pensionierung ab {{start}}, monatlich {{need}}",
+      "helpTitle": "Meine Ziele - Thema Pensionierung",    
+      "helpDropdownItems": [
+        {
+          "title": "Rentenbeginn - Tipps",
+          "text": "Bestimmen Sie den Zeitpunkt, wann Sie in Ihre Pensionierung gehen möchten.<br><br><strong>Achtung:</strong><br>Je früher Sie in Rente gehen, desto mehr Kapital müssen Sie ansparen, damit Sie Ihr Wunscheinkommen erreichen."
+        },
+        {
+          "title": "Wunscheinkommen",
+          "text": "Grundsätzlich wird für das Wunscheinkommen eine Höhe von mindestens 80% Ihres heutigen Einkommens empfohlen. Höhere Beträge sind möglich, wenn ausreichend Vermögen vorhanden ist.<br><br><strong>Empfehlung:</strong><br>Gehen Sie wenn möglich nicht unter 80%, da während der Pensionierung grundsätzlich mehr Freizeit zur Verfügung steht, als im Arbeitsleben."
+        }        
+      ]
+   },
+   "card_need_disability_1": {
+      "title": "Erwerbsunfähigkeit",
+      "totalIncomeQuestion": "Wieviel Ersatzeinkommen wünschen Sie sich, wenn Sie aus gesundheitlichen Gründen nicht arbeiten können?",
+      "disabilityNeed": "CHF",
+      "needAdvice": "Vorschlag: {{recommend}} = 90%",
+      "closedText" : "Bedarf monatlich {{need}}",
+      "helpTitle": "Meine Ziele - Thema Erwerbsunfähigkeit",    
+      "helpDropdownItems": [
+        {
+          "title": "Höhe Ersatzeinkommen - Tipps",
+          "text": "Die Höhe des Ersatzeinkommens bedarf mehrere Überlegungen. Sollte heute das gesamte Einkommen für den Lebensunterhalt benötigt werden, gibt es kaum Gründe, in einer Erwerbsunfähigkeit weniger Geld zur Verfügung zu haben. Wenn Sie dennoch dieser Überzeugung sind, überlegen Sie sich bitte, auf welche Annehmlichkeiten Sie verzichten können. Beispiel: kein Auto, günstigere Wohnung, keine Ferien, etc.<br><br>Finanziell positiv wirken sich bei Erwerbsunfähigkeit die Prämienbefreiung der Pensionskasse und anderer Versicherungen aus. Im Gegenzug fallen Kinder- / Ausbildungszulagen weg. Daher ist unsere Empfehlung, mindestens 90% als Ziel zu definieren."
+        }     
+      ]
+   },
+   "card_need_leftbehind_1": {
+      "title": "Todesfall",
+      "totalIncomeQuestion": "Wieviel Ersatzeinkommen wollen Sie für Ihre Hinterlassenen sicherstellen?",
+      "leftBehindNeed": "CHF",
+      "needAdvice": "Vorschlag: {{recommend}} = 80%",
+      "closedText" : "Bedarf monatlich {{need}}",
+      "helpTitle": "Meine Ziele - Thema Todesfall",    
+      "helpDropdownItems": [
+        {
+          "title": "Höhe Ersatzeinkommen - Tipps",
+          "text": "Wie hoch hinterbliebene Personen finanziell sichergestellt werden sollen, ist eine individuelle Wahrnehmung. Sollten keine Hypotheken oder andere Schulden getilgt werden können und wenig Vermögen vorhanden sein, empfehlen wir bei einer Familie mit Kindern im Vorschul- oder Schulalter mindestens 80% des aktuellen Gehalts sicher zu stellen. Berücksichtigt werden kann die Zeit bis zum Ausbildungsende des jüngsten Kindes. Gerne stehen Ihnen zertifizierte Berater auf Wunsch zur Verfügung."
+        }     
+      ]
+   }
+}

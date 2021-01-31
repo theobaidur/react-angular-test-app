@@ -1,0 +1,13 @@
+{
+    "placeholderTitle": "Recherche d'un conseiller/d'une conseillère",
+    "placeholderText": "Un conseiller de votre région sera recherché! Vous serez contacté par le conseiller en fonction de vos coordonnées.",
+    "consultantMenuHeader": "Conseiller",
+    "contact": "KontaktierenContacter",
+    "recommend": "Recommander",
+    "consultantInfo": "Informations sur le conseiller",
+    "authorization": "Autorisation",
+    "changeConsultant": "Changer de conseiller",
+    "removeConsultant": "Retirer le conseiller",
+    "specialistDeleted": "Le conseiller a été effacé",
+    "specialistDeleteFailed": "Échec de l'effacement du conseiller"
+}
