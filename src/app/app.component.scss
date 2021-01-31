@@ -1,0 +1,18 @@
+nav{
+  padding: 10px;
+  max-width: 1260px;
+  margin: 0 auto;
+
+  ul{
+    margin: 0;
+    display: block;
+
+    li{
+      float: left;
+
+      a{
+        padding: 0 10px;
+      }
+    }
+  }
+}
