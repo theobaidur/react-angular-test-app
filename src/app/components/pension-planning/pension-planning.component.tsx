@@ -18,6 +18,6 @@ export class PensionPlanningComponent implements OnInit, OnDestroy, AfterViewIni
     unmountComponentAtNode(this.container.nativeElement);
   }
   render(){
-    render(<App />, this.container.nativeElement);
+    render(<App form='pension-planning' />, this.container.nativeElement);
   }
 }

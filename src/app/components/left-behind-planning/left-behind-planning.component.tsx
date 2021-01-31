@@ -18,6 +18,6 @@ export class LeftBehindPlanningComponent implements OnInit, OnDestroy, AfterView
     unmountComponentAtNode(this.container.nativeElement);
   }
   render(){
-    render(<App />, this.container.nativeElement);
+    render(<App form='left-behind-planning' />, this.container.nativeElement);
   }
 }

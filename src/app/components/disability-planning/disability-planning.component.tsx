@@ -18,6 +18,6 @@ export class DisabilityPlanningComponent implements OnInit, OnDestroy, AfterView
     unmountComponentAtNode(this.container.nativeElement);
   }
   render(){
-    render(<App />, this.container.nativeElement);
+    render(<App form='disability-planning' />, this.container.nativeElement);
   }
 }

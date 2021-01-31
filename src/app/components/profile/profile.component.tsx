@@ -18,6 +18,6 @@ export class ProfileComponent implements OnInit, OnDestroy, AfterViewInit{
     unmountComponentAtNode(this.container.nativeElement);
   }
   render(){
-    render(<App />, this.container.nativeElement);
+    render(<App form='profile' />, this.container.nativeElement);
   }
 }

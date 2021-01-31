@@ -11,8 +11,15 @@ import '../styles/App.css';
 import '../utils/i18n';
 import Profile from '../app_core/profile';
 import FormContainer from './form-container';
+import PensionPlanning from '../app_core/pensionPlanning/pensionPlanning';
+import LeftBehindPlanning from '../app_core/leftBehindPlanning/leftBehindPlanning';
+import DisabilityPlaning from '../app_core/disabiltyPlanning/disabilityPlanning';
 
-export const App: React.FC = () => {
+type Prop = {
+  form: 'profile' | 'pension-planning' | 'disability-planning' | 'left-behind-planning';
+}
+
+export const App: React.FC<Prop> = ({form}) => {
 
   useLayoutEffect(() => {
     window.addEventListener('resize', () => {
@@ -26,7 +33,11 @@ export const App: React.FC = () => {
       <Provider store={store}>
         <ConnectedRouter key={Math.random() /* <- makes routes work after a hot-reload occurs*/} history={history}>
           <FormContainer>
-            <Profile />
+            { form === 'profile' && <Profile /> }
+            { form === 'pension-planning' && <PensionPlanning /> }
+            { form === 'left-behind-planning' && <LeftBehindPlanning /> }
+            { form === 'disability-planning' && <DisabilityPlaning /> }
+
           </FormContainer>
         </ConnectedRouter>
       </Provider>
